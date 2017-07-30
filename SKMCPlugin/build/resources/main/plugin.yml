@@ -1,0 +1,21 @@
+name: SKMCPlugin
+main: me.tlwv2.skmcplugin.Main
+version: 2.1
+depend: [PCore]
+commands:
+   bam:
+      description: Launches safe lightning that (hopefully) will not kill anyone
+      usage: /bam
+   prefix:
+      description: Manage prefixes
+      usage: /prefix <add:edit:remove:list:help> [name]
+   customization:
+      description: Opens customization GUI, use /addonhelp for help
+      usage: /customization <set:get:> (no argument)
+      aliases: [cn, c, custom]
+   togglesave:
+      description: toggles saving of data that is not completely necessary, get argument gets whether saving is enabled
+      usage: /togglesave [get]
+   clean:
+      description: cleans all non-essential data, saving must be disabled to use this command
+      usage: /clean

@@ -1,0 +1,21 @@
+group 'PCore'
+version '1.0'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+build{
+    //jar.destinationDir expdir
+    //jar.archiveName "${jar.baseName}"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile rootProject
+    compile spigot
+}

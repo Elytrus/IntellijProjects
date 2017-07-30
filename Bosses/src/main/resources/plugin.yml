@@ -1,0 +1,10 @@
+name: Bosses
+main: me.tlwv2.bosses.Bosses
+version: 1.0
+description: Factions bosses stuff
+depend: [PCore]
+commands:
+   bossitems:
+      description: Allows you to access the boss spawn items
+      usage: /bossitems
+      aliases: [bitems, bis]

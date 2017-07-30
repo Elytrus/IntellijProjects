@@ -1,0 +1,16 @@
+name: SKAdminTool
+main: me.tlwv2.admintool.AdminTool
+version: 1.0
+depend: [PCore]
+commands:
+   rename:
+      description: renames held item
+      usage: /rename <name>
+   customrules:
+      description: allows changing of custom gamerules
+      usage: /customrules <list:set> [rule name] [value]
+      aliases: [crules, crs, cr]
+   attributes:
+      description: (WIP) changes attributes of held item
+      usage: /attributes <add:remove:edit:list> [name] [amount] [operation]
+      aliases: [attribs, as]

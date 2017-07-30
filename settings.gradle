@@ -1,0 +1,8 @@
+rootProject.name = 'PCore'
+include 'Bosses'
+include 'PCore'
+include 'AdminTool'
+include 'SKMCPlugin'
+include 'MCMMOVisuals'
+include 'FactionFly'
+

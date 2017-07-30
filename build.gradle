@@ -1,0 +1,42 @@
+group 'PCore'
+version '1.0'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+ext{
+    home = System.properties['user.home']
+    desktop = "${ext.home}\\Desktop\\"
+    spigot = files(findDep('spigot-1.11.2.jar'))
+    expdir = file("${conv(desktop)}test-server/plugins")
+}
+
+rootProject.getTasksByName('jar', true).each{
+    task -> task.setProperty('destinationDir', expdir)
+        task.setProperty('archiveName', "${task.project.name}.jar")
+}
+
+String findDep(Object filename){
+    return "${ext.desktop}plugin-dependencies\\${filename}"
+}
+
+//Converts \ into /
+String conv(Object filename){
+    return filename.replaceAll('\\\\', '/')
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    compile spigot
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+sourceSets.main {
+    //output.classesDir
+}
