@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdminTool.iml" filepath="$PROJECT_DIR$/.idea/modules/AdminTool.iml" group="AdminTool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_main.iml" group="AdminTool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_test.iml" group="AdminTool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses.iml" group="Bosses" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses_main.iml" group="Bosses" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses_test.iml" group="Bosses" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FactionFly.iml" filepath="$PROJECT_DIR$/.idea/modules/FactionFly.iml" group="FactionFly" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FactionFly/FactionFly_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FactionFly/FactionFly_main.iml" group="FactionFly" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FactionFly/FactionFly_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FactionFly/FactionFly_test.iml" group="FactionFly" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlyingBoats.iml" filepath="$PROJECT_DIR$/.idea/modules/FlyingBoats.iml" group="FlyingBoats" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats_main.iml" group="FlyingBoats" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats_test.iml" group="FlyingBoats" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCMMOVisuals/MCMMOVisuals.iml" filepath="$PROJECT_DIR$/.idea/modules/MCMMOVisuals/MCMMOVisuals.iml" group="MCMMOVisuals" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCore.iml" filepath="$PROJECT_DIR$/.idea/modules/PCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" filepath="$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" group="PCore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCore_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PCore_main.iml" group="PCore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCore_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PCore_test.iml" group="PCore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SKMCPlugin.iml" filepath="$PROJECT_DIR$/.idea/modules/SKMCPlugin.iml" group="SKMCPlugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SKMCPlugin/SKMCPlugin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SKMCPlugin/SKMCPlugin_main.iml" group="SKMCPlugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SKMCPlugin/SKMCPlugin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SKMCPlugin/SKMCPlugin_test.iml" group="SKMCPlugin" />
+    </modules>
+  </component>
+</project>

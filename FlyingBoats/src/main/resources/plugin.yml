@@ -1,0 +1,9 @@
+name: FlyingBoats
+main: me.tlwv2.flyingboats.FlyingBoats
+version: 1.0
+depend: [PCore]
+commands:
+   spawnflyingboat:
+      description: Spawns a flying boat
+      usage: /spawnflyingboat
+      aliases: [sfb, sflyingboat, sfboat, fb, flyingboat]

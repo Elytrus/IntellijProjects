@@ -1,20 +1,19 @@
 package me.tlwv2.skmcplugin.command;
 
-import java.util.Arrays;
-import java.util.stream.Collectors;
-
-import org.bukkit.ChatColor;
-import org.bukkit.Material;
-import org.bukkit.command.Command;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-
 import me.tlwv2.core.Constants;
 import me.tlwv2.core.infolist.ILWrapper;
 import me.tlwv2.core.misc.PlayerOnlyCommand;
 import me.tlwv2.skmcplugin.EListener;
 import me.tlwv2.skmcplugin.Main;
 import me.tlwv2.skmcplugin.Prefix;
+import org.bukkit.ChatColor;
+import org.bukkit.Material;
+import org.bukkit.command.Command;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class PrefixCommand extends PlayerOnlyCommand {
     private static final String PERM_ADD = "addon.use.prefix.add";
@@ -142,9 +141,9 @@ public class PrefixCommand extends PlayerOnlyCommand {
                         .forEach(e -> p.sendMessage(e));
             }
             else
-                p.sendMessage(Constants.WARN + "There are no Main.prefixes!");
+                p.sendMessage(Constants.WARN + "There are no prefixes!");
         }
-        return false;
+        return true;
     }
 
 }

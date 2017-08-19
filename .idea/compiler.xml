@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="AdminTool_main" target="1.8" />
+      <module name="AdminTool_test" target="1.8" />
+      <module name="Bosses_main" target="1.8" />
+      <module name="Bosses_test" target="1.8" />
+      <module name="FactionFly_main" target="1.8" />
+      <module name="FactionFly_test" target="1.8" />
+      <module name="FlyingBoats_main" target="1.8" />
+      <module name="FlyingBoats_test" target="1.8" />
+      <module name="MCMMOVisuals_main" target="1.8" />
+      <module name="MCMMOVisuals_test" target="1.8" />
+      <module name="PCore_main" target="1.8" />
+      <module name="PCore_test" target="1.8" />
+      <module name="SKMCPlugin_main" target="1.8" />
+      <module name="SKMCPlugin_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
