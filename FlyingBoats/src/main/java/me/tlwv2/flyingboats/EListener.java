@@ -24,7 +24,7 @@ import org.bukkit.util.Vector;
 public class EListener implements Listener{
 
     public static final double MULTIPLIER = 2;
-    public static final double ACCEL_CONSTANT = 0.05;
+    public static final double ACCEL_CONSTANT = 0.3;
 
     public EListener(FlyingBoats plugin){
         Bukkit.getPluginManager().registerEvents(this, plugin);
@@ -46,13 +46,14 @@ public class EListener implements Listener{
 
         if(FlyingBoats.self.isFlyingBoat(vehicle) && !vehicle.getPassengers().isEmpty()){
             Boat b = (Boat) vehicle;
-            b.getWorld().spawnParticle(Particle.CRIT, b.getLocation(), 20, 1, 0.2, 1);
+            b.getWorld().spawnParticle(Particle.CRIT, b.getLocation(), 20, 0.5, 0.2, 0.5);
             //b.getPassengers().forEach(ee -> ee.sendMessage("dingus dongus"));
 
             Vector v = b.getVelocity();
             Vector d = new LocUtil().getVel(b.getLocation());
 
-            v = d.multiply(MULTIPLIER);
+            headToward(v, d.multiply(MULTIPLIER), ACCEL_CONSTANT);
+
             if(!FlyingBoats.self.isStopped(b))
                 v.setY(headToward(v.getY(), 0.9, ACCEL_CONSTANT));
             else
@@ -67,9 +68,7 @@ public class EListener implements Listener{
                     v.setZ(headToward(v.getZ(), 0, ACCEL_CONSTANT));
                 }
                 else if(type == Material.ANVIL){
-                    v.setX(headToward(v.getX(), 0, ACCEL_CONSTANT));
-                    v.setY(headToward(v.getZ(), 0, ACCEL_CONSTANT));
-                    v.setZ(headToward(v.getX(), 0, ACCEL_CONSTANT));
+                    headToward(v, new Vector(0, -1, 0), ACCEL_CONSTANT);
                 }
                 else if(type == Material.GLOWSTONE_DUST){
                     v.setY(headToward(v.getY(), 0, ACCEL_CONSTANT));
@@ -109,13 +108,17 @@ public class EListener implements Listener{
     }
 
     private double headToward(double original, double border, double accelConstant){
-        boolean up = original < border;
-
-        if(up){
+        if(original < border){
             double n = original + accelConstant;
             return n <= border ? n : border;
         }
         double n = original - accelConstant;
         return n >= border ? n : border;
+    }
+
+    private void headToward(Vector original, Vector border, double accelConstant){
+        original.setX(headToward(original.getX(), border.getX(), accelConstant));
+        original.setY(headToward(original.getY(), border.getY(), accelConstant));
+        original.setZ(headToward(original.getZ(), border.getZ(), accelConstant));
     }
 }
