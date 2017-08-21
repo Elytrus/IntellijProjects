@@ -1,9 +1,0 @@
-name: FactionFly
-main: me.tlwv2.factionfly.FactionFly
-version: 1.0
-depend: [PCore]
-#commands:
-#   rename:
-#      description: renames held item
-#      usage: /rename <name>
-#      aliases: [rnm]

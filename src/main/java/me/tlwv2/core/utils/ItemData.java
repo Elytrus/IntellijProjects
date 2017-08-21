@@ -1,11 +1,10 @@
 package me.tlwv2.core.utils;
 
-import org.bukkit.craftbukkit.v1_11_R1.inventory.CraftItemStack;
-
-import net.minecraft.server.v1_11_R1.Block;
-import net.minecraft.server.v1_11_R1.ItemStack;
-import net.minecraft.server.v1_11_R1.NBTTagCompound;
-import net.minecraft.server.v1_11_R1.NBTTagInt;
+import net.minecraft.server.v1_12_R1.Block;
+import net.minecraft.server.v1_12_R1.ItemStack;
+import net.minecraft.server.v1_12_R1.NBTTagCompound;
+import net.minecraft.server.v1_12_R1.NBTTagInt;
+import org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack;
 
 /*
  * Makes it easier to handle nbt data
@@ -18,7 +17,7 @@ public class ItemData {
     }
 
     public static org.bukkit.inventory.ItemStack setFlag(org.bukkit.inventory.ItemStack item, String flagname){
-        net.minecraft.server.v1_11_R1.ItemStack citem = CraftItemStack.asNMSCopy(item);
+        net.minecraft.server.v1_12_R1.ItemStack citem = CraftItemStack.asNMSCopy(item);
         NBTTagCompound c = getTagCompoundOf(item);
 
         c.setBoolean(flagname, true);
@@ -28,7 +27,7 @@ public class ItemData {
     }
 
     public static org.bukkit.inventory.ItemStack setValue(org.bukkit.inventory.ItemStack item, String flagname, int value){
-        net.minecraft.server.v1_11_R1.ItemStack citem = CraftItemStack.asNMSCopy(item);
+        net.minecraft.server.v1_12_R1.ItemStack citem = CraftItemStack.asNMSCopy(item);
         NBTTagCompound c = getTagCompoundOf(item);
 
         c.set(flagname, new NBTTagInt(value));

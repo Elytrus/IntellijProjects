@@ -9,7 +9,7 @@ sourceCompatibility = 1.8
 ext{
     home = System.properties['user.home']
     desktop = "${ext.home}\\Desktop\\"
-    spigot = files(findDep('spigot-1.11.2.jar'))
+    spigot = files(findDep('spigot-1.12.1.jar'))
     expdir = file("${conv(desktop)}test-server/plugins")
 }
 
