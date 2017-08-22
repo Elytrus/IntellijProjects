@@ -1,5 +1,6 @@
 package me.tlwv2.admintool.commands;
 
+import me.tlwv2.admintool.AdminTool;
 import me.tlwv2.core.Constants;
 import me.tlwv2.core.infolist.ILWrapper;
 import org.bukkit.Bukkit;
@@ -15,8 +16,8 @@ public class GetPermsCommand implements CommandExecutor {
     public static final String PERM = "addon.use.getperms";
 
     public GetPermsCommand() {
-        ILWrapper.addCmd("getperms", "Gets perms for specified group or player");
-        ILWrapper.addPerm(PERM, "Allows use of /getperms");
+        ILWrapper.addCmd("getperms", "Gets perms for specified group or player", AdminTool.self);
+        ILWrapper.addPerm(PERM, "Allows use of /getperms", AdminTool.self);
     }
 
     @Override

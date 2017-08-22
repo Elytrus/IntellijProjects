@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d691dfc9-b0ac-498d-be4d-e7c406d2dc29" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/Flyingboat.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/EListener.java" afterPath="$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/EListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsTree.java" afterPath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/GetPermsCommand.java" afterPath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/GetPermsCommand.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -132,12 +132,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="EListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/EListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermissionsTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding>
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1542,12 +1555,12 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/AdminTool/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/AdminTool.java" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/GetPermsCommand.java" />
         <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionNode.java" />
         <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsViewer.java" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsTree.java" />
         <option value="$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/Flyingboat.java" />
         <option value="$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/EListener.java" />
+        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/GetPermsCommand.java" />
+        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsTree.java" />
       </list>
     </option>
   </component>
@@ -1679,6 +1692,106 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="flyingboats" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admintool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admintool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2456,16 +2569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/GetPermsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="50" column="37" lean-forward="false" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -2479,19 +2582,6 @@
         <state relative-caret-position="168">
           <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="26" column="45" lean-forward="false" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2511,11 +2601,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/GetPermsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-427">
+          <caret line="19" column="73" lean-forward="false" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/EListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
