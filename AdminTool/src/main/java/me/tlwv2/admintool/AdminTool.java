@@ -1,9 +1,6 @@
 package me.tlwv2.admintool;
 
-import me.tlwv2.admintool.commands.AttributesCommand;
-import me.tlwv2.admintool.commands.CustomRulesCommand;
-import me.tlwv2.admintool.commands.RenameCommand;
-import me.tlwv2.admintool.commands.StackSizeCommand;
+import me.tlwv2.admintool.commands.*;
 import me.tlwv2.admintool.customrules.Rule;
 import me.tlwv2.admintool.customrules.RuleTable;
 import me.tlwv2.core.infolist.ILWrapper;
@@ -11,6 +8,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.serialization.ConfigurationSerialization;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.scheduler.BukkitRunnable;
 
 public class AdminTool extends JavaPlugin {
     public static final String askMSG = ".  Please report what happened to @Plasmatic#2741 and what you did to trigger it";
@@ -43,6 +41,7 @@ public class AdminTool extends JavaPlugin {
         Bukkit.getPluginCommand("customrules").setExecutor(new CustomRulesCommand());
         Bukkit.getPluginCommand("attributes").setExecutor(new AttributesCommand());
         Bukkit.getPluginCommand("setstacksize").setExecutor(new StackSizeCommand());
+        Bukkit.getPluginCommand("getperms").setExecutor(new GetPermsCommand());
 
         new PluginEventListener();
     }
