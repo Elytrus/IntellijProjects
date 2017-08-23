@@ -35,6 +35,6 @@ public class PermissionsTree {
     }
 
     public static PermissionsTree build(String[] perms){
-
+        return null;
     }
 }

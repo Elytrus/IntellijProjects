@@ -1,8 +1,8 @@
 package me.tlwv2.flyingboats;
 
+import me.tlwv2.core.utils.LocUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.Particle;
 import org.bukkit.entity.Boat;
 import org.bukkit.entity.Entity;
@@ -21,9 +21,10 @@ import org.bukkit.util.Vector;
  * Created by Moses on 2017-08-17.
  */
 public class EListener implements Listener{
-    //public static final double MULTIPLIER = 2;
+    public static final double MULTIPLIER = 8;
     public static final double ACCEL_CONSTANT = 0.1;
-    public static final double MOVEMENT_MAX = 2.0;
+    public static final double Y_ACCEL_CONSTANT = 0.1;
+    public static final double DOWN_ACCEL_CONSTANT = 0.05;
 
     public EListener(FlyingBoats plugin){
         Bukkit.getPluginManager().registerEvents(this, plugin);
@@ -45,38 +46,27 @@ public class EListener implements Listener{
 
         if(FlyingBoats.self.isFlyingBoat(vehicle) && !vehicle.getPassengers().isEmpty()){
             Boat b = (Boat) vehicle;
-            b.getWorld().spawnParticle(Particle.CRIT, b.getLocation(), 20, 0.5, 0.2, 0.5);
-            //b.getPassengers().forEach(ee -> ee.sendMessage("dingus dongus"));
+            Vector d = new LocUtil().getVel(b.getPassengers().get(0).getLocation());
+            Vector maxDelta = d.clone().multiply(MULTIPLIER);
+            Vector accelDelta = d.clone().multiply(ACCEL_CONSTANT);
+
+            b.getWorld().spawnParticle(Particle.CRIT, b.getLocation().subtract(d), 20, 0.1, 0.1, 0.1);
 
             Vector v = b.getVelocity();
-            Vector d = vehicle.getVelocity();//new LocUtil().getVel(b.getLocation());
 
-            //b.getPassengers().forEach(ee -> ee.sendMessage(v.getX() + " " + v.getY() + " " + v.getZ()));
-            //b.getPassengers().forEach(ee -> ee.sendMessage(v.getX() + " a " + v.getY() + " a " + v.getZ()));
+            b.getPassengers().forEach(ee -> ee.sendMessage(String.format("Before: %.3f %.3f %.3f", v.getX(), v.getY(), v.getZ())));
+
+            v.setX(headToward(v.getX(), maxDelta.getX(), accelDelta.getX()));
+            v.setZ(headToward(v.getZ(), maxDelta.getZ(), accelDelta.getZ()));
+
+            b.getPassengers().forEach(ee -> ee.sendMessage(String.format("After: %.3f %.3f %.3f", v.getX(), v.getY(), v.getZ())));
 
             if(!FlyingBoats.self.isStopped(b))
-                v.setY(headToward(v.getY(), 0.9, ACCEL_CONSTANT));
+                v.setY(headToward(v.getY(), 2, Y_ACCEL_CONSTANT));
             else
-                v.setY(headToward(v.getY(), -0.25, ACCEL_CONSTANT));
+                v.setY(headToward(v.getY(), -1.3, DOWN_ACCEL_CONSTANT));
 
-            Entity entity = b.getPassengers().get(0);
-            if(entity instanceof Player){
-                Player p = (Player) entity;
-                Material type = p.getInventory().getItemInMainHand().getType();
-                if(type == Material.REDSTONE){
-                    v.setX(headToward(v.getX(), 0, ACCEL_CONSTANT));
-                    v.setZ(headToward(v.getZ(), 0, ACCEL_CONSTANT));
-                }
-                else if(type == Material.ANVIL){
-                    headToward(v, new Vector(0, -3, 0), ACCEL_CONSTANT);
-                }
-                else if(type == Material.GLOWSTONE_DUST){
-                    v.setY(headToward(v.getY(), 0, ACCEL_CONSTANT));
-                }
-                else{
-                    headToward(v, new Vector(MOVEMENT_MAX, MOVEMENT_MAX, MOVEMENT_MAX), ACCEL_CONSTANT);
-                }
-            }
+            b.getPassengers().get(0).sendMessage(String.format("Max velocity: %.3f %.3f %.3f", maxDelta.getX(), maxDelta.getY(), maxDelta.getZ()));
 
             b.setVelocity(v);
         }
@@ -122,9 +112,9 @@ public class EListener implements Listener{
         return n >= border ? n : border;
     }
 
-    private void headToward(Vector original, Vector border, double accelConstant){
-        original.setX(headToward(original.getX(), border.getX(), accelConstant));
-        original.setY(headToward(original.getY(), border.getY(), accelConstant));
-        original.setZ(headToward(original.getZ(), border.getZ(), accelConstant));
+    private void headToward(Vector original, Vector border, Vector accelVector){
+        original.setX(headToward(original.getX(), border.getX(), accelVector.getX()));
+        original.setY(headToward(original.getY(), border.getY(), accelVector.getY()));
+        original.setZ(headToward(original.getZ(), border.getZ(), accelVector.getZ()));
     }
 }

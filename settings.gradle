@@ -7,4 +7,5 @@ include 'MCMMOVisuals'
 include 'FactionFly'
 include 'FlyingBoats'
 include 'FlyingBoats'
+include 'SkyblockTiers'
 
