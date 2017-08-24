@@ -1,0 +1,9 @@
+name: KitsPlus
+main: me.tlwv2.kitsp.Main
+version: 1.0
+depend: [PCore]
+commands:
+   kitsplus:
+      description: Main KitsPlus Command
+      usage: /kitsplus <add:remove:edit:list:gui:needspermissions>
+      aliases: [kitsp, kits, kp]

@@ -9,9 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses_main.iml" group="Bosses" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses_test.iml" group="Bosses" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/2096404230/FactionFly.iml" filepath="$PROJECT_DIR$/.idea/modules/2096404230/FactionFly.iml" group="FactionFly" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlyingBoats.iml" filepath="$PROJECT_DIR$/.idea/modules/FlyingBoats.iml" group="FlyingBoats" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats_main.iml" group="FlyingBoats" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats_test.iml" group="FlyingBoats" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats.iml" filepath="$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats.iml" group="FlyingBoats" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KitsPlus.iml" filepath="$PROJECT_DIR$/.idea/modules/KitsPlus.iml" group="KitsPlus" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" group="KitsPlus" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" group="KitsPlus" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCMMOVisuals/MCMMOVisuals.iml" filepath="$PROJECT_DIR$/.idea/modules/MCMMOVisuals/MCMMOVisuals.iml" group="MCMMOVisuals" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCore.iml" filepath="$PROJECT_DIR$/.idea/modules/PCore.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" filepath="$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" group="PCore" />

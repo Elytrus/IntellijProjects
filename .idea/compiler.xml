@@ -10,6 +10,8 @@
       <module name="FactionFly_test" target="1.8" />
       <module name="FlyingBoats_main" target="1.8" />
       <module name="FlyingBoats_test" target="1.8" />
+      <module name="KitsPlus_main" target="1.8" />
+      <module name="KitsPlus_test" target="1.8" />
       <module name="MCMMOVisuals_main" target="1.8" />
       <module name="MCMMOVisuals_test" target="1.8" />
       <module name="PCore_main" target="1.8" />
