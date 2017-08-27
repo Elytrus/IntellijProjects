@@ -3,10 +3,13 @@ package me.tlwv2.skyblocktiers;
 import me.tlwv2.skyblocktiers.commands.SkyblockMiningUpgradeCommand;
 import me.tlwv2.skyblocktiers.commands.SkyblockTierManualSetCommand;
 import net.milkbowl.vault.economy.Economy;
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
+import us.talabrek.ultimateskyblock.api.IslandInfo;
+import us.talabrek.ultimateskyblock.api.uSkyBlockAPI;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -37,6 +40,11 @@ public class SkyblockTiers extends JavaPlugin{
         return economy;
     }
 
+    public uSkyBlockAPI getSkyblock(){
+        return skyblockAPI;
+    }
+
+    private uSkyBlockAPI skyblockAPI;
     private Economy economy;
     private HashMap<String, Integer> tierList = new HashMap<>();
 
@@ -49,6 +57,8 @@ public class SkyblockTiers extends JavaPlugin{
         if(economyService != null)
             economy = economyService.getProvider();
 
+        skyblockAPI = (uSkyBlockAPI) Bukkit.getPluginManager().getPlugin("uSkyBlock");
+
         getCommand("skyblockminingupgrade").setExecutor(new SkyblockMiningUpgradeCommand());
         getCommand("skyblocktiermanualset").setExecutor(new SkyblockTierManualSetCommand());
 
@@ -56,23 +66,29 @@ public class SkyblockTiers extends JavaPlugin{
     }
 
     public int getTier(Player p){
-        String UUID = p.getUniqueId().toString();
+        IslandInfo island = skyblockAPI.getIslandInfo(p);
+        String UUID = island.getLeader();
+        return getTier(UUID);
+    }
+
+    public int getTier(String UUID) {
         if(tierList.containsKey(UUID))
             return tierList.get(UUID);
         else
             return 0;
     }
-    
+
     public void upgradeTier(Player p){
-        String UUID = p.getUniqueId().toString();
+        IslandInfo island = skyblockAPI.getIslandInfo(p);
+        String UUID = island.getLeader();
         if(tierList.containsKey(UUID))
             tierList.put(UUID, tierList.get(UUID) + 1);
         else
             tierList.put(UUID, 1);
     }
 
-    public void setTier(Player p, int tier){
-        tierList.put(p.getUniqueId().toString(), tier);
+    public void setTier(String s, int tier){
+        tierList.put(s, tier);
     }
 
     public boolean canBuy(Player p){
@@ -82,13 +98,16 @@ public class SkyblockTiers extends JavaPlugin{
         return bal > UPGRADE_COSTS[tier - 1];
     }
 
-    public Material rollForBlock(Player p){
-        int tier = getTier(p);
+    public Material rollForBlock(String name){
+        int tier = tierList.get(name);
+        return rollForBlock(tier);
+    }
+
+    public Material rollForBlock(int tier) {
         int level = Arrays.stream(Arrays.copyOfRange(UNLOCK_AMT, 0, tier - 1)).sum();
         double[] probabilities = PROBABILITY_TABLE[tier];
         Material m = null;
 
-        //MINECRAFT FIDGET SPINNERS
         for(int i = 0; i < level; i++){
             double probability = probabilities[i];
             Material cm = MATERIAL_LIST[i];
@@ -105,10 +124,15 @@ public class SkyblockTiers extends JavaPlugin{
     public void buy(Player p){
         int cost = UPGRADE_COSTS[getTier(p) - 1];
 
-        economy.
+        economy.withdrawPlayer(p, cost);
+        upgradeTier(p);
     }
 
     boolean chance(double x){
         return Math.random() > x;
+    }
+
+    public uSkyBlockAPI getSkyblockAPI() {
+        return skyblockAPI;
     }
 }

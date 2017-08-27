@@ -18,3 +18,7 @@ commands:
       description: changes amount of items of held item
       usage: /setstacksize <amount>
       aliases: [sss]
+   getperms:
+      description: Gets all permission nodes that match the given node
+      usage: /getperms <player:group> [node]
+      aliases: [gps]

@@ -1,17 +1,16 @@
 package me.tlwv2.admintool.commands;
 
-import java.util.Arrays;
-import java.util.stream.Collectors;
-
-import org.bukkit.ChatColor;
-import org.bukkit.command.Command;
-import org.bukkit.entity.Player;
-
 import me.tlwv2.admintool.AdminTool;
 import me.tlwv2.core.Constants;
 import me.tlwv2.core.infolist.ILWrapper;
 import me.tlwv2.core.misc.PlayerOnlyCommand;
 import me.tlwv2.core.utils.ItemUtil;
+import org.bukkit.ChatColor;
+import org.bukkit.command.Command;
+import org.bukkit.entity.Player;
+
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class RenameCommand extends PlayerOnlyCommand {
     final String CLR = "addon.use.rename.clr";
@@ -41,8 +40,8 @@ public class RenameCommand extends PlayerOnlyCommand {
 
         if(args.length != 1){
             name = Arrays.stream(Arrays.copyOfRange(args, 0, args.length)).collect(Collectors.joining(" "));
-            name = name.substring(name.indexOf("\"") + 1, name.lastIndexOf("\""))
-                    .replaceAll("&", "§");
+            name = ChatColor.translateAlternateColorCodes(
+                    '&', name.substring(name.indexOf("\"") + 1, name.lastIndexOf("\"")));
         }
         else
             name = ChatColor.translateAlternateColorCodes('&', args[0]);

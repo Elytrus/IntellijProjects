@@ -26,7 +26,7 @@ public class EListener implements Listener {
         if(e.getInventory().getName().equals(Main.KITSPGUINAME)){
             Kit k = Main.check(e.getCurrentItem());
 
-            if(!(k.equals(null))){
+            if(null != k){
                 if(e.getWhoClicked().hasPermission("kitsplus.use." + k.getName()) || !(Main.needsPerms))
                     k.apply((Player) e.getWhoClicked());
                 else

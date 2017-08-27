@@ -2,7 +2,7 @@ name: SkyblockTiers
 main: me.tlwv2.skyblocktiers.SkyblockTiers
 version: 1.0
 description: Skyblock Mining tiers
-depend: [PCore, Vault]
+depend: [PCore, Vault, uSkyBlock]
 commands:
    skyblockminingupgrade:
       description: Opens upgrade menu

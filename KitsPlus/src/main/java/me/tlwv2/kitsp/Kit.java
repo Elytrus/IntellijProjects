@@ -1,12 +1,12 @@
 package me.tlwv2.kitsp;
 
 import com.google.common.collect.Maps;
+import me.tlwv2.core.utils.ItemUtil;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.configuration.serialization.ConfigurationSerializable;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.potion.PotionEffect;
 
 import java.util.ArrayList;
@@ -22,8 +22,8 @@ public class Kit implements ConfigurationSerializable, Cloneable {
     private ItemStack icon;
     private String name;
 
-    public Kit(Player p, String name){
-        reset(p, name);
+    public Kit(Player p, String name, String displayName){
+        reset(p, name, displayName);
     }
 
     /////////////////////////////////////////////////////////////////////////////
@@ -40,16 +40,15 @@ public class Kit implements ConfigurationSerializable, Cloneable {
         }
     }
 
-    public void reset(Player p, String name){
+    public void reset(Player p, String name, String displayName){
         contents = p.getInventory().getContents();
         effects = p.getActivePotionEffects().toArray(new PotionEffect[1]);
 
-        ItemStack i = p.getInventory().getItemInMainHand();
+        ItemStack i = p.getInventory().getItemInMainHand().clone();
         ItemStack defaulticon = new ItemStack(Material.STONE, 1);
 
-        ItemMeta m = defaulticon.getItemMeta();
-        m.setDisplayName(ChatColor.RESET + name);
-        defaulticon.setItemMeta(m);
+        defaulticon = ItemUtil.addMetadata(defaulticon, ChatColor.RESET + name, false);
+        i = ItemUtil.addMetadata(i, ChatColor.translateAlternateColorCodes('&', displayName), false);
 
         if(i.equals(null))
             icon = defaulticon;

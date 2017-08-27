@@ -1,6 +1,7 @@
 package me.tlwv2.kitsp;
 
 import com.google.common.collect.Maps;
+import me.tlwv2.core.infolist.ILWrapper;
 import me.tlwv2.kitsp.commands.KitsPlusCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -39,6 +40,7 @@ public class Main extends JavaPlugin {
         needsPerms = getConfig().getBoolean(NPKEY, true);
 
         self = this;
+        ILWrapper.registerPlugin(self);
         new EListener(this);
         Bukkit.getPluginCommand("kitsplus").setExecutor(new KitsPlusCommand());
     }

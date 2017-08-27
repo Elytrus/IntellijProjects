@@ -13,13 +13,14 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 
 import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class KitsPlusCommand extends PlayerOnlyCommand{
     static final String USAGEMESSAGE = ChatColor.RED + "Usage: /kitsplus <add:remove:edit:list:gui:needspermissions>";
 
-    static final String USAGEMESSAGEADD = ChatColor.RED + "Usage: /kitsplus add <name>";
+    static final String USAGEMESSAGEADD = ChatColor.RED + "Usage: /kitsplus add <name> [display name]";
     static final String USAGEMESSAGEREM = ChatColor.RED + "Usage: /kitsplus remove <name>";
-    static final String USAGEMESSAGEEDI = ChatColor.RED + "Usage: /kitsplus edit <name> <icon:inventory:effects:all>";
+    static final String USAGEMESSAGEEDI = ChatColor.RED + "Usage: /kitsplus edit <name> <icon:inventory:effects:all> [display name (all only)]";
     public static final String MODIFYNPPERM = "addon.use.kitsplus.modifyneedspermissions";
     public static final String ADDPERM = "addon.use.kitsplus.add";
     public static final String REMOVEPERM = "addon.use.kitsplus.remove";
@@ -51,11 +52,11 @@ public class KitsPlusCommand extends PlayerOnlyCommand{
 
             if(Main.needsPerms){
                 Main.needsPerms = false;
-                p.sendMessage(Main.KITSPLOGO + "Permissions not required!");
+                p.sendMessage(Main.KITSPLOGO + "Permissions now not required!");
             }
             else{
                 Main.needsPerms = true;
-                p.sendMessage(Main.KITSPLOGO + "Permissions required!");
+                p.sendMessage(Main.KITSPLOGO + "Permissions now required!");
             }
         }
 
@@ -70,9 +71,12 @@ public class KitsPlusCommand extends PlayerOnlyCommand{
                 return true;
             }
 
-            if(args.length == 2){
+            if(args.length > 2){
+                String displayName = Arrays.stream(Arrays.copyOfRange(args, 2, args.length))
+                        .collect(Collectors.joining(" "));
+
                 p.sendMessage(Main.KITSPLOGO + "Successfully added Kit " + args[1]);
-                Main.kits.put(args[1], new Kit(p, args[1]));
+                Main.kits.put(args[1], new Kit(p, args[1], displayName));
             }
             else{
                 p.sendMessage(USAGEMESSAGEADD);
@@ -103,7 +107,7 @@ public class KitsPlusCommand extends PlayerOnlyCommand{
                 return true;
             }
 
-            if(args.length == 3 && Arrays.asList("inventory", "icon", "effects", "all").contains(args[2])){
+            if(args.length >= 3 && Arrays.asList("inventory", "icon", "effects", "all").contains(args[2])){
                 if(Main.kits.containsKey(args[1])){
                     if(args[2].equals("inventory")){
                         Main.kits.get(args[1]).setContents(p);
@@ -118,7 +122,13 @@ public class KitsPlusCommand extends PlayerOnlyCommand{
                         p.sendMessage(Main.KITSPLOGO + "Changed potion effects of Kit " + args[1]);
                     }
                     else if(args[2].equals("all")){
-                        Main.kits.get(args[1]).reset(p, args[1]);
+                        String displayName = Arrays.stream(Arrays.copyOfRange(args, 3, args.length))
+                                .collect(Collectors.joining(" "));
+
+                        if(args.length < 4)
+                            displayName = p.getInventory().getItemInMainHand().getItemMeta().getDisplayName();
+
+                        Main.kits.get(args[1]).reset(p, args[1], displayName);
                         p.sendMessage(Main.KITSPLOGO + "Changed everything about Kit " + args[1]);
                     }
                 }
