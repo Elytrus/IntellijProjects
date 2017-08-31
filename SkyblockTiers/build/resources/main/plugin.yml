@@ -1,0 +1,14 @@
+name: SkyblockTiers
+main: me.tlwv2.skyblocktiers.SkyblockTiers
+version: 1.0
+description: Skyblock Mining tiers
+depend: [PCore, Vault, uSkyBlock]
+commands:
+   skyblockminingupgrade:
+      description: Opens upgrade menu
+      usage: /skyblockminingupgrade
+      aliases: [sbminingupgrade, sbmupgrade, sbmu, supgrade]
+   skyblocktiermanualset:
+      description: Sets/Views Skyblock Tiers manually
+      usage: /skyblocktiermanualset <[player]:list> <tier>
+      aliases: [sbtmanualset, sbtset, sbtadmin, sbtiermanualset, sbtms]

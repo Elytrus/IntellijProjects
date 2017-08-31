@@ -1,18 +1,25 @@
 package me.tlwv2.skyblocktiers;
 
+import me.tlwv2.core.infolist.ILWrapper;
+import me.tlwv2.core.utils.ItemUtil;
 import me.tlwv2.skyblocktiers.commands.SkyblockMiningUpgradeCommand;
 import me.tlwv2.skyblocktiers.commands.SkyblockTierManualSetCommand;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
+import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 import us.talabrek.ultimateskyblock.api.IslandInfo;
 import us.talabrek.ultimateskyblock.api.uSkyBlockAPI;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by Moses on 2017-08-22.
@@ -33,6 +40,7 @@ public class SkyblockTiers extends JavaPlugin{
             {0.08, 0.06, 0.04, 0.02, 0.015, 0.005, 0.001}
     };
     public static final int[] UNLOCK_AMT = {1, 1, 1, 2, 2};
+    public static final String TIER_LIST_KEY = "tier_map";
 
     public static SkyblockTiers self;
 
@@ -46,6 +54,11 @@ public class SkyblockTiers extends JavaPlugin{
 
     private uSkyBlockAPI skyblockAPI;
     private Economy economy;
+
+    public HashMap<String, Integer> getTierList() {
+        return tierList;
+    }
+
     private HashMap<String, Integer> tierList = new HashMap<>();
 
     @Override
@@ -53,6 +66,7 @@ public class SkyblockTiers extends JavaPlugin{
         self = this;
 
         RegisteredServiceProvider<Economy> economyService = getServer().getServicesManager().getRegistration(Economy.class);
+        ILWrapper.registerPlugin(self);
 
         if(economyService != null)
             economy = economyService.getProvider();
@@ -61,6 +75,25 @@ public class SkyblockTiers extends JavaPlugin{
 
         getCommand("skyblockminingupgrade").setExecutor(new SkyblockMiningUpgradeCommand());
         getCommand("skyblocktiermanualset").setExecutor(new SkyblockTierManualSetCommand());
+
+        try {
+            getConfig().load("data.yml");
+        } catch (IOException e) {
+            getLogger().info("Data not found, generating new data file");
+            try {
+                getConfig().save("data.yml");
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+        } catch (InvalidConfigurationException e) {
+            e.printStackTrace();
+        }
+
+        if(getConfig().contains(TIER_LIST_KEY)){
+            for(Map.Entry<String, Object> entry : getConfig().getConfigurationSection(TIER_LIST_KEY).getValues(true).entrySet()){
+                tierList.put(entry.getKey(), (Integer)entry.getValue());
+            }
+        }
 
         new EListener(self);
     }
@@ -87,15 +120,30 @@ public class SkyblockTiers extends JavaPlugin{
             tierList.put(UUID, 1);
     }
 
+    @Override
+    public void onDisable() {
+        getConfig().createSection(TIER_LIST_KEY, tierList);
+        try {
+            getConfig().save("data.yml");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public void setTier(String s, int tier){
-        tierList.put(s, tier);
+        if(tier > 0)
+            tierList.put(s, tier);
+        else{
+            if(tierList.containsKey(s))
+                tierList.remove(s);
+        }
     }
 
     public boolean canBuy(Player p){
         double bal = economy.getBalance(p);
         int tier = getTier(p);
 
-        return bal > UPGRADE_COSTS[tier - 1];
+        return bal > UPGRADE_COSTS[tier];
     }
 
     public Material rollForBlock(String name){
@@ -104,6 +152,9 @@ public class SkyblockTiers extends JavaPlugin{
     }
 
     public Material rollForBlock(int tier) {
+        if(tier < 1)
+            return null;
+
         int level = Arrays.stream(Arrays.copyOfRange(UNLOCK_AMT, 0, tier - 1)).sum();
         double[] probabilities = PROBABILITY_TABLE[tier];
         Material m = null;
@@ -128,11 +179,15 @@ public class SkyblockTiers extends JavaPlugin{
         upgradeTier(p);
     }
 
-    boolean chance(double x){
-        return Math.random() > x;
+    public void buildUpgradeInventory(Inventory i, int tier, double balance) {
+        i.setItem(4, ItemUtil.addMetadata(new ItemStack(SkyblockTiers.UPGRADE_ITEMS[tier]),
+                "\u00A7bBuy Tier: " + (tier + 1), true));
+        i.setItem(0, ItemUtil.addMetadata(new ItemStack(Material.GLASS), "\u00A7bCurrent Tier: " + tier, true));
+        i.setItem(8, ItemUtil.addMetadata(new ItemStack(Material.EMERALD_BLOCK),
+                "\u00A7aBalance: " + balance, true));
     }
 
-    public uSkyBlockAPI getSkyblockAPI() {
-        return skyblockAPI;
+    boolean chance(double x){
+        return Math.random() > x;
     }
 }

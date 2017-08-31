@@ -1,6 +1,8 @@
 package me.tlwv2.skyblocktiers;
 
+import me.tlwv2.core.Constants;
 import me.tlwv2.core.utils.ItemUtil;
+import org.apache.commons.lang3.ArrayUtils;
 import org.bukkit.*;
 import org.bukkit.block.Block;
 import org.bukkit.entity.EntityType;
@@ -14,6 +16,7 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.FireworkMeta;
 import us.talabrek.ultimateskyblock.api.IslandInfo;
+import us.talabrek.ultimateskyblock.api.event.RestartIslandEvent;
 
 /**
  * Created by Moses on 2017-08-22.
@@ -27,7 +30,8 @@ public class EListener implements Listener{
     public void onBlockChange(BlockFromToEvent e){
         Block to = e.getToBlock();
         Material type = to.getType();
-        if(type == Material.COBBLESTONE || type == Material.STONE){
+        if(isCobble(e.getBlock(), to)){
+            infoPlayers("cobble generated");
             IslandInfo island = SkyblockTiers.self.getSkyblock().getIslandInfo(e.getBlock().getLocation());
             int tier = SkyblockTiers.self.getTier(island.getLeader());
             Material changeTo = SkyblockTiers.self.rollForBlock(tier);
@@ -60,9 +64,88 @@ public class EListener implements Listener{
 
         if(i.getName() != null && i.getName().equals(SkyblockTiers.UPGRADE_INVENTORY_NAME)){
             Player p = (Player)e.getWhoClicked();
+            ItemStack item = e.getCurrentItem();
+
+            if(null != item){
+                int tier = SkyblockTiers.self.getTier(p);
+                double balance = SkyblockTiers.self.getEconomy().getBalance(p);
+
+                if(ArrayUtils.contains(SkyblockTiers.UPGRADE_ITEMS, item.getType())) {
+                    if (SkyblockTiers.self.canBuy(p)) {
+                        SkyblockTiers.self.upgradeTier(p);
+                        previewItem(i, item, "§aSuccess!", e.getSlot(), 20L);
+
+                        SkyblockTiers.self.buildUpgradeInventory(i, tier, balance);
+                    }
+                    else{
+                        previewItem(i, item, "§cInsufficient Funds!", e.getSlot(), 20L);
+                    }
+                }
+            }
 
             e.setCancelled(true);
         }
+    }
+
+    @EventHandler
+    public void onRestart(RestartIslandEvent e){
+        Player p = e.getPlayer();
+        SkyblockTiers.self.setTier(p.getName(), 0);
+        p.sendMessage(Constants.WARN + "Mining upgrades will be reset!");
+    }
+
+    int isFluid(Material m){
+        switch(m){
+            case STATIONARY_WATER:
+                return 1;
+            case WATER:
+                return 1;
+            case STATIONARY_LAVA:
+                return 2;
+            case LAVA:
+                return 2;
+            default:
+                return 0;
+        }
+    }
+
+    boolean isCobble(Block a, Block b){
+        Material m = b.getType();
+        int ft = isFluid(a.getType());
+
+        if(ft == 0)
+            return false;
+
+        if(isAnyTypeSurrounding(b, ft == 2 ? Material.WATER : Material.LAVA, ft == 2 ? Material.STATIONARY_WATER
+        : Material.STATIONARY_LAVA))
+            return true;
+        return false;
+    }
+
+    boolean isAnyTypeSurrounding(Block b, Material m, Material m2){
+        final int[][] MAT_LIST = {
+                {-1, 0, 0},
+                {1, 0, 0},
+                {0, -1, 0},
+                {0, 1, 0},
+                {0, 0, 1},
+                {0, 0, -1}
+        };
+        Location l = b.getLocation();
+
+        //infoPlayers(m + " | " + m2);
+
+        for(int[] dirs : MAT_LIST){
+            Material currentType = l.clone().add(dirs[0], dirs[1], dirs[2]).getBlock().getType();
+            if(currentType == m || currentType == m2)
+                return true;
+        }
+        return false;
+    }
+
+    //debug
+    void infoPlayers(Object message){
+        Bukkit.getServer().getOnlinePlayers().forEach(e -> e.sendMessage(message.toString()));
     }
 
     private void previewItem(Inventory inventory, ItemStack itemStack, String text, int slot, long previewLength){
