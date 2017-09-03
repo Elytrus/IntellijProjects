@@ -4,6 +4,7 @@ import me.tlwv2.core.infolist.ILWrapper;
 import me.tlwv2.core.utils.ItemUtil;
 import me.tlwv2.skyblocktiers.commands.SkyblockMiningUpgradeCommand;
 import me.tlwv2.skyblocktiers.commands.SkyblockTierManualSetCommand;
+import me.tlwv2.skyblocktiers.commands.TestProbabilitiesCommand;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -37,7 +38,7 @@ public class SkyblockTiers extends JavaPlugin{
             {0.05, 0.03, 0, 0, 0, 0, 0},
             {0.06, 0.04, 0.02, 0, 0, 0, 0},
             {0.07, 0.05, 0.03, 0.015, 0.01, 0, 0},
-            {0.08, 0.06, 0.04, 0.02, 0.015, 0.005, 0.001}
+            {0.08, 0.06, 0.04, 0.02, 0.015, 0.005, 0.002}
     };
     public static final int[] UNLOCK_AMT = {1, 1, 1, 2, 2};
     public static final String TIER_LIST_KEY = "tier_map";
@@ -73,8 +74,9 @@ public class SkyblockTiers extends JavaPlugin{
 
         skyblockAPI = (uSkyBlockAPI) Bukkit.getPluginManager().getPlugin("uSkyBlock");
 
-        getCommand("skyblockminingupgrade").setExecutor(new SkyblockMiningUpgradeCommand());
-        getCommand("skyblocktiermanualset").setExecutor(new SkyblockTierManualSetCommand());
+        getCommand("miningupgrade").setExecutor(new SkyblockMiningUpgradeCommand());
+        getCommand("settier").setExecutor(new SkyblockTierManualSetCommand());
+        getCommand("testprobabilities").setExecutor(new TestProbabilitiesCommand());
 
         try {
             getConfig().load("data.yml");
@@ -143,7 +145,7 @@ public class SkyblockTiers extends JavaPlugin{
         double bal = economy.getBalance(p);
         int tier = getTier(p);
 
-        return bal > UPGRADE_COSTS[tier];
+        return bal >= UPGRADE_COSTS[tier];
     }
 
     public Material rollForBlock(String name){
@@ -155,8 +157,8 @@ public class SkyblockTiers extends JavaPlugin{
         if(tier < 1)
             return null;
 
-        int level = Arrays.stream(Arrays.copyOfRange(UNLOCK_AMT, 0, tier - 1)).sum();
-        double[] probabilities = PROBABILITY_TABLE[tier];
+        int level = Arrays.stream(Arrays.copyOfRange(UNLOCK_AMT, 0, tier)).sum();
+        double[] probabilities = PROBABILITY_TABLE[tier - 1];
         Material m = null;
 
         for(int i = 0; i < level; i++){
@@ -173,21 +175,47 @@ public class SkyblockTiers extends JavaPlugin{
     }
 
     public void buy(Player p){
-        int cost = UPGRADE_COSTS[getTier(p) - 1];
+        int cost = UPGRADE_COSTS[getTier(p)];
 
         economy.withdrawPlayer(p, cost);
         upgradeTier(p);
     }
 
     public void buildUpgradeInventory(Inventory i, int tier, double balance) {
-        i.setItem(4, ItemUtil.addMetadata(new ItemStack(SkyblockTiers.UPGRADE_ITEMS[tier]),
-                "\u00A7bBuy Tier: " + (tier + 1), true));
+        i.setItem(4, ItemUtil.addMetadata(new ItemStack(tier < 5 ? SkyblockTiers.UPGRADE_ITEMS[tier] : Material.BARRIER),
+                tier < 5 ? "\u00A7bBuy Tier " + (tier + 1) : "\u00a7cAlready at max tier!", true,
+                tier < 5 ? infoText(tier + 1) : new String[0]));
         i.setItem(0, ItemUtil.addMetadata(new ItemStack(Material.GLASS), "\u00A7bCurrent Tier: " + tier, true));
         i.setItem(8, ItemUtil.addMetadata(new ItemStack(Material.EMERALD_BLOCK),
-                "\u00A7aBalance: " + balance, true));
+                "\u00A7aCurrent Balance: " + balance, true));
     }
 
     boolean chance(double x){
-        return Math.random() > x;
+        return Math.random() < x;
+    }
+
+    String[] infoText(int tierTo){
+        return new String[]{
+                "\u00a7eCost: " + UPGRADE_COSTS[tierTo - 1],
+                "\u00a7aUnlocks: " + getUpgrades(tierTo),
+                tierTo == 1 ? "" : "Increased chance for unlocked ores"
+        };
+    }
+
+    String getUpgrades(int tierTo){
+        switch(tierTo){
+            case 1:
+                return "Coal";
+            case 2:
+                return "Iron";
+            case 3:
+                return "Redstone";
+            case 4:
+                return "Lapis and Gold";
+            case 5:
+                return "Diamond and Emerald";
+            default:
+                return "ERROR! Invalid tier specified!";
+        }
     }
 }

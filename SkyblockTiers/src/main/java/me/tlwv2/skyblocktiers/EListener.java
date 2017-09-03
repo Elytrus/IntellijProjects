@@ -31,7 +31,7 @@ public class EListener implements Listener{
         Block to = e.getToBlock();
         Material type = to.getType();
         if(isCobble(e.getBlock(), to)){
-            infoPlayers("cobble generated");
+            //infoPlayers("cobble generated");
             IslandInfo island = SkyblockTiers.self.getSkyblock().getIslandInfo(e.getBlock().getLocation());
             int tier = SkyblockTiers.self.getTier(island.getLeader());
             Material changeTo = SkyblockTiers.self.rollForBlock(tier);
@@ -71,14 +71,18 @@ public class EListener implements Listener{
                 double balance = SkyblockTiers.self.getEconomy().getBalance(p);
 
                 if(ArrayUtils.contains(SkyblockTiers.UPGRADE_ITEMS, item.getType())) {
-                    if (SkyblockTiers.self.canBuy(p)) {
-                        SkyblockTiers.self.upgradeTier(p);
-                        previewItem(i, item, "§aSuccess!", e.getSlot(), 20L);
+                    if(tier > 4){
+                        previewItem(i, item, "\u00a7cMax tier already reached!", e.getSlot(), 20L);
+                    }
+                    else if (SkyblockTiers.self.canBuy(p)) {
+                        SkyblockTiers.self.buy(p);
 
-                        SkyblockTiers.self.buildUpgradeInventory(i, tier, balance);
+                        SkyblockTiers.self.buildUpgradeInventory(i, tier + 1,
+                                balance - SkyblockTiers.UPGRADE_COSTS[tier]);
+                        previewItem(i, i.getItem(e.getSlot()), "\u00A7aSuccess!", e.getSlot(), 20L);
                     }
                     else{
-                        previewItem(i, item, "§cInsufficient Funds!", e.getSlot(), 20L);
+                        previewItem(i, item, "\u00A7cInsufficient Funds!", e.getSlot(), 20L);
                     }
                 }
             }

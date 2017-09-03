@@ -14,11 +14,11 @@ import org.bukkit.inventory.Inventory;
  */
 public class SkyblockMiningUpgradeCommand extends PlayerOnlyCommand {
 
-    public static final String PERM = "addon.use.skyblockminingupgrade";
+    public static final String PERM = "addon.use.miningupgrade";
 
     public SkyblockMiningUpgradeCommand() {
-        ILWrapper.addCmd("skyblockminingupgrade", "Opens up the Skyblock Tier Upgrade UI", SkyblockTiers.self);
-        ILWrapper.addPerm(PERM, "Allows use of /skyblockminingupgrade", SkyblockTiers.self);
+        ILWrapper.addCmd("miningupgrade", "Opens up the Skyblock Tier Upgrade UI", SkyblockTiers.self);
+        ILWrapper.addPerm(PERM, "Allows use of /miningupgrade", SkyblockTiers.self);
     }
 
     @Override
@@ -30,6 +30,11 @@ public class SkyblockMiningUpgradeCommand extends PlayerOnlyCommand {
 
         Inventory ui = Bukkit.createInventory(null, 9, SkyblockTiers.UPGRADE_INVENTORY_NAME);
         int tier = SkyblockTiers.self.getTier(p);
+
+        if(tier > 4){
+            p.sendMessage(Constants.WARN + "Max mining tier already reached!");
+            return true;
+        }
 
         SkyblockTiers.self.buildUpgradeInventory(ui,
                 SkyblockTiers.self.getTier(p),

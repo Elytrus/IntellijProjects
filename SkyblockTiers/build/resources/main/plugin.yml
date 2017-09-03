@@ -4,11 +4,15 @@ version: 1.0
 description: Skyblock Mining tiers
 depend: [PCore, Vault, uSkyBlock]
 commands:
-   skyblockminingupgrade:
+   miningupgrade:
       description: Opens upgrade menu
-      usage: /skyblockminingupgrade
-      aliases: [sbminingupgrade, sbmupgrade, sbmu, supgrade]
-   skyblocktiermanualset:
+      usage: /miningupgrade
+      aliases: [mupgrade, mu, smupgrade, mupg, smupg]
+   settier:
       description: Sets/Views Skyblock Tiers manually
-      usage: /skyblocktiermanualset <[player]:list> <tier>
-      aliases: [sbtmanualset, sbtset, sbtadmin, sbtiermanualset, sbtms]
+      usage: /settier <[player]:list> <tier>
+      aliases: [st, sbst, sbsettier]
+   testprobabilities:
+      description: Allows you to test the probability to get certain ores
+      usage: /testprobabilities <amount of tests> <tier level to test>
+      aliases: [tprobabilities, tps, tprobs, testprobs, tprobils]
