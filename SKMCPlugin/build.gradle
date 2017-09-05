@@ -12,8 +12,13 @@ repositories {
 
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.11'
-    //compile rootProject
-    //compile spigot
+    compile rootProject
+    compile spigot
     compile files(rootProject.findDep('EssentialsX-2.0.1.jar'))
     testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+build{
+    //jar.destinationDir expdir
+    //jar.archiveName "${jar.baseName}"
 }
