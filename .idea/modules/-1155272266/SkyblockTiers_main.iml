@@ -13,6 +13,15 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/plugin-dependencies/spigot-1.12.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://$USER_HOME$/Desktop/plugin-dependencies/Vault.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -29,5 +38,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-all:2.3.11" level="project" />
+    <orderEntry type="module" module-name="PCore_main" />
   </component>
 </module>
