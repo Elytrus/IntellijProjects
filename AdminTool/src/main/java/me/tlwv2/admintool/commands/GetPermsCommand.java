@@ -21,8 +21,7 @@ public class GetPermsCommand implements CommandExecutor {
         ILWrapper.addPerm(PERM, "Allows use of /getperms", AdminTool.self);
     }
 
-    @Override
-
+    @Override       
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         if(!commandSender.hasPermission(PERM)){
             commandSender.sendMessage(Constants.NOPERM);
