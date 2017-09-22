@@ -5,15 +5,21 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdminTool.iml" filepath="$PROJECT_DIR$/.idea/modules/AdminTool.iml" group="AdminTool" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_main.iml" group="AdminTool" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_test.iml" group="AdminTool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BankNotes.iml" filepath="$PROJECT_DIR$/.idea/modules/BankNotes.iml" group="BankNotes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BankNotes/BankNotes_main.iml" filepath="$PROJECT_DIR$/.idea/modules/BankNotes/BankNotes_main.iml" group="BankNotes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BankNotes/BankNotes_test.iml" filepath="$PROJECT_DIR$/.idea/modules/BankNotes/BankNotes_test.iml" group="BankNotes" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses.iml" group="Bosses" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses_main.iml" group="Bosses" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses_test.iml" group="Bosses" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2096404230/FactionFly.iml" filepath="$PROJECT_DIR$/.idea/modules/2096404230/FactionFly.iml" group="FactionFly" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats.iml" filepath="$PROJECT_DIR$/.idea/modules/-500303435/FlyingBoats.iml" group="FlyingBoats" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FactionSilkSpawners.iml" filepath="$PROJECT_DIR$/.idea/modules/FactionSilkSpawners.iml" group="FactionSilkSpawners" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FactionSilkSpawners/FactionSilkSpawners_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FactionSilkSpawners/FactionSilkSpawners_main.iml" group="FactionSilkSpawners" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FactionSilkSpawners/FactionSilkSpawners_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FactionSilkSpawners/FactionSilkSpawners_test.iml" group="FactionSilkSpawners" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/KitsPlus.iml" filepath="$PROJECT_DIR$/.idea/modules/KitsPlus.iml" group="KitsPlus" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" group="KitsPlus" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" group="KitsPlus" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MCMMOVisuals/MCMMOVisuals.iml" filepath="$PROJECT_DIR$/.idea/modules/MCMMOVisuals/MCMMOVisuals.iml" group="MCMMOVisuals" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ObtrusiveRuleDisplay.iml" filepath="$PROJECT_DIR$/.idea/modules/ObtrusiveRuleDisplay.iml" group="ObtrusiveRuleDisplay" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_main.iml" group="ObtrusiveRuleDisplay" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_test.iml" group="ObtrusiveRuleDisplay" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCore.iml" filepath="$PROJECT_DIR$/.idea/modules/PCore.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" filepath="$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" group="PCore" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PCore_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PCore_main.iml" group="PCore" />

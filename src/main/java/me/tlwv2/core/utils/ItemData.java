@@ -1,9 +1,6 @@
 package me.tlwv2.core.utils;
 
-import net.minecraft.server.v1_12_R1.Block;
-import net.minecraft.server.v1_12_R1.ItemStack;
-import net.minecraft.server.v1_12_R1.NBTTagCompound;
-import net.minecraft.server.v1_12_R1.NBTTagInt;
+import net.minecraft.server.v1_12_R1.*;
 import org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack;
 
 /*
@@ -26,6 +23,8 @@ public class ItemData {
         return CraftItemStack.asBukkitCopy(citem);
     }
 
+    //////////////////////////////////////////////////////////////////////////////////////////
+
     public static org.bukkit.inventory.ItemStack setValue(org.bukkit.inventory.ItemStack item, String flagname, int value){
         net.minecraft.server.v1_12_R1.ItemStack citem = CraftItemStack.asNMSCopy(item);
         NBTTagCompound c = getTagCompoundOf(item);
@@ -36,7 +35,7 @@ public class ItemData {
         return CraftItemStack.asBukkitCopy(citem);
     }
 
-    public static int getValue(org.bukkit.inventory.ItemStack item, String flagname){
+    public static double getInt(org.bukkit.inventory.ItemStack item, String flagname){
         NBTTagCompound c = getTagCompoundOf(item);
 
         if(!hasFlag(item, flagname))
@@ -46,16 +45,72 @@ public class ItemData {
     }
 
     public static org.bukkit.inventory.ItemStack addValue(org.bukkit.inventory.ItemStack item, String flagname, int value){
-        return setValue(item, flagname, getValue(item, flagname) + value);
+        return setValue(item, flagname, getInt(item, flagname) + value);
     }
 
     public static org.bukkit.inventory.ItemStack multValue(org.bukkit.inventory.ItemStack item, String flagname, int value){
-        return setValue(item, flagname, getValue(item, flagname) * value);
+        return setValue(item, flagname, getInt(item, flagname) * value);
     }
 
     public static org.bukkit.inventory.ItemStack divValue(org.bukkit.inventory.ItemStack item, String flagname, int value){
-        return setValue(item, flagname, getValue(item, flagname) / value);
+        return setValue(item, flagname, getInt(item, flagname) / value);
     }
+
+    ///////////////////////////////////////
+
+    public static org.bukkit.inventory.ItemStack setValue(org.bukkit.inventory.ItemStack item, String flagname, double value){
+        net.minecraft.server.v1_12_R1.ItemStack citem = CraftItemStack.asNMSCopy(item);
+        NBTTagCompound c = getTagCompoundOf(item);
+
+        c.set(flagname, new NBTTagDouble(value));
+        citem.setTag(c);
+
+        return CraftItemStack.asBukkitCopy(citem);
+    }
+
+    public static double getDouble(org.bukkit.inventory.ItemStack item, String flagname){
+        NBTTagCompound c = getTagCompoundOf(item);
+
+        if(!hasFlag(item, flagname))
+            return 0.0;
+        else
+            return c.getInt(flagname);
+    }
+
+    public static org.bukkit.inventory.ItemStack addValue(org.bukkit.inventory.ItemStack item, String flagname, double value){
+        return setValue(item, flagname, getDouble(item, flagname) + value);
+    }
+
+    public static org.bukkit.inventory.ItemStack multValue(org.bukkit.inventory.ItemStack item, String flagname, double value){
+        return setValue(item, flagname, getDouble(item, flagname) * value);
+    }
+
+    public static org.bukkit.inventory.ItemStack divValue(org.bukkit.inventory.ItemStack item, String flagname, double value){
+        return setValue(item, flagname, getDouble(item, flagname) / value);
+    }
+
+    /////////////////////////////////////////////////
+
+    public static org.bukkit.inventory.ItemStack setValue(org.bukkit.inventory.ItemStack item, String flagname, String value){
+        net.minecraft.server.v1_12_R1.ItemStack citem = CraftItemStack.asNMSCopy(item);
+        NBTTagCompound c = getTagCompoundOf(item);
+
+        c.set(flagname, new NBTTagString(value));
+        citem.setTag(c);
+
+        return CraftItemStack.asBukkitCopy(citem);
+    }
+
+    public static String getString(org.bukkit.inventory.ItemStack item, String flagname){
+        NBTTagCompound c = getTagCompoundOf(item);
+
+        if(!hasFlag(item, flagname))
+            return "";
+        else
+            return c.getString(flagname);
+    }
+
+    //////////////////////////////////////////////////////////////////////////////////////
 
     public static NBTTagCompound getTagCompoundOf(org.bukkit.inventory.ItemStack item){
         ItemStack nmsitem = CraftItemStack.asNMSCopy(item);

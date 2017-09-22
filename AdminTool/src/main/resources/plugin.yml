@@ -20,5 +20,5 @@ commands:
       aliases: [sss]
    getperms:
       description: Gets all permission nodes that match the given node
-      usage: /getperms <player:group> [node]
+      usage: /getperms <player:group> <player name:group name> [node]
       aliases: [gps]

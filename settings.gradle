@@ -5,4 +5,7 @@ include 'AdminTool'
 include 'SKMCPlugin'
 include 'SkyblockTiers'
 include 'KitsPlus'
+include 'FactionSilkSpawners'
+include 'ObtrusiveRuleDisplay'
+include 'BankNotes'
 

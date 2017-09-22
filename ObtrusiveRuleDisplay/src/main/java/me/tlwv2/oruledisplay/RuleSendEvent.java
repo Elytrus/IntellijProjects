@@ -7,7 +7,7 @@ import org.bukkit.event.HandlerList;
 /**
  * Created by Moses on 2017-09-09.
  */
-public class RuleSendEvent extends Event{7
+public class RuleSendEvent extends Event{
     Player player;
 
     public Player getPlayer() {

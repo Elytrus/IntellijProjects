@@ -68,6 +68,9 @@ public class GetPermsCommand implements CommandExecutor {
     }
 
     boolean permsMatch(String a, String b){
+        if(!(a.contains(".") || b.contains(".")))
+            return false;
+
         String[] aTree = a.split("\\."), bTree = b.split("\\.");
         int lenToCheck = Math.max(aTree.length, bTree.length);
 
