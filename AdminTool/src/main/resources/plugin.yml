@@ -2,6 +2,7 @@ name: SKAdminTool
 main: me.tlwv2.admintool.AdminTool
 version: 1.0
 depend: [PCore]
+softdepend: [PermissionsEx]
 commands:
    rename:
       description: renames held item

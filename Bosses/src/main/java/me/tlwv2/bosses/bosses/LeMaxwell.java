@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class LeMaxwell extends Boss {
     public LeMaxwell(){
-        super(4, 32, "§0Maxwell");
+        super(4, 32, "§0Maxwell", false);
     }
 
     @Override
@@ -81,7 +81,7 @@ public class LeMaxwell extends Boss {
 
     @Override
     public Boss getNewInstance() {
-        return null;
+        return new LeMaxwell();
     }
 
     private Vector randVector(Vector v, double var){

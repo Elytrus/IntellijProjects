@@ -11,6 +11,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitRunnable;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -27,10 +28,11 @@ public abstract class Boss{
     protected int attackDelay;
     protected int currAttackDelay;
     protected double aggroRange;
+    protected boolean isOwned;
 
     protected String name;
 
-    public Boss(int attackDelay, double aggroRange, String name){
+    public Boss(int attackDelay, double aggroRange, String name, boolean isOwned){
         this.spawn = getSpawnItemINIT();
         this.bossEntity = null;
         this.target = null;
@@ -50,6 +52,7 @@ public abstract class Boss{
         this.aggroRange = aggroRange;
 
         this.name = name;
+        this.isOwned = isOwned;
     }
 
     protected abstract ItemStack getSpawnItemINIT();
@@ -77,7 +80,7 @@ public abstract class Boss{
                 .stream()
                 .filter(e -> e instanceof Player)
                 .map(Player.class::cast)
-                .sorted((a, b) -> Double.compare(a.getLocation().distance(here), b.getLocation().distance(here)))
+                .sorted(Comparator.comparingDouble(a -> a.getLocation().distance(here)))
                 .findFirst()
                 .orElse(null);
     }
@@ -91,6 +94,9 @@ public abstract class Boss{
     }
 
     public void preformTickActions(){
+        if(this.bossEntity.getLocation().getY() < 0)
+            this.death(this.bossEntity.getLocation());
+
         this.target = this.target(bossEntity.getLocation());
         currAttackDelay = currAttackDelay > 0 ? currAttackDelay - 1 : attackDelay;
 
@@ -117,12 +123,13 @@ public abstract class Boss{
             this.attack(bossEntity, target);
     }
 
-    public void spawn(Location l){
+    public void spawn(Location l, Player owner){
         this.bossEntity = this.spawnAnim(l);
         new BukkitRunnable(){
             @Override
             public void run() {
                 if(spawnCompleted){
+//                    Bukkit.getLogger().info("dfdfddfd");
                     target(l);
                     tickActionExecutor.runTaskTimer(Bosses.self, 0, 1);
                     //COMMON TO ALL BOSSES

@@ -22,7 +22,7 @@ public class EListener implements Listener{
     public EListener(BankNotes plugin) {
         Bukkit.getPluginManager().registerEvents(this, plugin);
 
-        ILWrapper.addPerm(CLAIM_PERM, "Allows you to claim Bank Notes", BankNotes.self);
+        ILWrapper.addPerm(CLAIM_PERM, "Allows you to claim Bank Notes", BankNotes.getInstance());
     }
 
     @EventHandler
@@ -33,13 +33,13 @@ public class EListener implements Listener{
             Player p = e.getPlayer();
             ItemStack item = p.getInventory().getItemInMainHand();
 
-            if(BankNotes.self.isBankNote(item)){
+            if(BankNotes.getInstance().isBankNote(item)){
                 if(!p.hasPermission(CLAIM_PERM)){
                     p.sendMessage(Constants.NOPERM);
                     return;
                 }
 
-                double amount = BankNotes.self.getBalanceOfBankNote(item);
+                double amount = BankNotes.getInstance().getBalanceOfBankNote(item);
                 BankNotes.economy.depositPlayer(p, amount);
 
                 if(item.getAmount() > 1)
@@ -58,7 +58,7 @@ public class EListener implements Listener{
     @EventHandler
     public void onItemCraft(PrepareItemCraftEvent e){
         for(ItemStack i : e.getInventory().getMatrix()){
-            if(BankNotes.self.isBankNote(i)){
+            if(BankNotes.getInstance().isBankNote(i)){
                 e.getInventory().setResult(null);
                 return;
             }

@@ -33,6 +33,9 @@ public class EListener implements Listener{
         if(isCobble(e.getBlock(), to)){
             //infoPlayers("cobble generated");
             IslandInfo island = SkyblockTiers.self.getSkyblock().getIslandInfo(e.getBlock().getLocation());
+            if(island == null)
+                return;
+
             int tier = SkyblockTiers.self.getTier(island.getLeader());
             Material changeTo = SkyblockTiers.self.rollForBlock(tier);
 

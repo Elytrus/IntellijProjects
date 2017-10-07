@@ -58,7 +58,17 @@ public class GetPermsCommand implements CommandExecutor {
                 commandSender.sendMessage("\u00a7Nothing was found :(");
         }
         else if(strings[0].equalsIgnoreCase("group")){
+            if(!AdminTool.instance().vaultExists()){
+                commandSender.sendMessage(Constants.WARN + "Vault does not exist!");
+                return true;
+            }
 
+            if(!(commandSender instanceof Player)){
+                commandSender.sendMessage(Constants.WARN + "Do not use console with groups");
+                return true;
+            }
+
+            Player p = (Player) commandSender;
         }
         else{
             return false;

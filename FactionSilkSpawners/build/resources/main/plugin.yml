@@ -1,4 +1,0 @@
-name: FactionSilkSpawners
-main: me.tlwv2.factionsilkspawners.FactionSilkSpawners
-version: 1.0
-depend: [PCore, Factions, MassiveCore]

@@ -17,7 +17,7 @@ import org.bukkit.plugin.java.JavaPlugin;
  */
 public class BankNotes extends JavaPlugin {
     public static final String AMOUNT_KEY = "amount";
-    public static BankNotes self;
+    private static BankNotes self;
     public static Economy economy = null;
 
     @Override
@@ -66,5 +66,16 @@ public class BankNotes extends JavaPlugin {
 
     public double getBalanceOfBankNote(ItemStack i){
         return ItemData.getDouble(i, AMOUNT_KEY);
+    }
+
+    public static BankNotes getInstance(){
+        return self;
+    }
+
+    /*
+    Don't use please
+     */
+    public static void breakPlugin(){
+        self = null;
     }
 }

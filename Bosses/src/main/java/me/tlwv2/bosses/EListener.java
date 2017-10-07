@@ -1,5 +1,6 @@
 package me.tlwv2.bosses;
 
+import me.tlwv2.bosses.bosses.Minion;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.block.BlockFace;
@@ -11,8 +12,12 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.event.entity.EntityExplodeEvent;
+import org.bukkit.event.inventory.PrepareItemCraftEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.inventory.CraftingInventory;
 import org.bukkit.inventory.ItemStack;
+
+import java.util.Arrays;
 
 public class EListener implements Listener {
     public static final String NO_EXPLODE_CUSTOMNAME = "noexplodeblocks";
@@ -28,16 +33,22 @@ public class EListener implements Listener {
             if(used == null)
                 return;
 
+//            e.getPlayer().sendMessage(used.isSimilar(new Minion().getSpawnItem()) + "");
+//            e.getPlayer().sendMessage(new Minion().getSpawnItem().toString());
+//            e.getPlayer().sendMessage(used.toString());
+
             if(Bosses.self.isBossSpawnItem(used)){
-                //e.getPlayer().sendMessage("" + Bosses.self.getBoss(used) + " | " +
-                //	Bosses.self.isBossSpawnItem(used));
+//                e.getPlayer().sendMessage("" + Bosses.self.getBoss(used) + " | " +
+//                	Bosses.self.isBossSpawnItem(used));
                 Bosses.self
                         .spawnNewBoss(Bosses.self.getBoss(used)
-                                ,e.getClickedBlock().getLocation().clone().add(0, 1, 0));
+                                ,e.getClickedBlock().getLocation().clone().add(0, 1, 0), e.getPlayer());
                 if(used.getAmount() == 1)
                     e.getPlayer().getInventory().setItemInMainHand(new ItemStack(Material.AIR));
                 else
                     used.setAmount(used.getAmount() - 1);
+
+                e.setCancelled(true);
             }
         }
     }
@@ -69,5 +80,13 @@ public class EListener implements Listener {
         }
         if(entity.getCustomName().equals(NO_EXPLODE_CUSTOMNAME))
             e.blockList().clear();
+    }
+
+    @EventHandler
+    public void onCraft(PrepareItemCraftEvent e){
+        CraftingInventory inv = e.getInventory();
+        if(Arrays.stream(inv.getMatrix()).anyMatch(i -> Bosses.self.isBossSpawnItem(i))){
+            inv.setResult(null);
+        }
     }
 }

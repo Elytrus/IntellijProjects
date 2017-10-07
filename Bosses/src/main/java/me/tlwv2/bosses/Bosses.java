@@ -5,9 +5,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
+import me.tlwv2.bosses.bosses.LeMaxwell;
+import me.tlwv2.bosses.bosses.Minion;
+import me.tlwv2.bosses.commands.KillBossesCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.LivingEntity;
+import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -22,15 +26,23 @@ public class Bosses extends JavaPlugin {
     private HashMap<ItemStack, Boss> bossList;
 
     @Override
+    public void onDisable() {
+
+    }
+
+    @Override
     public void onEnable(){
         self = this;
-        activeBosses = new ArrayList<Boss>();
-        bossList = new HashMap<ItemStack, Boss>();
+        activeBosses = new ArrayList<>();
+        bossList = new HashMap<>();
         ILWrapper.registerPlugin(self);
 
         Bukkit.getPluginCommand("bossitems").setExecutor(new BossItemsCommand());
+        Bukkit.getPluginCommand("killbosses").setExecutor(new KillBossesCommand());
 
         this.registerBoss(new Archangel());
+        this.registerBoss(new LeMaxwell());
+        this.registerBoss(new Minion());
 
         new EListener(self);
     }
@@ -45,9 +57,9 @@ public class Bosses extends JavaPlugin {
                 .get().getValue();
     }
 
-    public void spawnNewBoss(Boss boss, Location spawnLocation){
+    public void spawnNewBoss(Boss boss, Location spawnLocation, Player player){
         Boss b = boss.getNewInstance();
-        b.spawn(spawnLocation);
+        b.spawn(spawnLocation, player);
         activeBosses.add(b);
     }
 

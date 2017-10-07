@@ -8,7 +8,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.serialization.ConfigurationSerialization;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.scheduler.BukkitRunnable;
+import ru.tehkode.permissions.bukkit.PermissionsEx;
 
 public class AdminTool extends JavaPlugin {
     public static final String askMSG = ".  Please report what happened to @Plasmatic#2741 and what you did to trigger it";
@@ -24,6 +24,7 @@ public class AdminTool extends JavaPlugin {
     public static AdminTool self;
 
     private RuleTable ruletable;
+    private PermissionsEx permissions;
 
     @Override
     public void onLoad(){
@@ -34,8 +35,9 @@ public class AdminTool extends JavaPlugin {
     @Override
     public void onEnable(){
         self = this;
-        ILWrapper.registerPlugin(self);
         ruletable = (RuleTable) getConfig().get(RULETABLE_KEY, new RuleTable());
+
+        ILWrapper.registerPlugin(this);
 
         Bukkit.getPluginCommand("rename").setExecutor(new RenameCommand());
         Bukkit.getPluginCommand("customrules").setExecutor(new CustomRulesCommand());
@@ -52,7 +54,19 @@ public class AdminTool extends JavaPlugin {
         saveConfig();
     }
 
+    public static AdminTool instance(){
+        return self;
+    }
+
     public RuleTable table(){
         return ruletable;
+    }
+
+    public boolean vaultExists(){
+        return Bukkit.getPluginManager().isPluginEnabled("Vault");
+    }
+
+    public PermissionsEx getPermissions(){
+        return permissions;
     }
 }

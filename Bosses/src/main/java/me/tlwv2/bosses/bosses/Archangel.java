@@ -3,8 +3,8 @@ package me.tlwv2.bosses.bosses;
 import me.tlwv2.bosses.Boss;
 import me.tlwv2.bosses.abilities.Necromancy;
 import me.tlwv2.bosses.abilities.Shock;
-import me.tlwv2.bosses.projectiles.particlepatterns.ParticleLine;
-import me.tlwv2.bosses.projectiles.individualprojectiles.Beam;
+import me.tlwv2.core.projectile.particlepatterns.ParticleLine;
+import me.tlwv2.bosses.projectiles.Beam;
 import me.tlwv2.core.utils.ItemUtil;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -21,7 +21,7 @@ import java.util.List;
 public class Archangel extends Boss {
 
     public Archangel() {
-        super(15, 40, "§0§lTHE ARCHANGEL");
+        super(15, 40, "§0§lTHE ARCHANGEL", false);
         abilities.add(new Shock());
         abilities.add(new Necromancy());
     }

@@ -13,8 +13,8 @@ public class BankNoteCommand extends PlayerOnlyCommand {
     public static final String PERM = "addon.use.banknote";
 
     public BankNoteCommand() {
-        ILWrapper.addCmd("banknote", "Creates a banknote", BankNotes.self);
-        ILWrapper.addPerm(PERM, "Allows use of /banknote", BankNotes.self);
+        ILWrapper.addCmd("banknote", "Creates a banknote", BankNotes.getInstance());
+        ILWrapper.addPerm(PERM, "Allows use of /banknote", BankNotes.getInstance());
     }
 
     @Override
@@ -38,7 +38,7 @@ public class BankNoteCommand extends PlayerOnlyCommand {
 
             BankNotes.economy.withdrawPlayer(p, amount);
 
-            p.getInventory().addItem(BankNotes.self.constructBankNote(amount));
+            p.getInventory().addItem(BankNotes.getInstance().constructBankNote(amount));
 
             p.sendMessage(Constants.GOOD + "Success!");
             p.sendMessage(Constants.NOTE + "Your new balance is $" + BankNotes.economy.getBalance(p));

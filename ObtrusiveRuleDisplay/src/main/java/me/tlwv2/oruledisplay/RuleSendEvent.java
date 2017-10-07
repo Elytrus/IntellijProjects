@@ -8,6 +8,7 @@ import org.bukkit.event.HandlerList;
  * Created by Moses on 2017-09-09.
  */
 public class RuleSendEvent extends Event{
+    private static final HandlerList handlers = new HandlerList();
     Player player;
 
     public Player getPlayer() {
@@ -20,6 +21,10 @@ public class RuleSendEvent extends Event{
 
     @Override
     public HandlerList getHandlers() {
-        return null;
+        return handlers;
+    }
+
+    public static HandlerList getHandlerList(){
+        return handlers;
     }
 }
