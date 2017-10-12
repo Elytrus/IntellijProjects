@@ -1,0 +1,4 @@
+name: ObtrusiveRuleDisplay
+main: me.tlwv2.oruledisplay.ObtrusiveRuleDisplay
+version: 1.0
+depend: [PCore]

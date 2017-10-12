@@ -1,4 +1,4 @@
-package me.tlwv2.core.infolist;
+package me.tlwv2.core.wrappers.infolist;
 
 import java.util.ArrayList;
 import java.util.HashMap;
