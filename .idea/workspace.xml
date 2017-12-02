@@ -2,113 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56dd467-b26b-4bf4-8b0e-e71b87ae6a64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-187874188/MCLevels.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-372923914/BankNotes_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-372923914/BankNotes_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/1423376728/AdminTool_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/1423376728/AdminTool_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/862789440/PCore_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/862789440/PCore_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/MCLevels.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/BankNotes/BankNotes_main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/BankNotes/BankNotes_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/FactionSilkSpawners/FactionSilkSpawners_main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/FactionSilkSpawners/FactionSilkSpawners_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/PCore_main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/PCore_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/SKMCPlugin/SKMCPlugin_main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/SKMCPlugin/SKMCPlugin_test.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/build/classes/main/me/tlwv2/admintool/AdminTool.class" afterPath="$PROJECT_DIR$/AdminTool/build/classes/main/me/tlwv2/admintool/AdminTool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Ability.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Ability.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$1.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$2.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Bosses.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Bosses.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/OwnedBoss.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/OwnedBoss.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/abilities/Necromancy.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/abilities/Necromancy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/abilities/Shock.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/abilities/Shock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Archangel$1.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Archangel$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Archangel.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Archangel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/LeMaxwell.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/LeMaxwell.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Minion$1.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Minion$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Minion.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Minion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/commands/BossItemsCommand.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/commands/BossItemsCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomItems/build/classes/main/me/tlwv2/customitems/CustomItem.class" afterPath="$PROJECT_DIR$/CustomItems/build/classes/main/me/tlwv2/customitems/CustomItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomItems/build/classes/main/me/tlwv2/customitems/CustomItems.class" afterPath="$PROJECT_DIR$/CustomItems/build/classes/main/me/tlwv2/customitems/CustomItems.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/EListener.class" afterPath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/EListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/Kit.class" afterPath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/Kit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/Main.class" afterPath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/commands/KitsPlusCommand.class" afterPath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/commands/KitsPlusCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/AdminTool.iml" afterPath="$PROJECT_DIR$/.idea/modules/AdminTool.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/BankNotes.iml" afterPath="$PROJECT_DIR$/.idea/modules/BankNotes.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Bosses.iml" afterPath="$PROJECT_DIR$/.idea/modules/Bosses.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Bosses_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Bosses_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Bosses_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Bosses_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/CustomItems.iml" afterPath="$PROJECT_DIR$/.idea/modules/CustomItems.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/FactionSilkSpawners.iml" afterPath="$PROJECT_DIR$/.idea/modules/FactionSilkSpawners.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/KitsPlus.iml" afterPath="$PROJECT_DIR$/.idea/modules/KitsPlus.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/ObtrusiveRuleDisplay.iml" afterPath="$PROJECT_DIR$/.idea/modules/ObtrusiveRuleDisplay.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/PCore.iml" afterPath="$PROJECT_DIR$/.idea/modules/PCore.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" afterPath="$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/SKMCPlugin.iml" afterPath="$PROJECT_DIR$/.idea/modules/SKMCPlugin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/SkyblockTiers.iml" afterPath="$PROJECT_DIR$/.idea/modules/SkyblockTiers.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/build/resources/main/plugin.yml" afterPath="$PROJECT_DIR$/AdminTool/build/resources/main/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/AdminTool.java" afterPath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/AdminTool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/SetPotionEffectsCommand.java" afterPath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/SetPotionEffectsCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/AdminTool/src/main/resources/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/resources/main/plugin.yml" afterPath="$PROJECT_DIR$/Bosses/build/resources/main/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Boss.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Boss.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Bosses.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Bosses.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/EListener.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/EListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/OwnedBoss.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/OwnedBoss.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/abilities/AutoDeath.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/abilities/AutoDeath.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/abilities/Necromancy.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/abilities/Necromancy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Archangel.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Archangel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/LeMaxwell.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/LeMaxwell.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Minion.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Minion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/commands/KillBossesCommand.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/commands/KillBossesCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/resources/config.yml" afterPath="$PROJECT_DIR$/Bosses/src/main/resources/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/Bosses/src/main/resources/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/CustomItem.java" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/CustomItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/CustomItems.java" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/CustomItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/EListener.java" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/EListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Kit.java" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Kit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Main.java" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/commands/KitsPlusCommand.java" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/commands/KitsPlusCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PassiveAddons/src/main/java/me/tlwv2/passiveaddons/Addons.java" afterPath="$PROJECT_DIR$/PassiveAddons/src/main/java/me/tlwv2/passiveaddons/Addons.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PassiveAddons/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/PassiveAddons/src/main/resources/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKMCPlugin/build.gradle" afterPath="$PROJECT_DIR$/SKMCPlugin/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/tlwv2/core/infolist/ILWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/me/tlwv2/core/infolist/ILWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/tlwv2/core/infolist/InfoList.java" afterPath="$PROJECT_DIR$/src/main/java/me/tlwv2/core/infolist/InfoList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/BankNotes/.gradle/" />
@@ -249,14 +143,24 @@
       <file leaf-file-name="LevelManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="51" column="90" lean-forward="false" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
+            <state relative-caret-position="606">
+              <caret line="137" column="42" lean-forward="false" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1597#1598#0" expanded="true" />
-                <element signature="e#1694#1695#0" expanded="true" />
-                <element signature="e#2794#2795#0" expanded="true" />
-                <element signature="e#2840#2841#0" expanded="true" />
+                <element signature="e#4039#4040#0" expanded="true" />
+                <element signature="e#4083#4084#0" expanded="true" />
+                <element signature="e#4274#4275#0" expanded="true" />
+                <element signature="e#4318#4319#0" expanded="true" />
+                <element signature="e#4376#4377#0" expanded="true" />
+                <element signature="e#4425#4426#0" expanded="true" />
+                <element signature="e#4576#4577#0" expanded="true" />
+                <element signature="e#4622#4623#0" expanded="true" />
+                <element signature="e#5801#5802#0" expanded="true" />
+                <element signature="e#5843#5844#0" expanded="true" />
+                <element signature="e#6426#6427#0" expanded="true" />
+                <element signature="e#6468#6469#0" expanded="true" />
+                <element signature="e#7054#7055#0" expanded="true" />
+                <element signature="e#7096#7097#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -347,6 +251,18 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>points</find>
+      <find>points</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>levels</replace>
+      <replace>multipliers</replace>
+      <replace>level</replace>
+      <replace>multipliers</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -3244,7 +3160,8 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16302083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3254,7 +3171,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3473,14 +3389,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="51" column="90" lean-forward="false" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
+        <state relative-caret-position="606">
+          <caret line="137" column="42" lean-forward="false" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-            <element signature="e#2794#2795#0" expanded="true" />
-            <element signature="e#2840#2841#0" expanded="true" />
+            <element signature="e#4039#4040#0" expanded="true" />
+            <element signature="e#4083#4084#0" expanded="true" />
+            <element signature="e#4274#4275#0" expanded="true" />
+            <element signature="e#4318#4319#0" expanded="true" />
+            <element signature="e#4376#4377#0" expanded="true" />
+            <element signature="e#4425#4426#0" expanded="true" />
+            <element signature="e#4576#4577#0" expanded="true" />
+            <element signature="e#4622#4623#0" expanded="true" />
+            <element signature="e#5801#5802#0" expanded="true" />
+            <element signature="e#5843#5844#0" expanded="true" />
+            <element signature="e#6426#6427#0" expanded="true" />
+            <element signature="e#6468#6469#0" expanded="true" />
+            <element signature="e#7054#7055#0" expanded="true" />
+            <element signature="e#7096#7097#0" expanded="true" />
           </folding>
         </state>
       </provider>
