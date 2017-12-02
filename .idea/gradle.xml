@@ -12,12 +12,17 @@
             <option value="$PROJECT_DIR$/AdminTool" />
             <option value="$PROJECT_DIR$/BankNotes" />
             <option value="$PROJECT_DIR$/Bosses" />
+            <option value="$PROJECT_DIR$/CustomEnchants" />
+            <option value="$PROJECT_DIR$/CustomItems" />
             <option value="$PROJECT_DIR$/FactionSilkSpawners" />
             <option value="$PROJECT_DIR$/KitsPlus" />
+            <option value="$PROJECT_DIR$/MCLevels" />
             <option value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
             <option value="$PROJECT_DIR$/PCore" />
+            <option value="$PROJECT_DIR$/PassiveAddons" />
             <option value="$PROJECT_DIR$/SKMCPlugin" />
             <option value="$PROJECT_DIR$/SkyblockTiers" />
+            <option value="$PROJECT_DIR$/SurvivalAddon" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
@@ -33,12 +38,17 @@
             <option value="$PROJECT_DIR$/AdminTool" />
             <option value="$PROJECT_DIR$/BankNotes" />
             <option value="$PROJECT_DIR$/Bosses" />
+            <option value="$PROJECT_DIR$/CustomEnchants" />
+            <option value="$PROJECT_DIR$/CustomItems" />
             <option value="$PROJECT_DIR$/FactionSilkSpawners" />
             <option value="$PROJECT_DIR$/KitsPlus" />
+            <option value="$PROJECT_DIR$/MCLevels" />
             <option value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
             <option value="$PROJECT_DIR$/PCore" />
+            <option value="$PROJECT_DIR$/PassiveAddons" />
             <option value="$PROJECT_DIR$/SKMCPlugin" />
             <option value="$PROJECT_DIR$/SkyblockTiers" />
+            <option value="$PROJECT_DIR$/SurvivalAddon" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

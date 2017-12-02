@@ -8,24 +8,56 @@
       <module name="BankNotes_test" target="1.8" />
       <module name="Bosses_main" target="1.8" />
       <module name="Bosses_test" target="1.8" />
+      <module name="CustomEnchants_main" target="1.8" />
+      <module name="CustomEnchants_test" target="1.8" />
+      <module name="CustomItems_main" target="1.8" />
+      <module name="CustomItems_test" target="1.8" />
       <module name="FactionFly_main" target="1.8" />
       <module name="FactionFly_test" target="1.8" />
       <module name="FactionSilkSpawners_main" target="1.8" />
       <module name="FactionSilkSpawners_test" target="1.8" />
       <module name="FlyingBoats_main" target="1.8" />
       <module name="FlyingBoats_test" target="1.8" />
+      <module name="IdeaProjects-AdminTool_main" target="1.8" />
+      <module name="IdeaProjects-AdminTool_test" target="1.8" />
+      <module name="IdeaProjects-BankNotes_main" target="1.8" />
+      <module name="IdeaProjects-BankNotes_test" target="1.8" />
+      <module name="IdeaProjects-Bosses_main" target="1.8" />
+      <module name="IdeaProjects-Bosses_test" target="1.8" />
+      <module name="IdeaProjects-CustomItems_main" target="1.8" />
+      <module name="IdeaProjects-CustomItems_test" target="1.8" />
+      <module name="IdeaProjects-KitsPlus_main" target="1.8" />
+      <module name="IdeaProjects-KitsPlus_test" target="1.8" />
+      <module name="IdeaProjects-ObtrusiveRuleDisplay_main" target="1.8" />
+      <module name="IdeaProjects-ObtrusiveRuleDisplay_test" target="1.8" />
+      <module name="IdeaProjects-PassiveAddons_main" target="1.8" />
+      <module name="IdeaProjects-PassiveAddons_test" target="1.8" />
+      <module name="IdeaProjects-SKMCPlugin_main" target="1.8" />
+      <module name="IdeaProjects-SKMCPlugin_test" target="1.8" />
+      <module name="IdeaProjects-SkyblockTiers_main" target="1.8" />
+      <module name="IdeaProjects-SkyblockTiers_test" target="1.8" />
+      <module name="IdeaProjects-SurvivalAddon_main" target="1.8" />
+      <module name="IdeaProjects-SurvivalAddon_test" target="1.8" />
       <module name="KitsPlus_main" target="1.8" />
       <module name="KitsPlus_test" target="1.8" />
+      <module name="MCLevels_main" target="1.8" />
+      <module name="MCLevels_test" target="1.8" />
       <module name="MCMMOVisuals_main" target="1.8" />
       <module name="MCMMOVisuals_test" target="1.8" />
+      <module name="Moses-PCore_main" target="1.8" />
+      <module name="Moses-PCore_test" target="1.8" />
       <module name="ObtrusiveRuleDisplay_main" target="1.8" />
       <module name="ObtrusiveRuleDisplay_test" target="1.8" />
+      <module name="PassiveAddons_main" target="1.8" />
+      <module name="PassiveAddons_test" target="1.8" />
       <module name="PCore_main" target="1.8" />
       <module name="PCore_test" target="1.8" />
       <module name="SKMCPlugin_main" target="1.8" />
       <module name="SKMCPlugin_test" target="1.8" />
       <module name="SkyblockTiers_main" target="1.8" />
       <module name="SkyblockTiers_test" target="1.8" />
+      <module name="SurvivalAddon_main" target="1.8" />
+      <module name="SurvivalAddon_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

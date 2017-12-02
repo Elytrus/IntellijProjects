@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":CustomItems" external.linked.project.path="$MODULE_DIR$/../../CustomItems" external.root.project.path="$MODULE_DIR$/../../Bosses" external.system.id="GRADLE" external.system.module.group="PCore" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../CustomItems" />
+    <content url="file://$MODULE_DIR$/../../CustomItems">
+      <excludeFolder url="file://$MODULE_DIR$/../../CustomItems/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../CustomItems/build" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

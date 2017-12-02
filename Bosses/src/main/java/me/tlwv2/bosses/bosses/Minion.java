@@ -2,6 +2,7 @@ package me.tlwv2.bosses.bosses;
 
 import me.tlwv2.bosses.Boss;
 import me.tlwv2.bosses.OwnedBoss;
+import me.tlwv2.bosses.abilities.AutoDeath;
 import me.tlwv2.core.projectile.particlepatterns.ParticleLineUnstable;
 import me.tlwv2.core.utils.ItemUtil;
 import org.bukkit.Location;
@@ -23,7 +24,8 @@ import java.util.List;
  */
 public class Minion extends OwnedBoss{
     public Minion() {
-        super(20, 16, "\u00a70-playername's minion");
+        super(20, 16, "\u00a70-playername's minion", true);
+        abilities.add(new AutoDeath(340));
     }
 
     @Override
@@ -60,6 +62,9 @@ public class Minion extends OwnedBoss{
 
     @Override
     protected void attack(Creature self, Player target2) {
+        if(target2 == null)
+            return;
+
         Location loc = target2.getLocation();
         Location sLoc = self.getLocation();
 

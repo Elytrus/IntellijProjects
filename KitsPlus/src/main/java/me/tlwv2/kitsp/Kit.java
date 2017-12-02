@@ -36,6 +36,8 @@ public class Kit implements ConfigurationSerializable, Cloneable {
         }
 
         for(PotionEffect pe : effects){
+            if(pe == null)
+                continue;
             p.addPotionEffect(pe);
         }
     }
@@ -99,6 +101,10 @@ public class Kit implements ConfigurationSerializable, Cloneable {
 
     public void setIcon(Player p) {
         this.icon = p.getInventory().getItemInMainHand();
+    }
+
+    public void setIcon(ItemStack i){
+        this.icon = i;
     }
 
     public ItemStack getIcon(){

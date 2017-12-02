@@ -10,4 +10,7 @@ include 'ObtrusiveRuleDisplay'
 include 'BankNotes'
 include 'CustomEnchants'
 include 'CustomItems'
+include 'PassiveAddons'
+include 'MCLevels'
+include 'SurvivalAddon'
 

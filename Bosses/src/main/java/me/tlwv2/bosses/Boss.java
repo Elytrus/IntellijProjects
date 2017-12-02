@@ -14,6 +14,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
+import java.util.UUID;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public abstract class Boss{
@@ -31,8 +32,9 @@ public abstract class Boss{
     protected boolean isOwned;
 
     protected String name;
+    protected boolean allowNullTarget;
 
-    public Boss(int attackDelay, double aggroRange, String name, boolean isOwned){
+    public Boss(int attackDelay, double aggroRange, String name, boolean isOwned, boolean allowNullTarget){
         this.spawn = getSpawnItemINIT();
         this.bossEntity = null;
         this.target = null;
@@ -53,6 +55,7 @@ public abstract class Boss{
 
         this.name = name;
         this.isOwned = isOwned;
+        this.allowNullTarget = allowNullTarget;
     }
 
     protected abstract ItemStack getSpawnItemINIT();
@@ -109,8 +112,9 @@ public abstract class Boss{
         hpBar.setProgress((float)(this.bossEntity.getHealth() /
                 this.bossEntity.getAttribute(Attribute.GENERIC_MAX_HEALTH).getBaseValue()));
 
-        if(null == this.target)
+        if(null == this.target && !this.allowNullTarget)
             return;
+
         bossEntity.setTarget(target);
         this.abilities.forEach(e -> {
             if(e.condition(bossEntity, target)){
@@ -150,6 +154,20 @@ public abstract class Boss{
         this.getDropItems().stream().forEach(e -> l.getWorld().dropItemNaturally(l, e));
         this.hpBar.removeAll();
         Bosses.self.removeBoss(this);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return this.hashCode() == obj.hashCode();
+    }
+
+    public void kill(){
+        killEntity(bossEntity);
+    }
+
+    public static void killEntity(Creature entity){
+        entity.getActivePotionEffects().clear();
+        entity.damage(entity.getAttribute(Attribute.GENERIC_MAX_HEALTH).getBaseValue() + 1);
     }
 
     public Creature getEntity(){

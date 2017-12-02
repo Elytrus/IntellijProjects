@@ -44,6 +44,7 @@ public class AdminTool extends JavaPlugin {
         Bukkit.getPluginCommand("attributes").setExecutor(new AttributesCommand());
         Bukkit.getPluginCommand("setstacksize").setExecutor(new StackSizeCommand());
         Bukkit.getPluginCommand("getperms").setExecutor(new GetPermsCommand());
+        Bukkit.getPluginCommand("addpotioneffect").setExecutor(new SetPotionEffectsCommand());
 
         new PluginEventListener();
     }

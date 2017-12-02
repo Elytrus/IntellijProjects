@@ -11,8 +11,13 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.block.SignChangeEvent;
+import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.PlayerInventory;
+
+import java.util.Arrays;
 
 public class EListener implements Listener {
     public static final String PLACESIGNPERM = "addon.kitsplus.placekitspsign";
@@ -25,10 +30,13 @@ public class EListener implements Listener {
     public void onInvClick(InventoryClickEvent e){
         if(e.getInventory().getName().equals(Main.KITSPGUINAME)){
             Kit k = Main.check(e.getCurrentItem());
+            Player p = (Player) e.getWhoClicked();
 
             if(null != k){
-                if(e.getWhoClicked().hasPermission("kitsplus.use." + k.getName()) || !(Main.needsPerms))
-                    k.apply((Player) e.getWhoClicked());
+                if(p.hasPermission("kitsplus.use." + k.getName()) || !(Main.needsPerms)) {
+                    k.apply(p);
+                    Main.instance().addCurrentKit(p, k);
+                }
                 else
                     e.getWhoClicked().sendMessage(Constants.NOPERM);
 
@@ -42,9 +50,37 @@ public class EListener implements Listener {
 
     @EventHandler(priority = EventPriority.HIGH)
     public void onInteract(PlayerInteractEvent e){
-        if(e.getAction() == Action.RIGHT_CLICK_BLOCK){
-            if(isKitspSign(e.getClickedBlock()))
-                Bukkit.getServer().dispatchCommand(e.getPlayer(), "kitsplus gui");
+        Action action = e.getAction();
+        Player player = e.getPlayer();
+        if(action == Action.RIGHT_CLICK_BLOCK || action == Action.RIGHT_CLICK_AIR){
+            PlayerInventory inventory = player.getInventory();
+            ItemStack item = inventory.getItemInMainHand();
+            if(item.isSimilar(Main.instance().getRefillItemStack())){
+                if(Main.instance().hasKit(player)){
+                    Kit kit = Main.instance().getKit(player);
+                    ItemStack refillItem = Main.instance().getRefillItemStack();
+                    int amount = Arrays.stream(inventory.getStorageContents())
+                            .filter(f -> f != null)
+                            .filter(f -> f.isSimilar(refillItem))
+                            .map(ItemStack::getAmount)
+                            .reduce(0, (a, b) -> a + b);
+//                    player.sendMessage(amount + "");
+
+                    kit.apply(player);
+
+                    if(amount > 1){
+                        ItemStack stack = Main.instance().getRefillItemStack();
+                        stack.setAmount(amount - 1);
+                        inventory.addItem(stack);
+                    }
+
+                    e.setCancelled(true);
+                }
+            }
+        }
+        if(action == Action.RIGHT_CLICK_BLOCK) {
+            if (isKitspSign(e.getClickedBlock()))
+                Bukkit.getServer().dispatchCommand(player, "kitsplus gui");
         }
     }
 
@@ -62,6 +98,14 @@ public class EListener implements Listener {
             else{
                 e.getPlayer().sendMessage(Constants.NOPERM);
             }
+        }
+    }
+
+    @EventHandler
+    public void onDeath(PlayerDeathEvent e){
+        Player p = e.getEntity();
+        if(Main.instance().hasKit(p)){
+            Main.instance().removeKit(p);
         }
     }
 

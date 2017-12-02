@@ -1,9 +1,11 @@
 package me.tlwv2.bosses;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 import me.tlwv2.bosses.bosses.LeMaxwell;
 import me.tlwv2.bosses.bosses.Minion;
@@ -20,10 +22,17 @@ import me.tlwv2.bosses.commands.BossItemsCommand;
 import me.tlwv2.core.infolist.ILWrapper;
 
 public class Bosses extends JavaPlugin {
+    public static final String RADIUS_KEY = "protection";
     public static Bosses self;
 
-    private List<Boss> activeBosses;
+    private CopyOnWriteArrayList<Boss> activeBosses;
     private HashMap<ItemStack, Boss> bossList;
+
+    public double getRadius() {
+        return radius;
+    }
+
+    private double radius;
 
     @Override
     public void onDisable() {
@@ -33,9 +42,10 @@ public class Bosses extends JavaPlugin {
     @Override
     public void onEnable(){
         self = this;
-        activeBosses = new ArrayList<>();
+        activeBosses = new CopyOnWriteArrayList<>();
         bossList = new HashMap<>();
         ILWrapper.registerPlugin(self);
+//        getConfig().options().copyDefaults(true);
 
         Bukkit.getPluginCommand("bossitems").setExecutor(new BossItemsCommand());
         Bukkit.getPluginCommand("killbosses").setExecutor(new KillBossesCommand());
@@ -43,6 +53,23 @@ public class Bosses extends JavaPlugin {
         this.registerBoss(new Archangel());
         this.registerBoss(new LeMaxwell());
         this.registerBoss(new Minion());
+
+        File configFile = new File(getDataFolder(), "config.yml");
+
+        if(!configFile.exists()){
+            Bukkit.getLogger().warning("Config does not exist! Resetting Configuration!");
+            saveDefaultConfig();
+            reloadConfig();
+        }
+
+        if(!getConfig().contains(RADIUS_KEY, true) || !getConfig().isDouble(RADIUS_KEY)){
+            Bukkit.getLogger().warning("Invalid Configuration Option! Resetting config!");
+            configFile.delete();
+            saveDefaultConfig();
+            reloadConfig();
+        }
+
+        radius = getConfig().getDouble(RADIUS_KEY);
 
         new EListener(self);
     }
@@ -64,7 +91,7 @@ public class Bosses extends JavaPlugin {
     }
 
     public void removeBoss(Boss b){
-        bossList.remove(b);
+        activeBosses.remove(b);
     }
 
     public List<Boss> getBossList(){

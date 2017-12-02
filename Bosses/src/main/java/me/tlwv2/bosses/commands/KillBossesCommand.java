@@ -32,19 +32,18 @@ public class KillBossesCommand implements CommandExecutor {
             return true;
         }
 
-        List<Boss> toBeRemoved = new ArrayList<>();
-
         Bosses.self.getBossList().forEach(boss -> {
             if(boss.isDead()) {
-                toBeRemoved.add(boss);
+                Bosses.self.removeBoss(boss);
                 commandSender.sendMessage(Constants.WARN + "Boss " + boss + " is already dead.  Is this an error?");
             }
             else {
-                Creature entity = boss.getEntity();
-                entity.damage(entity.getAttribute(Attribute.GENERIC_MAX_HEALTH).getBaseValue() + 1);
+                boss.kill();
             }
         });
 
         commandSender.sendMessage(Constants.GOOD + "Killed all bosses!");
+
+        return true;
     }
 }

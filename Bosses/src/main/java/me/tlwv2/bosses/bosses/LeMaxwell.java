@@ -19,13 +19,13 @@ import java.util.List;
  */
 public class LeMaxwell extends Boss {
     public LeMaxwell(){
-        super(4, 32, "§0Maxwell", false);
+        super(4, 32, "\u00a70Maxwell", false, false);
     }
 
     @Override
     protected ItemStack getSpawnItemINIT() {
         ItemStack item = new ItemStack(Material.REDSTONE);
-        ItemUtil.addMetadata(item, "§4???!", true, "What is eternal is eternal");
+        ItemUtil.addMetadata(item, "\u00a74???!", true, "What is eternal is eternal");
 
         return item;
     }
@@ -35,7 +35,7 @@ public class LeMaxwell extends Boss {
         ItemStack drop = new ItemStack(Material.DIAMOND_SWORD);
         drop.setDurability((short)32767);
         drop.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, 32767);
-        ItemUtil.addMetadata(drop, "§5The Eliminator", false);
+        ItemUtil.addMetadata(drop, "\u00a75The Eliminator", false);
 
         return Collections.singletonList(drop);
     }

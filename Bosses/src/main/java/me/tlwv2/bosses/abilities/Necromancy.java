@@ -43,7 +43,7 @@ public class Necromancy extends Ability {
         for(int i = 0; i < numberOfSpawns; i++){
             Block b = getRandomAndPop(possibilities);
             Skeleton s = (Skeleton) b.getWorld().spawnEntity(l, EntityType.SKELETON);
-            s.setCustomName("§0Spawn of the Archangel");
+            s.setCustomName("\u00a70Spawn of the Archangel");
             s.getEquipment().setBoots(new ItemStack(Material.IRON_BOOTS));
             s.getEquipment().setHelmet(new ItemStack(Material.IRON_HELMET));
             s.getWorld().spawnParticle(Particle.LAVA, s.getLocation(), 50, 0.5, 0.25, 0.5, 0);

@@ -21,7 +21,7 @@ import java.util.List;
 public class Archangel extends Boss {
 
     public Archangel() {
-        super(15, 40, "§0§lTHE ARCHANGEL", false);
+        super(15, 40, "\u00a70\u00a7lTHE ARCHANGEL", false, false);
         abilities.add(new Shock());
         abilities.add(new Necromancy());
     }
@@ -29,7 +29,7 @@ public class Archangel extends Boss {
     @Override
     protected ItemStack getSpawnItemINIT() {
         ItemStack item = new ItemStack(Material.BONE);
-        ItemUtil.addMetadata(item, "§0Call of the Archangel", true, "Critical info missing");
+        ItemUtil.addMetadata(item, "\u00a70Call of the Archangel", true, "Critical info missing");
         return item;
     }
 

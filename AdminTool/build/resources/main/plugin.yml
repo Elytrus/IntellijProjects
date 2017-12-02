@@ -23,3 +23,7 @@ commands:
       description: Gets all permission nodes that match the given node
       usage: /getperms <player:group> <player name:group name> [node]
       aliases: [gps]
+   addpotioneffect:
+      description: Adds a potion effect to the currently held item
+      usage: /addpotioneffect <effect> <duration (n <= 1000000)> <amplifier>
+      aliases: [ape, addpeffect, apeffect]

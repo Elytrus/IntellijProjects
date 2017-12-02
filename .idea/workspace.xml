@@ -1,59 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="d691dfc9-b0ac-498d-be4d-e7c406d2dc29" name="Default" comment="" />
-=======
-    <list default="true" id="d691dfc9-b0ac-498d-be4d-e7c406d2dc29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/TestProbabilitiesCommand.java" />
+    <list default="true" id="c56dd467-b26b-4bf4-8b0e-e71b87ae6a64" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-187874188/MCLevels.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-372923914/BankNotes_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/-372923914/BankNotes_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/1423376728/AdminTool_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/1423376728/AdminTool_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/862789440/PCore_main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/862789440/PCore_test.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/MCLevels.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/AdminTool/AdminTool_test.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/BankNotes/BankNotes_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/BankNotes/BankNotes_test.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/FactionSilkSpawners/FactionSilkSpawners_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/FactionSilkSpawners/FactionSilkSpawners_test.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/PCore_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/PCore_test.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/SKMCPlugin/SKMCPlugin_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/SKMCPlugin/SKMCPlugin_test.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkyblockTiers/build/classes/main/me/tlwv2/skyblocktiers/EListener$1.class" afterPath="$PROJECT_DIR$/SkyblockTiers/build/classes/main/me/tlwv2/skyblocktiers/EListener$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkyblockTiers/build/classes/main/me/tlwv2/skyblocktiers/EListener.class" afterPath="$PROJECT_DIR$/SkyblockTiers/build/classes/main/me/tlwv2/skyblocktiers/EListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkyblockTiers/build/classes/main/me/tlwv2/skyblocktiers/SkyblockTiers.class" afterPath="$PROJECT_DIR$/SkyblockTiers/build/classes/main/me/tlwv2/skyblocktiers/SkyblockTiers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkyblockTiers/build/classes/main/me/tlwv2/skyblocktiers/commands/SkyblockMiningUpgradeCommand.class" afterPath="$PROJECT_DIR$/SkyblockTiers/build/classes/main/me/tlwv2/skyblocktiers/commands/SkyblockMiningUpgradeCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkyblockTiers/build/classes/main/me/tlwv2/skyblocktiers/commands/SkyblockTierManualSetCommand.class" afterPath="$PROJECT_DIR$/SkyblockTiers/build/classes/main/me/tlwv2/skyblocktiers/commands/SkyblockTierManualSetCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/build/classes/main/me/tlwv2/admintool/AdminTool.class" afterPath="$PROJECT_DIR$/AdminTool/build/classes/main/me/tlwv2/admintool/AdminTool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Ability.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Ability.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$1.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$2.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Bosses.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Bosses.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/OwnedBoss.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/OwnedBoss.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/abilities/Necromancy.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/abilities/Necromancy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/abilities/Shock.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/abilities/Shock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Archangel$1.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Archangel$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Archangel.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Archangel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/LeMaxwell.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/LeMaxwell.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Minion$1.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Minion$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Minion.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Minion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/commands/BossItemsCommand.class" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/commands/BossItemsCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomItems/build/classes/main/me/tlwv2/customitems/CustomItem.class" afterPath="$PROJECT_DIR$/CustomItems/build/classes/main/me/tlwv2/customitems/CustomItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomItems/build/classes/main/me/tlwv2/customitems/CustomItems.class" afterPath="$PROJECT_DIR$/CustomItems/build/classes/main/me/tlwv2/customitems/CustomItems.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/EListener.class" afterPath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/EListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/Kit.class" afterPath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/Kit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/Main.class" afterPath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/commands/KitsPlusCommand.class" afterPath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/commands/KitsPlusCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/AdminTool.iml" afterPath="$PROJECT_DIR$/.idea/modules/AdminTool.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/BankNotes.iml" afterPath="$PROJECT_DIR$/.idea/modules/BankNotes.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Bosses.iml" afterPath="$PROJECT_DIR$/.idea/modules/Bosses.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Bosses_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Bosses_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Bosses_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Bosses_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/CustomItems.iml" afterPath="$PROJECT_DIR$/.idea/modules/CustomItems.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/FactionSilkSpawners.iml" afterPath="$PROJECT_DIR$/.idea/modules/FactionSilkSpawners.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/KitsPlus.iml" afterPath="$PROJECT_DIR$/.idea/modules/KitsPlus.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/ObtrusiveRuleDisplay.iml" afterPath="$PROJECT_DIR$/.idea/modules/ObtrusiveRuleDisplay.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/PCore.iml" afterPath="$PROJECT_DIR$/.idea/modules/PCore.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" afterPath="$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/SKMCPlugin.iml" afterPath="$PROJECT_DIR$/.idea/modules/SKMCPlugin.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/SkyblockTiers.iml" afterPath="$PROJECT_DIR$/.idea/modules/SkyblockTiers.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkyblockTiers/build/resources/main/plugin.yml" afterPath="$PROJECT_DIR$/SkyblockTiers/build/resources/main/plugin.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/EListener.java" afterPath="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/EListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/SkyblockTiers.java" afterPath="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/SkyblockTiers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/SkyblockMiningUpgradeCommand.java" afterPath="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/SkyblockMiningUpgradeCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/SkyblockTierManualSetCommand.java" afterPath="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/SkyblockTierManualSetCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkyblockTiers/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/SkyblockTiers/src/main/resources/plugin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/build/resources/main/plugin.yml" afterPath="$PROJECT_DIR$/AdminTool/build/resources/main/plugin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/AdminTool.java" afterPath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/AdminTool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/SetPotionEffectsCommand.java" afterPath="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/SetPotionEffectsCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminTool/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/AdminTool/src/main/resources/plugin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/build/resources/main/plugin.yml" afterPath="$PROJECT_DIR$/Bosses/build/resources/main/plugin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Boss.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Boss.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Bosses.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Bosses.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/EListener.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/EListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/OwnedBoss.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/OwnedBoss.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/abilities/AutoDeath.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/abilities/AutoDeath.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/abilities/Necromancy.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/abilities/Necromancy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Archangel.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Archangel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/LeMaxwell.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/LeMaxwell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Minion.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Minion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/commands/KillBossesCommand.java" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/commands/KillBossesCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/resources/config.yml" afterPath="$PROJECT_DIR$/Bosses/src/main/resources/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bosses/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/Bosses/src/main/resources/plugin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/CustomItem.java" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/CustomItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/CustomItems.java" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/CustomItems.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/EListener.java" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/EListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Kit.java" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Kit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Main.java" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/commands/KitsPlusCommand.java" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/commands/KitsPlusCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PassiveAddons/src/main/java/me/tlwv2/passiveaddons/Addons.java" afterPath="$PROJECT_DIR$/PassiveAddons/src/main/java/me/tlwv2/passiveaddons/Addons.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PassiveAddons/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/PassiveAddons/src/main/resources/plugin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKMCPlugin/build.gradle" afterPath="$PROJECT_DIR$/SKMCPlugin/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/tlwv2/core/infolist/ILWrapper.java" afterPath="$PROJECT_DIR$/src/main/java/me/tlwv2/core/infolist/ILWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/tlwv2/core/infolist/InfoList.java" afterPath="$PROJECT_DIR$/src/main/java/me/tlwv2/core/infolist/InfoList.java" />
     </list>
->>>>>>> parent of ae8d825... build.gradle overhaul
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/Bosses/.gradle/" />
-    <ignored path="$PROJECT_DIR$/Bosses/build/" />
-    <ignored path="$PROJECT_DIR$/PCore/.gradle/" />
-    <ignored path="$PROJECT_DIR$/PCore/build/" />
+    <ignored path="$PROJECT_DIR$/BankNotes/.gradle/" />
+    <ignored path="$PROJECT_DIR$/BankNotes/build/" />
     <ignored path="$PROJECT_DIR$/AdminTool/.gradle/" />
     <ignored path="$PROJECT_DIR$/AdminTool/build/" />
-    <ignored path="$PROJECT_DIR$/SKMCPlugin/.gradle/" />
-    <ignored path="$PROJECT_DIR$/SKMCPlugin/build/" />
-    <ignored path="$PROJECT_DIR$/MCMMOVisuals/.gradle/" />
-    <ignored path="$PROJECT_DIR$/MCMMOVisuals/build/" />
-    <ignored path="$PROJECT_DIR$/FactionFly/.gradle/" />
-    <ignored path="$PROJECT_DIR$/FactionFly/build/" />
-    <ignored path="$PROJECT_DIR$/FlyingBoats/.gradle/" />
-    <ignored path="$PROJECT_DIR$/FlyingBoats/build/" />
-    <ignored path="$PROJECT_DIR$/SkyblockTiers/.gradle/" />
-    <ignored path="$PROJECT_DIR$/SkyblockTiers/build/" />
+    <ignored path="$PROJECT_DIR$/Bosses/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Bosses/build/" />
+    <ignored path="$PROJECT_DIR$/CustomEnchants/.gradle/" />
+    <ignored path="$PROJECT_DIR$/CustomEnchants/build/" />
+    <ignored path="$PROJECT_DIR$/CustomItems/.gradle/" />
+    <ignored path="$PROJECT_DIR$/CustomItems/build/" />
+    <ignored path="$PROJECT_DIR$/FactionSilkSpawners/.gradle/" />
+    <ignored path="$PROJECT_DIR$/FactionSilkSpawners/build/" />
     <ignored path="$PROJECT_DIR$/KitsPlus/.gradle/" />
     <ignored path="$PROJECT_DIR$/KitsPlus/build/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/ObtrusiveRuleDisplay/.gradle/" />
+    <ignored path="$PROJECT_DIR$/ObtrusiveRuleDisplay/build/" />
+    <ignored path="$PROJECT_DIR$/PCore/.gradle/" />
+    <ignored path="$PROJECT_DIR$/PCore/build/" />
+    <ignored path="$PROJECT_DIR$/PassiveAddons/.gradle/" />
+    <ignored path="$PROJECT_DIR$/PassiveAddons/build/" />
+    <ignored path="$PROJECT_DIR$/SKMCPlugin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/SKMCPlugin/build/" />
+    <ignored path="$PROJECT_DIR$/SkyblockTiers/.gradle/" />
+    <ignored path="$PROJECT_DIR$/SkyblockTiers/build/" />
+    <ignored path="$PROJECT_DIR$/MCLevels/.gradle/" />
+    <ignored path="$PROJECT_DIR$/MCLevels/build/" />
+    <ignored path="$PROJECT_DIR$/SurvivalAddon/.gradle/" />
+    <ignored path="$PROJECT_DIR$/SurvivalAddon/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
@@ -70,24 +163,6 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <task path="$PROJECT_DIR$/Bosses">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/SKMCPlugin">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/AdminTool">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/FlyingBoats">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/KitsPlus">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/SkyblockTiers">
-          <activation />
-        </task>
         <projects_view>
           <tree_state>
             <PATH>
@@ -99,8 +174,18 @@
                 <option name="myItemId" value="PCore" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
+            </PATH>
+            <PATH>
               <PATH_ELEMENT>
-                <option name="myItemId" value=":SkyblockTiers" />
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="PCore" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="PCore" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
               </PATH_ELEMENT>
             </PATH>
@@ -114,7 +199,7 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value=":SkyblockTiers" />
+                <option name="myItemId" value="PCore" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
@@ -132,7 +217,7 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
-                <option name="myItemId" value=":SkyblockTiers" />
+                <option name="myItemId" value="PCore" />
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ModuleNode" />
               </PATH_ELEMENT>
               <PATH_ELEMENT>
@@ -144,16 +229,6 @@
                 <option name="myItemType" value="com.intellij.openapi.externalSystem.view.TasksNode$1" />
               </PATH_ELEMENT>
             </PATH>
-            <PATH>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
-              </PATH_ELEMENT>
-              <PATH_ELEMENT>
-                <option name="myItemId" value="PCore" />
-                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
-              </PATH_ELEMENT>
-            </PATH>
           </tree_state>
         </projects_view>
       </state>
@@ -161,67 +236,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="EListener.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/EListener.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SurvivalAddon/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="819">
-              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="378">
+              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <file leaf-file-name="LevelManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-=======
-            <state relative-caret-position="315">
-              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
->>>>>>> parent of ae8d825... build.gradle overhaul
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SkyblockTiers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/SkyblockTiers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1246">
-              <caret line="200" column="65" lean-forward="false" selection-start-line="200" selection-start-column="65" selection-end-line="200" selection-end-column="65" />
-              <folding>
-                <element signature="e#6520#6521#0" expanded="true" />
-                <element signature="e#6560#6561#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestProbabilitiesCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/TestProbabilitiesCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="58" column="53" lean-forward="false" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
+            <state relative-caret-position="483">
+              <caret line="51" column="90" lean-forward="false" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1597#1598#0" expanded="true" />
+                <element signature="e#1694#1695#0" expanded="true" />
+                <element signature="e#2794#2795#0" expanded="true" />
+                <element signature="e#2840#2841#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/resources/plugin.yml">
+      <file leaf-file-name="Addons.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="273">
-              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-=======
-            <state relative-caret-position="336">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
->>>>>>> parent of ae8d825... build.gradle overhaul
+            <state relative-caret-position="441">
+              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding>
+                <element signature="e#539#540#0" expanded="false" />
+                <element signature="e#570#571#0" expanded="false" />
+                <element signature="e#607#608#0" expanded="false" />
+                <element signature="e#636#637#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Addon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="903">
+              <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+              <folding>
+                <element signature="e#1251#1252#0" expanded="false" />
+                <element signature="e#1313#1314#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimedAddon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+              <folding>
+                <element signature="e#624#625#0" expanded="false" />
+                <element signature="e#664#665#0" expanded="false" />
+                <element signature="e#772#773#0" expanded="false" />
+                <element signature="e#802#803#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SKMCPlugin/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Core.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/tlwv2/core/Core.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -231,39 +342,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package-info" />
-        <option value="FxmlFile" />
+        <option value="Singleton" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>jar</find>
-      <find>(KITSPLOGO)</find>
-      <find>(kits)\.</find>
-      <find>(Main.)(NOPERM)</find>
-      <find>kitsp</find>
-      <find>total / (counts\[\d])</find>
-      <find>&quot; | Percent: &quot; + \(counts\[\d] / total\)</find>
-      <find>&quot; | Percent: &quot; + (counts[0] / total)</find>
-      <find>Percent</find>
-      <find>&quot; \| Percent: &quot; \+ (\(counts\[\d] / total\))</find>
-      <find>skyblockminingupgrade</find>
-      <find>skyblocktiermanualset</find>
-      <find>(counts\[\d] / total)</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Main.$1</replace>
-      <replace>Main.$1\.</replace>
-      <replace>Constants.$2</replace>
-      <replace>kitsplus</replace>
-      <replace>$1 / total</replace>
-      <replace>&quot; | &quot; + $1 + &quot;% chance&quot;</replace>
-      <replace>miningupgrade</replace>
-      <replace>settier</replace>
-      <replace>$1 * 100</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -301,28 +384,44 @@
                 <option name="path" value="$PROJECT_DIR$/AdminTool" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
+                <option name="name" value=":BankNotes" />
+                <option name="path" value="$PROJECT_DIR$/BankNotes" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
                 <option name="name" value=":Bosses" />
                 <option name="path" value="$PROJECT_DIR$/Bosses" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":FactionFly" />
-                <option name="path" value="$PROJECT_DIR$/FactionFly" />
+                <option name="name" value=":CustomEnchants" />
+                <option name="path" value="$PROJECT_DIR$/CustomEnchants" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":FlyingBoats" />
-                <option name="path" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="name" value=":CustomItems" />
+                <option name="path" value="$PROJECT_DIR$/CustomItems" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":FactionSilkSpawners" />
+                <option name="path" value="$PROJECT_DIR$/FactionSilkSpawners" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":KitsPlus" />
                 <option name="path" value="$PROJECT_DIR$/KitsPlus" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":MCMMOVisuals" />
-                <option name="path" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="name" value=":MCLevels" />
+                <option name="path" value="$PROJECT_DIR$/MCLevels" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":ObtrusiveRuleDisplay" />
+                <option name="path" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":PCore" />
                 <option name="path" value="$PROJECT_DIR$/PCore" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":PassiveAddons" />
+                <option name="path" value="$PROJECT_DIR$/PassiveAddons" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":SKMCPlugin" />
@@ -331,6 +430,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":SkyblockTiers" />
                 <option name="path" value="$PROJECT_DIR$/SkyblockTiers" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":SurvivalAddon" />
+                <option name="path" value="$PROJECT_DIR$/SurvivalAddon" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -353,28 +456,44 @@
                 <option name="path" value="$PROJECT_DIR$/AdminTool" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
+                <option name="name" value=":BankNotes" />
+                <option name="path" value="$PROJECT_DIR$/BankNotes" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
                 <option name="name" value=":Bosses" />
                 <option name="path" value="$PROJECT_DIR$/Bosses" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":FactionFly" />
-                <option name="path" value="$PROJECT_DIR$/FactionFly" />
+                <option name="name" value=":CustomEnchants" />
+                <option name="path" value="$PROJECT_DIR$/CustomEnchants" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":FlyingBoats" />
-                <option name="path" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="name" value=":CustomItems" />
+                <option name="path" value="$PROJECT_DIR$/CustomItems" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":FactionSilkSpawners" />
+                <option name="path" value="$PROJECT_DIR$/FactionSilkSpawners" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":KitsPlus" />
                 <option name="path" value="$PROJECT_DIR$/KitsPlus" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value=":MCMMOVisuals" />
-                <option name="path" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="name" value=":MCLevels" />
+                <option name="path" value="$PROJECT_DIR$/MCLevels" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":ObtrusiveRuleDisplay" />
+                <option name="path" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":PCore" />
                 <option name="path" value="$PROJECT_DIR$/PCore" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":PassiveAddons" />
+                <option name="path" value="$PROJECT_DIR$/PassiveAddons" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":SKMCPlugin" />
@@ -383,6 +502,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":SkyblockTiers" />
                 <option name="path" value="$PROJECT_DIR$/SkyblockTiers" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":SurvivalAddon" />
+                <option name="path" value="$PROJECT_DIR$/SurvivalAddon" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -693,6 +816,152 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/BankNotes">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':BankNotes'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the main Groovy source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="compileGroovy" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the test Groovy source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="compileTestGroovy" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':BankNotes'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':BankNotes'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':BankNotes'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':BankNotes'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Groovydoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="groovydoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':BankNotes'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':BankNotes'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':BankNotes'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':BankNotes'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/BankNotes" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Bosses">
           <value>
             <list>
@@ -839,113 +1108,259 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/FactionFly">
+        <entry key="$PROJECT_DIR$/CustomEnchants">
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':FactionFly'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionFly" />
+                <option name="description" value="Displays all buildscript dependencies declared in project ':CustomEnchants'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomEnchants" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':FactionFly'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionFly" />
+                <option name="description" value="Displays the components produced by project ':CustomEnchants'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomEnchants" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':FactionFly'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionFly" />
+                <option name="description" value="Displays all dependencies declared in project ':CustomEnchants'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomEnchants" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':FactionFly'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionFly" />
+                <option name="description" value="Displays the insight into a specific dependency in project ':CustomEnchants'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomEnchants" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':FactionFly'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionFly" />
+                <option name="description" value="Displays the dependent components of components in project ':CustomEnchants'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomEnchants" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionFly" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomEnchants" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':FactionFly'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionFly" />
+                <option name="description" value="Displays the configuration model of project ':CustomEnchants'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomEnchants" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':FactionFly'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionFly" />
+                <option name="description" value="Displays the sub-projects of project ':CustomEnchants'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomEnchants" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':FactionFly'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionFly" />
+                <option name="description" value="Displays the properties of project ':CustomEnchants'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomEnchants" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':FactionFly'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionFly" />
+                <option name="description" value="Displays the tasks runnable from project ':CustomEnchants'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomEnchants" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/FlyingBoats">
+        <entry key="$PROJECT_DIR$/CustomItems">
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':FlyingBoats'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':CustomItems'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':FlyingBoats'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the main Groovy source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="compileGroovy" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the test Groovy source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="compileTestGroovy" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':CustomItems'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':FlyingBoats'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="description" value="Displays all dependencies declared in project ':CustomItems'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':FlyingBoats'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="description" value="Displays the insight into a specific dependency in project ':CustomItems'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':FlyingBoats'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="description" value="Displays the dependent components of components in project ':CustomItems'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Groovydoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="groovydoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':CustomItems'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':CustomItems'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':CustomItems'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':CustomItems'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/CustomItems" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/FactionSilkSpawners">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':FactionSilkSpawners'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionSilkSpawners" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':FactionSilkSpawners'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionSilkSpawners" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':FactionSilkSpawners'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionSilkSpawners" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':FactionSilkSpawners'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionSilkSpawners" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':FactionSilkSpawners'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionSilkSpawners" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionSilkSpawners" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':FlyingBoats'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="description" value="Displays the configuration model of project ':FactionSilkSpawners'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionSilkSpawners" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':FlyingBoats'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="description" value="Displays the sub-projects of project ':FactionSilkSpawners'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionSilkSpawners" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':FlyingBoats'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="description" value="Displays the properties of project ':FactionSilkSpawners'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionSilkSpawners" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':FlyingBoats'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FlyingBoats" />
+                <option name="description" value="Displays the tasks runnable from project ':FactionSilkSpawners'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FactionSilkSpawners" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
             </list>
@@ -1097,58 +1512,204 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/MCMMOVisuals">
+        <entry key="$PROJECT_DIR$/MCLevels">
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':MCMMOVisuals'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="description" value="Displays all buildscript dependencies declared in project ':MCLevels'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCLevels" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':MCMMOVisuals'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="description" value="Displays the components produced by project ':MCLevels'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCLevels" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':MCMMOVisuals'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="description" value="Displays all dependencies declared in project ':MCLevels'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCLevels" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':MCMMOVisuals'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="description" value="Displays the insight into a specific dependency in project ':MCLevels'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCLevels" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':MCMMOVisuals'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="description" value="Displays the dependent components of components in project ':MCLevels'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCLevels" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCLevels" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':MCMMOVisuals'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="description" value="Displays the configuration model of project ':MCLevels'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCLevels" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':MCMMOVisuals'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="description" value="Displays the sub-projects of project ':MCLevels'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCLevels" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':MCMMOVisuals'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="description" value="Displays the properties of project ':MCLevels'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCLevels" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':MCMMOVisuals'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCMMOVisuals" />
+                <option name="description" value="Displays the tasks runnable from project ':MCLevels'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/MCLevels" />
                 <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/ObtrusiveRuleDisplay">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':ObtrusiveRuleDisplay'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the main Groovy source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="compileGroovy" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the test Groovy source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="compileTestGroovy" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':ObtrusiveRuleDisplay'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':ObtrusiveRuleDisplay'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':ObtrusiveRuleDisplay'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':ObtrusiveRuleDisplay'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Groovydoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="groovydoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':ObtrusiveRuleDisplay'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':ObtrusiveRuleDisplay'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':ObtrusiveRuleDisplay'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':ObtrusiveRuleDisplay'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
+                <option name="name" value="testClasses" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -1205,6 +1766,152 @@
                 <option name="description" value="Displays the tasks runnable from project ':PCore'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PCore" />
                 <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/PassiveAddons">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':PassiveAddons'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the main Groovy source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="compileGroovy" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the test Groovy source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="compileTestGroovy" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':PassiveAddons'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':PassiveAddons'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':PassiveAddons'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':PassiveAddons'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Groovydoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="groovydoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':PassiveAddons'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':PassiveAddons'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':PassiveAddons'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':PassiveAddons'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/PassiveAddons" />
+                <option name="name" value="testClasses" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -1501,24 +2208,164 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/SurvivalAddon">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':SurvivalAddon'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the main Groovy source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="compileGroovy" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the test Groovy source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="compileTestGroovy" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':SurvivalAddon'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':SurvivalAddon'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':SurvivalAddon'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':SurvivalAddon'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Groovydoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="groovydoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':SurvivalAddon'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':SurvivalAddon'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':SurvivalAddon'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':SurvivalAddon'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/SurvivalAddon" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="12017039899286" />
-        <entry key="$PROJECT_DIR$/AdminTool/build.gradle" value="3323493838" />
-        <entry key="$PROJECT_DIR$/Bosses" value="10516608481338" />
-        <entry key="$PROJECT_DIR$/Bosses/build.gradle" value="3203890572" />
-        <entry key="$PROJECT_DIR$/Bosses/settings.gradle" value="464783730" />
-        <entry key="$PROJECT_DIR$/FactionFly/build.gradle" value="2730402373" />
-        <entry key="$PROJECT_DIR$/FlyingBoats/build.gradle" value="408673016" />
-        <entry key="$PROJECT_DIR$/KitsPlus/build.gradle" value="2966349072" />
-        <entry key="$PROJECT_DIR$/MCMMOVisuals/build.gradle" value="3290984450" />
-        <entry key="$PROJECT_DIR$/SKMCPlugin/build.gradle" value="168571760" />
-        <entry key="$PROJECT_DIR$/SkyblockTiers/build.gradle" value="849246556" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2073583640" />
-        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="829777938" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="2458254092" />
+        <entry key="$PROJECT_DIR$" value="19597802534328" />
+        <entry key="$PROJECT_DIR$/AdminTool/build.gradle" value="1569751310" />
+        <entry key="$PROJECT_DIR$/Bosses" value="18097371116380" />
+        <entry key="$PROJECT_DIR$/MCLevels/build.gradle" value="466750187" />
+        <entry key="$PROJECT_DIR$/SKMCPlugin/build.gradle" value="3698082951" />
+        <entry key="$PROJECT_DIR$/SurvivalAddon/build.gradle" value="1681237774" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1240272183" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="1641688882" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1542,6 +2389,13 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/BankNotes">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/BankNotes" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                   <entry key="$PROJECT_DIR$/Bosses">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
@@ -1549,17 +2403,24 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
-                  <entry key="$PROJECT_DIR$/FactionFly">
+                  <entry key="$PROJECT_DIR$/CustomEnchants">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/FactionFly" />
+                        <option name="path" value="$PROJECT_DIR$/CustomEnchants" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
-                  <entry key="$PROJECT_DIR$/FlyingBoats">
+                  <entry key="$PROJECT_DIR$/CustomItems">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/FlyingBoats" />
+                        <option name="path" value="$PROJECT_DIR$/CustomItems" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/FactionSilkSpawners">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/FactionSilkSpawners" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1570,10 +2431,17 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
-                  <entry key="$PROJECT_DIR$/MCMMOVisuals">
+                  <entry key="$PROJECT_DIR$/MCLevels">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/MCMMOVisuals" />
+                        <option name="path" value="$PROJECT_DIR$/MCLevels" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/ObtrusiveRuleDisplay">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1581,6 +2449,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/PCore" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/PassiveAddons">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/PassiveAddons" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1595,6 +2470,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/SkyblockTiers" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/SurvivalAddon">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/SurvivalAddon" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1764,6 +2646,13 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/BankNotes">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/BankNotes" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                   <entry key="$PROJECT_DIR$/Bosses">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
@@ -1771,17 +2660,24 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
-                  <entry key="$PROJECT_DIR$/FactionFly">
+                  <entry key="$PROJECT_DIR$/CustomEnchants">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/FactionFly" />
+                        <option name="path" value="$PROJECT_DIR$/CustomEnchants" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
-                  <entry key="$PROJECT_DIR$/FlyingBoats">
+                  <entry key="$PROJECT_DIR$/CustomItems">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/FlyingBoats" />
+                        <option name="path" value="$PROJECT_DIR$/CustomItems" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/FactionSilkSpawners">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/FactionSilkSpawners" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1792,10 +2688,17 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
-                  <entry key="$PROJECT_DIR$/MCMMOVisuals">
+                  <entry key="$PROJECT_DIR$/MCLevels">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/MCMMOVisuals" />
+                        <option name="path" value="$PROJECT_DIR$/MCLevels" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/ObtrusiveRuleDisplay">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/ObtrusiveRuleDisplay" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1803,6 +2706,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/PCore" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/PassiveAddons">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/PassiveAddons" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1817,6 +2727,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/SkyblockTiers" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/SurvivalAddon">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/SurvivalAddon" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1838,94 +2755,32 @@
       <projects_view />
     </option>
   </component>
-  <component name="GroovyConsoleState">
-    <option name="list">
-      <list>
-        <Entry>
-          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
-          <option name="moduleName" value="PCore_main" />
-          <option name="title" value="PCore_main (Groovy 2.3.11)" />
-        </Entry>
-      </list>
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/SKMCPlugin/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/MCMMOVisuals/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/MCMMOVisuals/build.gradle" />
-        <option value="$PROJECT_DIR$/MCMMOVisuals/src/main/java/me/tlwv2/mcmmovisuals/Data.java" />
->>>>>>> parent of ae8d825... build.gradle overhaul
-        <option value="$PROJECT_DIR$/MCMMOVisuals/src/main/java/me/tlwv2/mcmmovisuals/MCMMOVisuals.java" />
-        <option value="$PROJECT_DIR$/MCMMOVisuals/src/main/java/me/tlwv2/mcmmovisuals/EListener.java" />
-        <option value="$PROJECT_DIR$/MCMMOVisuals/src/main/java/me/tlwv2/mcmmovisuals/PlayerData.java" />
-        <option value="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/projectiles/particlepatterns/ParticleLine.java" />
-        <option value="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Boss.java" />
-        <option value="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Archangel.java" />
-        <option value="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/EListener.java" />
-        <option value="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/LeMaxwell.java" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/StackSizeCommand.java" />
-        <option value="$PROJECT_DIR$/FactionFly/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/FactionFly/build.gradle" />
-        <option value="$PROJECT_DIR$/FactionFly/src/main/java/me/tlwv2/factionfly/FactionFly.java" />
-        <option value="$PROJECT_DIR$/FactionFly/src/main/java/me/tlwv2/factionfly/api/TimedWait.java" />
-        <option value="$PROJECT_DIR$/FactionFly/src/main/java/me/tlwv2/factionfly/api/PlayerProgressBar.java" />
-        <option value="$PROJECT_DIR$/FactionFly/src/main/java/me/tlwv2/factionfly/api/TimedQueue.java" />
-        <option value="$PROJECT_DIR$/FlyingBoats/build.gradle" />
-        <option value="$PROJECT_DIR$/SKMCPlugin/src/main/java/me/tlwv2/skmcplugin/command/PrefixCommand.java" />
-        <option value="$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/SpawnFlyingBoarCommand.java" />
-        <option value="$PROJECT_DIR$/FlyingBoats/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/SpawnFlyingBoatCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/tlwv2/core/utils/ItemData.java" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/Attribute.java" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/AdminTool.java" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionNode.java" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsViewer.java" />
-        <option value="$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/Flyingboat.java" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/GetPermsCommand.java" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsTree.java" />
-        <option value="$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/EListener.java" />
-        <option value="$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/FlyingBoats.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/SkyblockTiers/build.gradle" />
-        <option value="$PROJECT_DIR$/KitsPlus/build.gradle" />
-        <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Main.java" />
-        <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Kit.java" />
-        <option value="$PROJECT_DIR$/KitsPlus/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/RenameCommand.java" />
-        <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/commands/KitsPlusCommand.java" />
-        <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/EListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/tlwv2/core/utils/ItemUtil.java" />
-        <option value="$PROJECT_DIR$/SkyblockTiers/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/SkyblockMiningUpgradeCommand.java" />
-        <option value="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/SkyblockTierManualSetCommand.java" />
-        <option value="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/TestProbabilitiesCommand.java" />
-        <option value="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/SkyblockTiers.java" />
-        <option value="$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/EListener.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/SKMCPlugin/build.gradle" />
-        <option value="$PROJECT_DIR$/SkyblockTiers/build.gradle" />
-        <option value="$PROJECT_DIR$/KitsPlus/build.gradle" />
+        <option value="$PROJECT_DIR$/MCLevels/src/main/java/me/tlwv2/mclevels/MCLevels.java" />
+        <option value="$PROJECT_DIR$/MCLevels/build.gradle" />
+        <option value="$PROJECT_DIR$/MCLevels/src/main/java/me/tlwv2/mclevels/PermsManager.java" />
+        <option value="$PROJECT_DIR$/MCLevels/src/main/java/me/tlwv2/mclevels/LevelsManager.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/build.gradle" />
         <option value="$PROJECT_DIR$/AdminTool/build.gradle" />
-        <option value="$PROJECT_DIR$/Bosses/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/GetPermsCommand.java" />
-=======
->>>>>>> parent of ae8d825... build.gradle overhaul
+        <option value="$PROJECT_DIR$/SKMCPlugin/build.gradle" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/ExternalConfiguration.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/MultiplierInterface.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
-    <option name="width" value="1924" />
-    <option name="height" value="1084" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -1941,7 +2796,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1974,7 +2830,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="SurvivalAddon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1988,42 +2844,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SkyblockTiers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-<<<<<<< HEAD
-=======
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PCore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SkyblockTiers" />
+              <option name="myItemId" value="SurvivalAddon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PCore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminTool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2036,7 +2866,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AdminTool" />
+              <option name="myItemId" value="SurvivalAddon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="survivaladdon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2044,36 +2900,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
->>>>>>> parent of ae8d825... build.gradle overhaul
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="extract.method.default.visibility" value="public" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Moses\IdeaProjects\src\main\resources" />
-      <recent name="C:\Users\Moses\IdeaProjects\src\main\rescources" />
-      <recent name="C:\Users\Moses\IdeaProjects\src\main\java" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Moses\IdeaProjects\FlyingBoats\src\main\resources" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="me.tlwv2.skyblocktiers.commands" />
-      <recent name="me.tlwv2.kitsp.commands" />
-      <recent name="me.tlwv2.admintool.commands" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2087,83 +2917,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.IdeaProjects:SkyblockTiers [build]">
-    <configuration default="false" name="IdeaProjects:FlyingBoats [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/FlyingBoats" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Gradle.IdeaProjects [build]">
     <configuration default="false" name="IdeaProjects [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="false" name="IdeaProjects:KitsPlus [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/KitsPlus" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="false" name="IdeaProjects:SkyblockTiers [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/SkyblockTiers" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="buildDependents" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="false" name="IdeaProjects:SkyblockTiers [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/SkyblockTiers" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -2279,15 +3037,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$" />
-      <setting name="debug" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -2339,7 +3088,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PCore" />
+      <module name="Bosses" />
       <envs />
       <method />
     </configuration>
@@ -2448,25 +3197,17 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.IdeaProjects:FlyingBoats [build]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.IdeaProjects [build]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.IdeaProjects:KitsPlus [build]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.IdeaProjects:SkyblockTiers [buildDependents]" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.IdeaProjects:SkyblockTiers [build]" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Gradle.IdeaProjects [build]" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.IdeaProjects:SkyblockTiers [build]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.IdeaProjects:SkyblockTiers [buildDependents]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.IdeaProjects:KitsPlus [build]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.IdeaProjects [build]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.IdeaProjects:FlyingBoats [build]" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.IdeaProjects [build]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1503960599624" />
+    <option name="lastUpdateTimestamp" value="1511494613671" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -2476,16 +3217,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d691dfc9-b0ac-498d-be4d-e7c406d2dc29" name="Default" comment="" />
-      <created>1500426787286</created>
+      <changelist id="c56dd467-b26b-4bf4-8b0e-e71b87ae6a64" name="Default" comment="" />
+      <created>1510455386901</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1500426787286</updated>
+      <updated>1510455386901</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1924" height="1084" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2494,24 +3235,16 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28824142" sideWeight="0.35677084" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30517423" sideWeight="0.6983211" order="2" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2903907" sideWeight="0.6432292" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> parent of ae8d825... build.gradle overhaul
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20828961" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-<<<<<<< HEAD
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16002099" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Gradle" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16002099" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
->>>>>>> parent of ae8d825... build.gradle overhaul
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16302083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2521,512 +3254,236 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15897167" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298647" sideWeight="0.51927084" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/LeMaxwell.java">
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="61" column="35" lean-forward="false" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        <state relative-caret-position="378">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Boss.java">
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#539#540#0" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <element signature="e#1251#1252#0" expanded="false" />
+            <element signature="e#1313#1314#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <element signature="e#624#625#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#802#803#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/ExternalConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKMCPlugin/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="123" column="31" lean-forward="false" selection-start-line="123" selection-start-column="31" selection-end-line="123" selection-end-column="31" />
+          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
->>>>>>> parent of ae8d825... build.gradle overhaul
-    <entry file="file://$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/EListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/tlwv2/core/Core.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="70" column="34" lean-forward="false" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        <state relative-caret-position="84">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/MultiplierInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MCLevels/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/MCLevels/src/main/java/me/tlwv2/mclevels/MCLevels.java" />
+    <entry file="file://$PROJECT_DIR$/MCLevels/src/main/java/me/tlwv2/mclevels/LevelsManager.java" />
+    <entry file="file://$PROJECT_DIR$/MCLevels/src/main/java/me/tlwv2/mclevels/MCLevels.java" />
+    <entry file="file://$PROJECT_DIR$/MCLevels/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/MCLevels/src/main/java/me/tlwv2/mclevels/LevelsManager.java" />
+    <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/SkyblockTiers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdminTool/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKMCPlugin/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/tlwv2/core/Core.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="e#539#540#0" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
+            <element signature="e#636#637#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/StackSizeCommand.java">
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="903">
+          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <element signature="e#1251#1252#0" expanded="false" />
+            <element signature="e#1313#1314#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FactionFly/src/main/resources/plugin.yml" />
-    <entry file="file://$PROJECT_DIR$/FactionFly/src/main/java/me/tlwv2/factionfly/FactionFly.java" />
-    <entry file="file://$PROJECT_DIR$/FactionFly/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/FactionFly/src/main/java/me/tlwv2/factionfly/api/TimedQueue.java" />
-    <entry file="file://$PROJECT_DIR$/FactionFly/src/main/java/me/tlwv2/factionfly/api/PlayerProgressBar.java" />
-    <entry file="jar://$USER_HOME$/Desktop/plugin-dependencies/spigot-1.11.2.jar!/org/bukkit/entity/Entity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bosses/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/plugin-dependencies/spigot-1.11.2.jar!/org/bukkit/util/Vector.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="125" column="12" lean-forward="false" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlyingBoats/src/main/resources/plugin.yml" />
-    <entry file="file://$PROJECT_DIR$/FlyingBoats/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/SKMCPlugin/src/main/java/me/tlwv2/skmcplugin/command/PrefixCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="143" column="61" lean-forward="false" selection-start-line="143" selection-start-column="61" selection-end-line="143" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/SpawnFlyingBoatCommand.java" />
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-987">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/tlwv2/core/utils/ItemData.java">
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <element signature="e#624#625#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#802#803#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/AdminTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="43" column="68" lean-forward="false" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionNode.java" />
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsViewer.java" />
-    <entry file="file://$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/Flyingboat.java" />
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsTree.java" />
-=======
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/GetPermsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427">
-          <caret line="19" column="73" lean-forward="false" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/PermissionsTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
->>>>>>> parent of ae8d825... build.gradle overhaul
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/tlwv2/core/utils/LocUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SKMCPlugin/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SKMCPlugin/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/FlyingBoats.java" />
-    <entry file="file://$PROJECT_DIR$/FlyingBoats/src/main/java/me/tlwv2/flyingboats/EListener.java" />
-    <entry file="file://$PROJECT_DIR$/SkyblockTiers/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Kit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/RenameCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="43" column="62" lean-forward="false" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/EListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/resources/plugin.yml">
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Adsvc.java" />
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/ExternalConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="81" lean-forward="false" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/commands/KitsPlusCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="109" column="28" lean-forward="false" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/plugin-dependencies/uSkyBlock.jar!/us/talabrek/ultimateskyblock/api/IslandInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/plugin-dependencies/uSkyBlock.jar!/us/talabrek/ultimateskyblock/api/uSkyBlockAPI.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/tlwv2/core/utils/ItemUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/SkyblockMiningUpgradeCommand.java">
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/MultiplierInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/SkyblockTierManualSetCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Desktop/plugin-dependencies/spigot-1.12.1.jar!/org/bukkit/entity/Player.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="114" column="9" lean-forward="false" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/EListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/SkyblockTiers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="200" column="65" lean-forward="false" selection-start-line="200" selection-start-column="65" selection-end-line="200" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-=======
->>>>>>> parent of ae8d825... build.gradle overhaul
-    <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/commands/TestProbabilitiesCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="58" column="53" lean-forward="false" selection-start-line="58" selection-start-column="53" selection-end-line="58" selection-end-column="53" />
-<<<<<<< HEAD
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SKMCPlugin/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="462">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/build.gradle">
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="378">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bosses/build.gradle">
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkyblockTiers/build.gradle">
-=======
+        <state relative-caret-position="483">
+          <caret line="51" column="90" lean-forward="false" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#2794#2795#0" expanded="true" />
+            <element signature="e#2840#2841#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/SkyblockTiers.java">
->>>>>>> parent of ae8d825... build.gradle overhaul
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1246">
-          <caret line="200" column="65" lean-forward="false" selection-start-line="200" selection-start-column="65" selection-end-line="200" selection-end-column="65" />
-          <folding>
-            <element signature="e#6520#6521#0" expanded="true" />
-            <element signature="e#6560#6561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SkyblockTiers/src/main/java/me/tlwv2/skyblocktiers/EListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-<<<<<<< HEAD
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdminTool/src/main/java/me/tlwv2/admintool/commands/GetPermsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-=======
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
->>>>>>> parent of ae8d825... build.gradle overhaul
-          <folding />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>PCore</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Gradle: junit:junit:4.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
