@@ -99,6 +99,14 @@ public class LevelManager {
         fetchAll();
     }
 
+    public void update(){
+        for(Change change : this.changes){
+            change.execute(this.connection);
+        }
+
+        this.changes.clear();
+    }
+
     public String dumpPlayer(Player player){
         String uuid = player.getUniqueId().toString();
         ResultSet end = unsafeQuery(this.connection, "SELECT * FROM points_db.points " +
@@ -136,6 +144,18 @@ public class LevelManager {
 
     public void setMultiplier(String uuid, float value){
         this.multipliers.put(uuid, value);
+    }
+
+    public boolean points(String uuid){
+        return this.points.containsKey(uuid);
+    }
+
+    public boolean level(String uuid){
+        return this.levels.containsKey(uuid);
+    }
+
+    public boolean multiplier(String uuid){
+        return this.multipliers.containsKey(uuid);
     }
 
     //MISC. CHECKS -----------------------------------------------------------------------------------------------------

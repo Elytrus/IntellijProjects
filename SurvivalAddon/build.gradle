@@ -8,6 +8,9 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven {
+        url 'https://jitpack.io'
+    }
 }
 
 dependencies {
@@ -16,5 +19,5 @@ dependencies {
 
     compile spigot
     compile rootProject
-    compile files("${depDir}PointMan.jar")
+    compile 'com.github.Google:gson:1.7'
 }

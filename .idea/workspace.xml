@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56dd467-b26b-4bf4-8b0e-e71b87ae6a64" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_Google_gson_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/DisplayManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/EListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/EntityKillManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/PlayTimeManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/resources/plugin.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SurvivalAddon/build.gradle" afterPath="$PROJECT_DIR$/SurvivalAddon/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java" afterPath="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -133,110 +146,78 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SurvivalAddon/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="441">
+              <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LevelManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="137" column="42" lean-forward="false" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4039#4040#0" expanded="true" />
-                <element signature="e#4083#4084#0" expanded="true" />
-                <element signature="e#4274#4275#0" expanded="true" />
-                <element signature="e#4318#4319#0" expanded="true" />
-                <element signature="e#4376#4377#0" expanded="true" />
-                <element signature="e#4425#4426#0" expanded="true" />
-                <element signature="e#4576#4577#0" expanded="true" />
-                <element signature="e#4622#4623#0" expanded="true" />
-                <element signature="e#5801#5802#0" expanded="true" />
-                <element signature="e#5843#5844#0" expanded="true" />
-                <element signature="e#6426#6427#0" expanded="true" />
-                <element signature="e#6468#6469#0" expanded="true" />
-                <element signature="e#7054#7055#0" expanded="true" />
-                <element signature="e#7096#7097#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Addons.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Addons.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="168">
+              <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
               <folding>
-                <element signature="e#539#540#0" expanded="false" />
-                <element signature="e#570#571#0" expanded="false" />
-                <element signature="e#607#608#0" expanded="false" />
-                <element signature="e#636#637#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <marker date="1513803967232" expanded="false" signature="6070:6080" ph=" { " />
+                <marker date="1513803967232" expanded="false" signature="6096:6102" ph=" }" />
+                <marker date="1513803967232" expanded="false" signature="6571:6581" ph=" { " />
+                <marker date="1513803967232" expanded="false" signature="6596:6602" ph=" }" />
+                <marker date="1513803967232" expanded="false" signature="6649:6660" ph=" { " />
+                <marker date="1513803967232" expanded="false" signature="6682:6688" ph=" }" />
+                <marker date="1513803967232" expanded="false" signature="6737:6748" ph=" { " />
+                <marker date="1513803967232" expanded="false" signature="6771:6777" ph=" }" />
+                <marker date="1513803967232" expanded="false" signature="6842:6853" ph=" { " />
+                <marker date="1513803967232" expanded="false" signature="6879:6885" ph=" }" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Addon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java">
+      <file leaf-file-name="EListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/EListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
-              <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+            <state relative-caret-position="420">
+              <caret line="27" column="63" lean-forward="false" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
               <folding>
-                <element signature="e#1251#1252#0" expanded="false" />
-                <element signature="e#1313#1314#0" expanded="false" />
+                <element signature="e#392#393#0" expanded="false" />
+                <element signature="e#462#463#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimedAddon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java">
+      <file leaf-file-name="EntityKillManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/EntityKillManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+            <state relative-caret-position="333">
+              <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
               <folding>
-                <element signature="e#624#625#0" expanded="false" />
-                <element signature="e#664#665#0" expanded="false" />
-                <element signature="e#772#773#0" expanded="false" />
-                <element signature="e#802#803#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="DisplayManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/DisplayManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="693">
+              <caret line="62" column="74" lean-forward="false" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayTimeManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/PlayTimeManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SKMCPlugin/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Core.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/me/tlwv2/core/Core.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -255,13 +236,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>points</find>
-      <find>points</find>
+      <find>host</find>
     </findStrings>
     <replaceStrings>
       <replace>levels</replace>
       <replace>multipliers</replace>
       <replace>level</replace>
-      <replace>multipliers</replace>
+      <replace>password</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -2274,12 +2255,12 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="19597802534328" />
+        <entry key="$PROJECT_DIR$" value="19599796934938" />
         <entry key="$PROJECT_DIR$/AdminTool/build.gradle" value="1569751310" />
-        <entry key="$PROJECT_DIR$/Bosses" value="18097371116380" />
+        <entry key="$PROJECT_DIR$/Bosses" value="18099365516990" />
         <entry key="$PROJECT_DIR$/MCLevels/build.gradle" value="466750187" />
         <entry key="$PROJECT_DIR$/SKMCPlugin/build.gradle" value="3698082951" />
-        <entry key="$PROJECT_DIR$/SurvivalAddon/build.gradle" value="1681237774" />
+        <entry key="$PROJECT_DIR$/SurvivalAddon/build.gradle" value="3185330650" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1240272183" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1641688882" />
       </map>
@@ -2678,16 +2659,22 @@
         <option value="$PROJECT_DIR$/MCLevels/build.gradle" />
         <option value="$PROJECT_DIR$/MCLevels/src/main/java/me/tlwv2/mclevels/PermsManager.java" />
         <option value="$PROJECT_DIR$/MCLevels/src/main/java/me/tlwv2/mclevels/LevelsManager.java" />
-        <option value="$PROJECT_DIR$/SurvivalAddon/build.gradle" />
         <option value="$PROJECT_DIR$/AdminTool/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/SKMCPlugin/build.gradle" />
-        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java" />
         <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java" />
         <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java" />
         <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/ExternalConfiguration.java" />
         <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/MultiplierInterface.java" />
         <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/AddonManager.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/DisplayManager.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/EListener.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/build.gradle" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/resources/plugin.yml" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/PlayTimeManager.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/EntityKillManager.java" />
+        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java" />
       </list>
     </option>
   </component>
@@ -2712,7 +2699,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -2812,13 +2798,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="SurvivalAddon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="survivaladdon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -3123,7 +3170,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1511494613671" />
+    <option name="lastUpdateTimestamp" value="1513400997278" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -3142,7 +3189,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3160,8 +3207,8 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16302083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1359375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3171,9 +3218,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -3184,6 +3231,133 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/EListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#462#463#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/EntityKillManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/DisplayManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="62" column="74" lean-forward="false" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2898">
+          <caret line="152" column="24" lean-forward="false" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4720#4721#0" expanded="true" />
+            <element signature="e#4772#4773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1513803967232" expanded="false" signature="6070:6080" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6096:6102" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6571:6581" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6596:6602" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6649:6660" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6682:6688" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6737:6748" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6771:6777" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6842:6853" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6879:6885" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1513803967232" expanded="false" signature="6070:6080" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6096:6102" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6571:6581" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6596:6602" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6649:6660" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6682:6688" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6737:6748" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6771:6777" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6842:6853" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6879:6885" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java" />
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKMCPlugin/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/tlwv2/core/Core.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2877">
+          <caret line="137" column="42" lean-forward="false" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4720#4721#0" expanded="true" />
+            <element signature="e#4772#4773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SurvivalAddon/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -3197,46 +3371,24 @@
         <state relative-caret-position="483">
           <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
-            <element signature="e#539#540#0" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <marker date="1513803967232" expanded="false" signature="6070:6080" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6096:6102" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6571:6581" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6596:6602" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6649:6660" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6682:6688" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6737:6748" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6771:6777" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6842:6853" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6879:6885" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding>
-            <element signature="e#1251#1252#0" expanded="false" />
-            <element signature="e#1313#1314#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-          <folding>
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#664#665#0" expanded="false" />
-            <element signature="e#772#773#0" expanded="false" />
-            <element signature="e#802#803#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/ExternalConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java" />
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java" />
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/ExternalConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -3249,7 +3401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3257,20 +3408,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/MultiplierInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/MultiplierInterface.java" />
     <entry file="file://$PROJECT_DIR$/SurvivalAddon/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3311,7 +3452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3319,94 +3459,122 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#539#540#0" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding>
-            <element signature="e#1251#1252#0" expanded="false" />
-            <element signature="e#1313#1314#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="66" lean-forward="false" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
-          <folding>
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#664#665#0" expanded="false" />
-            <element signature="e#772#773#0" expanded="false" />
-            <element signature="e#802#803#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addon.java" />
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/TimedAddon.java" />
     <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Adsvc.java" />
-    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/ExternalConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/MultiplierInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/ExternalConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/MultiplierInterface.java" />
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/AddonManager.java" />
     <entry file="file://$PROJECT_DIR$/SurvivalAddon/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="441">
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/EListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" column="63" lean-forward="false" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+          <folding>
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#462#463#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/plugin-dependencies/spigot-1.12.1.jar!/org/bukkit/entity/EntityType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/LevelManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="137" column="42" lean-forward="false" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
+        <state relative-caret-position="2457">
+          <caret line="152" column="24" lean-forward="false" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4039#4040#0" expanded="true" />
-            <element signature="e#4083#4084#0" expanded="true" />
-            <element signature="e#4274#4275#0" expanded="true" />
-            <element signature="e#4318#4319#0" expanded="true" />
-            <element signature="e#4376#4377#0" expanded="true" />
-            <element signature="e#4425#4426#0" expanded="true" />
-            <element signature="e#4576#4577#0" expanded="true" />
-            <element signature="e#4622#4623#0" expanded="true" />
-            <element signature="e#5801#5802#0" expanded="true" />
-            <element signature="e#5843#5844#0" expanded="true" />
-            <element signature="e#6426#6427#0" expanded="true" />
-            <element signature="e#6468#6469#0" expanded="true" />
-            <element signature="e#7054#7055#0" expanded="true" />
-            <element signature="e#7096#7097#0" expanded="true" />
+            <element signature="e#4720#4721#0" expanded="true" />
+            <element signature="e#4772#4773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/DisplayManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="62" column="74" lean-forward="false" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/PlayTimeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/EntityKillManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="456" column="19" lean-forward="false" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/Addons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1513803967232" expanded="false" signature="6070:6080" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6096:6102" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6571:6581" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6596:6602" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6649:6660" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6682:6688" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6737:6748" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6771:6777" ph=" }" />
+            <marker date="1513803967232" expanded="false" signature="6842:6853" ph=" { " />
+            <marker date="1513803967232" expanded="false" signature="6879:6885" ph=" }" />
           </folding>
         </state>
       </provider>

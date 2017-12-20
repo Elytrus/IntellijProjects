@@ -1,0 +1,21 @@
+name: PointAddon
+main: me.tlwv2.survivaladdons.Addons
+version: 1.0
+description: help me :(
+commands:
+   points:
+      description: Gets points for a player, or lists point information if no player is specified
+      usage: /points <player>
+      aliases: [pts]
+   pointset:
+      description: Sets points for a player
+      usage: /pointset <player> <points>
+      aliases: [pset, ps]
+   pointupdate:
+      description: Updates the points and level for a player, or for all players if no player is specified
+      usage: /pointupdate <player>
+      aliases: [pupdate, pu]
+   multiplierset:
+      description: Sets the multiplier value for a player
+      usage: /multiplierset <player>
+      aliases: [mulset, mset, ms]
