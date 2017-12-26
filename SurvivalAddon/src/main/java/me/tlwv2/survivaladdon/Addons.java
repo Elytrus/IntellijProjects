@@ -1,12 +1,18 @@
 package me.tlwv2.survivaladdon;
 
 
+import me.tlwv2.core.infolist.ILWrapper;
 import me.tlwv2.survivaladdon.addons.EntityKillManager;
 import me.tlwv2.survivaladdon.addons.PlayTimeManager;
+import me.tlwv2.survivaladdon.commands.LevelUpdateCommand;
+import me.tlwv2.survivaladdon.commands.MultiplierSetCommand;
+import me.tlwv2.survivaladdon.commands.PointSetCommand;
+import me.tlwv2.survivaladdon.commands.PointsCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.serialization.ConfigurationSerialization;
 import org.bukkit.entity.*;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.ArrayList;
 
@@ -52,6 +58,8 @@ public class Addons extends JavaPlugin {
 
     //MISC CONSTANTS
     public static final String PLUGIN_NAME = "PointAddon";
+    public static final String DISPLAY_UPDATE_PERIOD_KEY = "displayUpdatePeriod";
+    public static final long DEFAULT_DISPLAY_UPDATE_PERIOD = 200L;
 
     //VARIABLES
     private static Addons instance;
@@ -62,8 +70,12 @@ public class Addons extends JavaPlugin {
     private PlayTimeManager playTimeManager;
     private ArrayList<EntityKillManager> entityKillManagers;
 
+    private BukkitRunnable displayUpdateTimer;
+
     private int levelOffset;
     private int levelIncrement;
+
+    private long displayUpdatePeriod;
 
     private String host;
     private String username;
@@ -71,8 +83,6 @@ public class Addons extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        this.manager.update();
-
         getConfig().set(ENTITY_KILLS_MANAGER_KEY, this.entityKillManagers);
         getConfig().set(PLAY_TIME_MANAGER_KEY, this.playTimeManager);
         getConfig().set(LEVEL_OFFSET_KEY, this.levelOffset);
@@ -80,6 +90,9 @@ public class Addons extends JavaPlugin {
         getConfig().set(HOST_KEY, this.host);
         getConfig().set(USERNAME_KEY, this.username);
         getConfig().set(PASSWORD_KEY, this.password);
+        getConfig().set(DISPLAY_UPDATE_PERIOD_KEY, this.displayUpdatePeriod);
+
+        saveConfig();
     }
 
     @Override
@@ -92,6 +105,7 @@ public class Addons extends JavaPlugin {
     public void onEnable() {
         this.displayManager = new DisplayManager();
         this.entityKillManagers = new ArrayList<>();
+        ILWrapper.registerPlugin(this);
 
         //MANAGER KEYS
         if(getConfig().contains(PLAY_TIME_MANAGER_KEY, true)){
@@ -163,32 +177,72 @@ public class Addons extends JavaPlugin {
             getConfig().set(PASSWORD_KEY, this.password);
         }
 
+        //OTHER KEYS
+        if(getConfig().contains(DISPLAY_UPDATE_PERIOD_KEY)){
+            this.displayUpdatePeriod = getConfig().getLong(DISPLAY_UPDATE_PERIOD_KEY);
+        }
+        else{
+            this.displayUpdatePeriod = DEFAULT_DISPLAY_UPDATE_PERIOD;
+            getConfig().set(DISPLAY_UPDATE_PERIOD_KEY, this.displayUpdatePeriod);
+        }
+
+        saveConfig();
+
+        //COMMANDS
+
+        Bukkit.getPluginCommand("points").setExecutor(new PointsCommand());
+        Bukkit.getPluginCommand("pointset").setExecutor(new PointSetCommand());
+        Bukkit.getPluginCommand("levelupdate").setExecutor(new LevelUpdateCommand());
+        Bukkit.getPluginCommand("multiplierset").setExecutor(new MultiplierSetCommand());
+
         //OTHER
 
         this.manager = new LevelManager(host, username, password);
         instance = this;
+
+        this.displayUpdateTimer = new BukkitRunnable() {
+            @Override
+            public void run() {
+                displayManager.update();
+            }
+        };
+        this.displayUpdateTimer.runTaskTimer(this, 0, this.displayUpdatePeriod);
     }
 
     public static Addons getInstance(){
         return instance;
     }
 
-    public int getLevel(int points){
-        int off = points - levelOffset;
-        if(off < 0){
-            return 1;
-        }
-
-        return off / levelIncrement + 1;
+    public int getRequirement(int level){
+        return level * levelOffset + (level - 1) * level / 2 * levelIncrement;
     }
 
-    public void checkLevel(String uuid){
-        int level = manager.getLevel(uuid), points = manager.getPoints(uuid);
-        int newLevel = getLevel(points);
+    public int getSingleRequirement(int level){
+        return getRequirement(level) - getRequirement(level - 1);
+    }
 
-        if(newLevel != level){
-            manager.setLevel(uuid, newLevel);
+    public int getLeftoverPoints(int level, int points){
+        return points - getRequirement(level);
+    }
+
+    public int getLevel(int points){
+        int level = 0;
+        int requirement = levelOffset;
+
+        while(points >= requirement){
+            level++;
+            requirement += levelOffset + levelIncrement * (level - 1);
         }
+
+        return level;
+    }
+
+    public boolean canLevelUp(int level, int points){
+        return getLeftoverPoints(level, points) > getSingleRequirement(level + 1);
+    }
+
+    public float getPrecentage(int level, int points){
+        return (float)getLeftoverPoints(level, points) / (float)getSingleRequirement(level + 1);
     }
 
     public LevelManager manager(){

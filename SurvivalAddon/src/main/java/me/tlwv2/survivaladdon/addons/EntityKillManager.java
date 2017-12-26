@@ -3,16 +3,13 @@ package me.tlwv2.survivaladdon.addons;
 import me.tlwv2.survivaladdon.Addons;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.serialization.ConfigurationSerializable;
-import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
-import org.bukkit.event.entity.EntityDeathEvent;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 /**
  * Created by Moses on 2017-12-07.
@@ -41,7 +38,7 @@ public class EntityKillManager implements Listener, ConfigurationSerializable{
         if(e.getClass().getSimpleName().equals(type) && e.getEntity().isDead()){
             if(e.getDamager() instanceof Player){
                 String uuid = e.getDamager().getUniqueId().toString();
-                Addons.getInstance().manager().setPoints(uuid, Addons.getInstance().manager().getPoints(uuid) + this.pointAmount);
+                Addons.getInstance().manager().incrementPoints(uuid, this.pointAmount);
             }
         }
     }

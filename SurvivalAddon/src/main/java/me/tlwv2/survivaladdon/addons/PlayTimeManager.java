@@ -43,8 +43,7 @@ public class PlayTimeManager implements Listener, ConfigurationSerializable{
         BukkitRunnable timer = new BukkitRunnable() {
             @Override
             public void run() {
-                Addons.getInstance().manager().setPoints(uuid, Addons.getInstance().manager().getPoints(uuid) + pointIncrement);
-                Addons.getInstance().checkLevel(uuid);
+                Addons.getInstance().manager().incrementPoints(uuid, pointIncrement);
             }
         };
         this.activeTimers.put(uuid, timer);
