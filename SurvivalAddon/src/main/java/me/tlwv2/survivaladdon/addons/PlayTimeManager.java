@@ -32,7 +32,7 @@ public class PlayTimeManager implements Listener, ConfigurationSerializable{
 
     public PlayTimeManager(Map<String, Object> map){
         this.pointIncrement = (int) map.get(POINT_INCREMENT_KEY);
-        this.pointDelay = (long) map.get(POINT_DELAY_KEY);
+        this.pointDelay = ((Integer)map.get(POINT_DELAY_KEY)).longValue();
         this.plugin = (Addons) Bukkit.getPluginManager().getPlugin(Addons.PLUGIN_NAME);
 
         this.activeTimers = new HashMap<>();

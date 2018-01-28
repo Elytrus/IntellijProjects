@@ -1,6 +1,5 @@
 package me.tlwv2.survivaladdon;
 
-
 import me.tlwv2.core.infolist.ILWrapper;
 import me.tlwv2.survivaladdon.addons.EntityKillManager;
 import me.tlwv2.survivaladdon.addons.PlayTimeManager;
@@ -43,7 +42,7 @@ public class Addons extends JavaPlugin {
             2500
     };
 
-    private static final String DEFAULT_HOST = "localhost";
+    private static final String DEFAULT_HOST = "jdbc:mysql://localhost/";
     private static final String DEFAULT_USERNAME = "root";
     private static final String DEFAULT_PASSWORD = "admin";
 
@@ -108,27 +107,24 @@ public class Addons extends JavaPlugin {
         ILWrapper.registerPlugin(this);
 
         //MANAGER KEYS
-        if(getConfig().contains(PLAY_TIME_MANAGER_KEY, true)){
+        if (getConfig().contains(PLAY_TIME_MANAGER_KEY, true)) {
             this.playTimeManager = (PlayTimeManager) getConfig().get(PLAY_TIME_MANAGER_KEY);
-        }
-        else{
+        } else {
             this.playTimeManager = new PlayTimeManager(DEFAULT_PLAY_TIME_INCREMENT, DEFAULT_PLAY_TIME_DELAY, this);
             getConfig().set(PLAY_TIME_MANAGER_KEY, this.playTimeManager);
         }
 
-        if(getConfig().contains(ENTITY_KILLS_MANAGER_KEY)){
+        if (getConfig().contains(ENTITY_KILLS_MANAGER_KEY)) {
             for (Object killManager : getConfig().getList(ENTITY_KILLS_MANAGER_KEY)) {
                 this.entityKillManagers.add((EntityKillManager) killManager);
             }
-        }
-        else{
-            if(DEFAULT_ENTITY_KILL_ENTITIES.length != DEFAULT_ENTITY_KILL_REWARDS.length){
+        } else {
+            if (DEFAULT_ENTITY_KILL_ENTITIES.length != DEFAULT_ENTITY_KILL_REWARDS.length) {
                 getLogger().severe("Default entity kill lists do not match! Is there something wrong with the source code?");
                 getLogger().severe("Disabling plugin...");
                 Bukkit.getPluginManager().disablePlugin(this);
-            }
-            else {
-                for(int i = 0; i < DEFAULT_ENTITY_KILL_REWARDS.length; i++){
+            } else {
+                for (int i = 0; i < DEFAULT_ENTITY_KILL_REWARDS.length; i++) {
                     this.entityKillManagers.add(new EntityKillManager(DEFAULT_ENTITY_KILL_ENTITIES[i], DEFAULT_ENTITY_KILL_REWARDS[i], this));
                 }
                 getConfig().set(ENTITY_KILLS_MANAGER_KEY, this.entityKillManagers);
@@ -136,64 +132,51 @@ public class Addons extends JavaPlugin {
         }
 
         //OFFSET KEYS
-        if(getConfig().contains(LEVEL_OFFSET_KEY)){
+        if (getConfig().contains(LEVEL_OFFSET_KEY)) {
             this.levelOffset = getConfig().getInt(LEVEL_OFFSET_KEY);
-        }
-        else{
+        } else {
             this.levelOffset = DEFAULT_LEVEL_OFFSET;
             getConfig().set(LEVEL_OFFSET_KEY, this.levelOffset);
         }
 
-        if(getConfig().contains(LEVEL_INCREMENT_KEY)){
+        if (getConfig().contains(LEVEL_INCREMENT_KEY)) {
             this.levelIncrement = getConfig().getInt(LEVEL_INCREMENT_KEY);
-        }
-        else{
+        } else {
             this.levelIncrement = DEFAULT_LEVEL_INCREMENT;
             getConfig().set(LEVEL_INCREMENT_KEY, this.levelIncrement);
         }
 
         //SQL KEYS
-        if(getConfig().contains(HOST_KEY)){
+        if (getConfig().contains(HOST_KEY)) {
             this.host = getConfig().getString(HOST_KEY);
-        }
-        else{
+        } else {
             this.host = DEFAULT_HOST;
             getConfig().set(HOST_KEY, this.host);
         }
 
-        if(getConfig().contains(USERNAME_KEY)){
+        if (getConfig().contains(USERNAME_KEY)) {
             this.username = getConfig().getString(USERNAME_KEY);
-        }
-        else{
+        } else {
             this.username = DEFAULT_USERNAME;
             getConfig().set(USERNAME_KEY, this.username);
         }
 
-        if(getConfig().contains(PASSWORD_KEY)){
+        if (getConfig().contains(PASSWORD_KEY)) {
             this.password = getConfig().getString(PASSWORD_KEY);
-        }
-        else{
+        } else {
             this.password = DEFAULT_PASSWORD;
             getConfig().set(PASSWORD_KEY, this.password);
         }
 
         //OTHER KEYS
-        if(getConfig().contains(DISPLAY_UPDATE_PERIOD_KEY)){
+        if (getConfig().contains(DISPLAY_UPDATE_PERIOD_KEY)) {
             this.displayUpdatePeriod = getConfig().getLong(DISPLAY_UPDATE_PERIOD_KEY);
-        }
-        else{
+        } else {
             this.displayUpdatePeriod = DEFAULT_DISPLAY_UPDATE_PERIOD;
             getConfig().set(DISPLAY_UPDATE_PERIOD_KEY, this.displayUpdatePeriod);
         }
 
         saveConfig();
-
-        //COMMANDS
-
-        Bukkit.getPluginCommand("points").setExecutor(new PointsCommand());
-        Bukkit.getPluginCommand("pointset").setExecutor(new PointSetCommand());
-        Bukkit.getPluginCommand("levelupdate").setExecutor(new LevelUpdateCommand());
-        Bukkit.getPluginCommand("multiplierset").setExecutor(new MultiplierSetCommand());
 
         //OTHER
 
@@ -207,29 +190,37 @@ public class Addons extends JavaPlugin {
             }
         };
         this.displayUpdateTimer.runTaskTimer(this, 0, this.displayUpdatePeriod);
+
+        //COMMANDS
+        Bukkit.getPluginCommand("points").setExecutor(new PointsCommand());
+        Bukkit.getPluginCommand("pointset").setExecutor(new PointSetCommand());
+        Bukkit.getPluginCommand("levelupdate").setExecutor(new LevelUpdateCommand());
+        Bukkit.getPluginCommand("multiplierset").setExecutor(new MultiplierSetCommand());
+
+        new EListener(this);
     }
 
-    public static Addons getInstance(){
+    public static Addons getInstance() {
         return instance;
     }
 
-    public int getRequirement(int level){
+    public int getRequirement(int level) {
         return level * levelOffset + (level - 1) * level / 2 * levelIncrement;
     }
 
-    public int getSingleRequirement(int level){
+    public int getSingleRequirement(int level) {
         return getRequirement(level) - getRequirement(level - 1);
     }
 
-    public int getLeftoverPoints(int level, int points){
+    public int getLeftoverPoints(int level, int points) {
         return points - getRequirement(level);
     }
 
-    public int getLevel(int points){
+    public int getLevel(int points) {
         int level = 0;
         int requirement = levelOffset;
 
-        while(points >= requirement){
+        while (points >= requirement) {
             level++;
             requirement += levelOffset + levelIncrement * (level - 1);
         }
@@ -237,15 +228,15 @@ public class Addons extends JavaPlugin {
         return level;
     }
 
-    public boolean canLevelUp(int level, int points){
+    public boolean canLevelUp(int level, int points) {
         return getLeftoverPoints(level, points) > getSingleRequirement(level + 1);
     }
 
-    public float getPrecentage(int level, int points){
-        return (float)getLeftoverPoints(level, points) / (float)getSingleRequirement(level + 1);
+    public float getPrecentage(int level, int points) {
+        return (float) getLeftoverPoints(level, points) / (float) getSingleRequirement(level + 1);
     }
 
-    public LevelManager manager(){
+    public LevelManager manager() {
         return manager;
     }
 

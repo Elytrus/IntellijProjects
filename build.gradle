@@ -7,10 +7,11 @@ apply plugin: 'java'
 sourceCompatibility = 1.8
 
 ext{
-    home = conv(System.properties['user.home'])
+    home = System.properties['user.home'].replaceAll('\\\\', '/')
     desktop = "${ext.home}/Desktop/"
     depDir = "${ext.desktop}/plugin-dependencies/"
-    spigot = files("${depDir}spigot-1.12.1.jar")
+    spigot = files("${depDir}spigot-1.12.2.jar")
+//    spigot = 'org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT'
     expdir = file("${desktop}test-server/plugins")
 }
 
@@ -18,13 +19,13 @@ rootProject.getTasksByName('jar', true).each{
     task -> task.setProperty('destinationDir', expdir)
         task.setProperty('archiveName', "${task.project.name}.jar")
 }
-//Converts \ into /
-String conv(Object filename){
-    return filename.replaceAll('\\\\', '/')
-}
 
 repositories {
     mavenCentral()
+
+    maven{
+        url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
 }
 
 dependencies {

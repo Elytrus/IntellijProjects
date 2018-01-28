@@ -2,7 +2,6 @@ package me.tlwv2.survivaladdon;
 
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
-import org.bukkit.entity.Player;
 
 import java.sql.*;
 import java.util.UUID;
@@ -14,98 +13,46 @@ import java.util.logging.Logger;
 public class LevelManager {
     private Connection connection;
     private Logger logger;
-//    private HashMap<String, Integer> points, levels;
-//    private HashMap<String, Float> multipliers;
-//    private ArrayList<Change> changes;
 
     public LevelManager(String url, String username, String password) {
         this.logger = Bukkit.getLogger();
 
-//        this.points = new HashMap<>();
-//        this.levels = new HashMap<>();
-//        this.multipliers = new HashMap<>();
-//        this.changes = new ArrayList<>();
+        try{
+            Class.forName("com.mysql.jdbc.Driver");
+        }
+        catch (ClassNotFoundException e){
+            e.printStackTrace();
+        }
 
         this.connection = null;
 
-        try(Connection conn = DriverManager.getConnection(url, username, password)){
-            this.connection = conn;
+        try{
+            this.connection = DriverManager.getConnection(url, username, password);
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
+        this.init();
     }
 
     //MISC. METHODS ----------------------------------------------------------------------------------------------------
 
     public void init(){
         try{
-            query(this.connection, "CREATE DATABASE points_db");
-            query(this.connection, "CREATE TABLE points_db.points (uuid VARCHAR(36), points INT);");
-            query(this.connection, "CREATE TABLE points_db.levels (uuid VARCHAR(36), level INT);");
-            query(this.connection, "CREATE TABLE points_db.multipliers (uuid VARCHAR(36), multiplier FLOAT(24));");
+            update(this.connection, "CREATE DATABASE points_db");
+            update(this.connection, "CREATE TABLE points_db.points (uuid VARCHAR(255), points INT);");
+            update(this.connection, "CREATE TABLE points_db.levels (uuid VARCHAR(255), level INT);");
+            update(this.connection, "CREATE TABLE points_db.multipliers (uuid VARCHAR(255), multiplier FLOAT(24));");
         }
         catch(SQLException e){
-            if(e.getErrorCode() == 1050){
-                sqlWarn(e.getMessage());
+            if(e.getErrorCode() == 1007){
+                System.out.println(e.getMessage());
+            }
+            else{
+                printException(e);
             }
         }
     }
-
-//    public void fetchAll(){
-//        //POINTS
-//        ResultSet points = unsafeQuery(this.connection, "SELECT * FROM points_db.points");
-//
-//        try {
-//            while(points.next()){
-//                this.points.put(points.getString("uuid"), points.getInt("points"));
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//
-//        //LEVELS
-//
-//        ResultSet levels = unsafeQuery(this.connection, "SELECT * FROM points_db.points");
-//
-//        try {
-//            while(levels.next()){
-//                this.levels.put(levels.getString("uuid"), levels.getInt("level"));
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//
-//        //MULTIPLIERS
-//
-//        ResultSet multipliers = unsafeQuery(this.connection, "SELECT * FROM multipliers_db.multipliers");
-//
-//        try {
-//            while(multipliers.next()){
-//                this.multipliers.put(multipliers.getString("uuid"), multipliers.getFloat("multiplier"));
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
-//    }
-
-//    public void clear(){
-//        this.points.clear();
-//        this.levels.clear();
-//        this.multipliers.clear();
-//    }
-
-//    public void reload(){
-//        clear();
-//        fetchAll();
-//    }
-
-//    public void update(){
-//        for(Change change : this.changes){
-//            change.execute(this.connection);
-//        }
-//
-//        this.changes.clear();
-//    }
 
     public String dumpPlayer(OfflinePlayer player){
         return dumpPlayer(player.getUniqueId().toString(), player.getName());
@@ -167,24 +114,26 @@ public class LevelManager {
         setLevel(uuid, level);
     }
 
+    public void die(){
+        try {
+            this.connection.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     //GETTERS AND SETTERS ----------------------------------------------------------------------------------------------
 
     public void setPoints(String uuid, int value){
-//        this.points.put(uuid, value);
-//        this.changes.add(new PointsChange(uuid, value));
-
-        unsafeQuery(this.connection, "IF EXISTS(SELECT 1 FROM points_db.points WHERE uuid = " + uuid + ") BEGIN" +
-                "UPDATE points_db.points" +
-                "SET points = " + value + " WHERE uuid = " + uuid +
-                "END ELSE BEGIN" +
-                "INSERT INTO points_db.points" +
-                "VALUES (" + uuid + ", " + value + ");");
+        updatePropertyInTable(this.connection, "points_db.points", "points", uuid, value);
     }
 
     public int getPoints(String uuid){
-        ResultSet results = unsafeQuery(this.connection, "SELECT * FROM points_db.points WHERE uuid = " + uuid + " LIMIT 1;");
+        ResultSet results = getPropertyFromTable(this.connection, "points_db.points", uuid);
         try {
-            return results.getInt("points");
+            int pts = results.getInt("points");
+            closeSet(results);
+            return pts;
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -193,18 +142,15 @@ public class LevelManager {
     }
 
     public void setLevel(String uuid, int value){
-        unsafeQuery(this.connection, "IF EXISTS(SELECT 1 FROM points_db.levels WHERE uuid = " + uuid + ") BEGIN" +
-                "UPDATE points_db.levels" +
-                "SET level = " + value + " WHERE uuid = " + uuid +
-                "END ELSE BEGIN" +
-                "INSERT INTO points_db.level" +
-                "VALUES (" + uuid + ", " + value + ");");
+        updatePropertyInTable(this.connection, "points_db.levels", "level", uuid, value);
     }
 
     public int getLevel(String uuid){
-        ResultSet results = unsafeQuery(this.connection, "SELECT * FROM points_db.levels WHERE uuid = " + uuid + " LIMIT 1;");
+        ResultSet results = getPropertyFromTable(this.connection, "points_db.levels", uuid);
         try {
-            return results.getInt("level");
+            int lvl = results.getInt("level");
+            closeSet(results);
+            return lvl;
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -213,18 +159,15 @@ public class LevelManager {
     }
 
     public void setMultiplier(String uuid, float value){
-        unsafeQuery(this.connection, "IF EXISTS(SELECT 1 FROM points_db.multipliers WHERE uuid = " + uuid + ") BEGIN" +
-                "UPDATE points_db.multipliers" +
-                "SET multiplier = " + value + " WHERE uuid = " + uuid +
-                "END ELSE BEGIN" +
-                "INSERT INTO points_db.multipliers" +
-                "VALUES (" + uuid + ", " + value + ");");
+        updatePropertyInTable(this.connection, "points_db.multipliers", "multiplier", uuid, value);
     }
 
     public float getMultiplier(String uuid){
-        ResultSet results = unsafeQuery(this.connection, "SELECT * FROM points_db.multipliers WHERE uuid = " + uuid + " LIMIT 1;");
+        ResultSet results = getPropertyFromTable(this.connection, "points_db.multipliers", uuid);
         try {
-            return results.getFloat("multiplier");
+            float mlptr = results.getFloat("multiplier");
+            closeSet(results);
+            return mlptr;
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -233,39 +176,15 @@ public class LevelManager {
     }
 
     public boolean points(String uuid){
-        ResultSet results = unsafeQuery(this.connection, "SELECT EXISTS(SELECT * FROM points_db.points WHERE uuid = " + uuid + ")" +
-                "AS \"exists\";");
-        try {
-            return results.getInt("exists") == 1;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        return false;
+        return existsIn("points_db.points", uuid);
     }
 
     public boolean level (String uuid){
-        ResultSet results = unsafeQuery(this.connection, "SELECT EXISTS(SELECT * FROM points_db.levels WHERE uuid = " + uuid + ")" +
-                "AS \"exists\";");
-        try {
-            return results.getInt("exists") == 1;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        return false;
+        return existsIn("points_db.levels", uuid);
     }
 
     public boolean multiplier(String uuid){
-        ResultSet results = unsafeQuery(this.connection, "SELECT EXISTS(SELECT * FROM points_db.multipliers WHERE uuid = "
-                + uuid + ")" + "AS \"exists\";");
-        try {
-            return results.getInt("exists") == 1;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        return false;
+        return existsIn("points_db.multipliers", uuid);
     }
 
     //MISC. CHECKS -----------------------------------------------------------------------------------------------------
@@ -276,9 +195,18 @@ public class LevelManager {
 
     //PRIVATE METHODS --------------------------------------------------------------------------------------------------
 
-    private ResultSet query(Connection connection, String query) throws SQLException{
-        try (PreparedStatement statement = connection.prepareStatement(query)) {
+    private ResultSet query(Connection connection, String query) throws SQLException {
+        try {
+            PreparedStatement statement = connection.prepareStatement(query);
             return statement.executeQuery();
+        } catch (SQLException e) {
+            throw e;
+        }
+    }
+
+    private int update(Connection connection, String query) throws SQLException {
+        try (PreparedStatement statement = connection.prepareStatement(query)) {
+            return statement.executeUpdate();
         } catch (SQLException e) {
             throw e;
         }
@@ -287,67 +215,76 @@ public class LevelManager {
     private ResultSet unsafeQuery(Connection connection, String query){
         try{
             return query(connection, query);
+        }
+        catch(SQLException e){
+            printException(e);
+        }
+
+        return null;
+    }
+
+    private int unsafeUpdate(Connection connection, String query){
+        try{
+            return update(connection, query);
+        }
+        catch(SQLException e){
+            printException(e);
+        }
+
+        return -1;
+    }
+
+    private ResultSet getPropertyFromTable(Connection connection, String table, String uuid){
+        return unsafeQuery(connection, "SELECT * FROM " + table + " WHERE uuid = '" + uuid + "' LIMIT 1;");
+    }
+
+    private int updatePropertyInTable(Connection connection, String table, String property, String uuid, Object value){
+        try {
+            return update(connection,"UPDATE " + table + "SET " + property + " = " + value + " WHERE uuid = '" + uuid + "';");
         } catch (SQLException e) {
-            e.printStackTrace();
-            return null;
+            this.logger.warning("SQL Error: " + e.getMessage());
+            this.logger.warning("Attempting alternate method of updating value " + property + " for uuid " + uuid);
+
+            return unsafeUpdate(connection, "INSERT INTO " + table + "VALUES ('" + uuid + "', " + value + ");");
         }
     }
 
-    private void sqlWarn(String warning){
+    private boolean existsIn(String table, String uuid){
+        ResultSet results = unsafeQuery(this.connection, "SELECT EXISTS(SELECT 1 FROM " + table + " WHERE uuid = '" + uuid + "')" +
+                " AS \"exists\";");
+        try {
+            boolean exists = results.getInt("exists") == 1;
+            closeSet(results);
+            return exists;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return false;
+    }
+
+    private void closeSet(ResultSet set){
+        try {
+            set.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        try {
+            set.getStatement().close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void sqlWarn(String warning) {
         this.logger.warning("[WARNING] An error occurred during database operations: " + warning);
     }
 
-//    private abstract class Change<V>{
-//        protected String uuid;
-//        protected V value;
-//
-//        public Change(String uuid, V value) {
-//            this.uuid = uuid;
-//            this.value = value;
-//        }
-//
-//        public abstract void execute(Connection conn);
-//    }
-//
-//    private class PointsChange extends Change<Integer>{
-//        public PointsChange(String uuid, Integer value) {
-//            super(uuid, value);
-//        }
-//
-//        @Override
-//        public void execute(Connection connection){
-//            unsafeQuery(connection, "IF EXISTS (SELECT * FROM points_db.points WHERE uuid = '" + this.uuid + "') BEGIN" +
-//                    "UPDATE points_db.points SET points = " + this.value + " WHERE uuid = '" + this.uuid + "'" +
-//                    "END ELSE BEGIN" +
-//                    "INSERT INTO points_db.points VALUES ('" + this.uuid + "', " + this.value + ") END;");
-//        }
-//    }
-//
-//    private class LevelsChange extends Change<Integer>{
-//        public LevelsChange(String uuid, Integer value) {
-//            super(uuid, value);
-//        }
-//
-//        @Override
-//        public void execute(Connection connection){
-//            unsafeQuery(connection, "IF EXISTS (SELECT * FROM points_db.levels WHERE uuid = '" + this.uuid + "') BEGIN" +
-//                    "UPDATE points_db.levels SET level = " + this.value + " WHERE uuid = '" + this.uuid + "'" +
-//                    "END ELSE BEGIN" +
-//                    "INSERT INTO points_db.levels VALUES ('" + this.uuid + "', " + this.value + ") END;");
-//        }
-//    }
-//
-//    private class MultiplierChange extends Change<Float>{
-//        public MultiplierChange(String uuid, Float value) {
-//            super(uuid, value);
-//        }
-//
-//        @Override
-//        public void execute(Connection connection){
-//            unsafeQuery(connection, "IF EXISTS (SELECT * FROM points_db.multipliers WHERE uuid = '" + this.uuid + "') BEGIN" +
-//                    "UPDATE points_db.multipliers SET multipliers = " + this.value + " WHERE uuid = '" + this.uuid + "'" +
-//                    "END ELSE BEGIN" +
-//                    "INSERT INTO points_db.multipliers VALUES ('" + this.uuid + "', " + this.value + ") END;");
-//        }
-//    }
+    public void printException(SQLException e){
+        e.printStackTrace();
+        System.out.println();
+        System.out.println("Message: " + e.getMessage());
+        System.out.println("State: " + e.getSQLState());
+        System.out.println("Error Code: " + e.getErrorCode());
+    }
 }

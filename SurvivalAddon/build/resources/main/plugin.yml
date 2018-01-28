@@ -1,5 +1,5 @@
 name: PointAddon
-main: me.tlwv2.survivaladdons.Addons
+main: me.tlwv2.survivaladdon.Addons
 version: 1.0
 description: help me :(
 commands:

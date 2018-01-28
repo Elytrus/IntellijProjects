@@ -1,0 +1,19 @@
+group 'PCore'
+version '1.0'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    compile spigot
+    compile rootProject
+    compile files("${depDir}askyblock.jar")
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

@@ -33,6 +33,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SKMCPlugin.iml" filepath="$PROJECT_DIR$/.idea/modules/SKMCPlugin.iml" group="SKMCPlugin" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_main.iml" group="SKMCPlugin" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_test.iml" group="SKMCPlugin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkyblockFly.iml" filepath="$PROJECT_DIR$/.idea/modules/SkyblockFly.iml" group="SkyblockFly" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkyblockFly/SkyblockFly_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SkyblockFly/SkyblockFly_main.iml" group="SkyblockFly" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkyblockFly/SkyblockFly_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SkyblockFly/SkyblockFly_test.iml" group="SkyblockFly" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SkyblockTiers.iml" filepath="$PROJECT_DIR$/.idea/modules/SkyblockTiers.iml" group="SkyblockTiers" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_main.iml" group="SkyblockTiers" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_test.iml" group="SkyblockTiers" />

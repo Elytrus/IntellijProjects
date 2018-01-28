@@ -13,4 +13,5 @@ include 'CustomItems'
 include 'PassiveAddons'
 include 'MCLevels'
 include 'SurvivalAddon'
+include 'SkyblockFly'
 

@@ -51,10 +51,12 @@ public class LevelUpEvent extends Event {
         this.isCancelled = false;
     }
 
-
-
     @Override
     public HandlerList getHandlers() {
+        return new HandlerList();
+    }
+
+    public static HandlerList getHandlerList() {
         return new HandlerList();
     }
 }

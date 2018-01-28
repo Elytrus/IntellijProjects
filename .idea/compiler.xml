@@ -54,6 +54,8 @@
       <module name="PCore_test" target="1.8" />
       <module name="SKMCPlugin_main" target="1.8" />
       <module name="SKMCPlugin_test" target="1.8" />
+      <module name="SkyblockFly_main" target="1.8" />
+      <module name="SkyblockFly_test" target="1.8" />
       <module name="SkyblockTiers_main" target="1.8" />
       <module name="SkyblockTiers_test" target="1.8" />
       <module name="SurvivalAddon_main" target="1.8" />
