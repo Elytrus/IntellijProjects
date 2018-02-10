@@ -11,7 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses.iml" group="Bosses" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses_main.iml" group="Bosses" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses_test.iml" group="Bosses" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants.iml" filepath="$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants.iml" group="CustomEnchants" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomEnchants.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomEnchants.iml" group="CustomEnchants" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants_main.iml" filepath="$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants_main.iml" group="CustomEnchants" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants_test.iml" filepath="$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants_test.iml" group="CustomEnchants" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomItems.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomItems.iml" group="CustomItems" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_main.iml" group="CustomItems" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_test.iml" group="CustomItems" />

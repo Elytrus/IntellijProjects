@@ -1,0 +1,4 @@
+name: CustomEnchants
+main: me.tlwv2.customenchants.CustomEnchants
+version: 1.0
+depend: [PCore]

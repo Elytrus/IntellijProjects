@@ -136,6 +136,9 @@ public class CustomItems implements Listener{
         if(c instanceof IUpdate){
             updates.put(flagItem, (IUpdate)c);
         }
+        if(c instanceof IBlockBreak){
+            breaks.put(flagItem, (IBlockBreak)c);
+        }
     }
 
     public void registerItem(String flagName, ItemStack i, ICustomItem c, Recipe r){
