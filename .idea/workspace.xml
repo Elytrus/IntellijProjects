@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56dd467-b26b-4bf4-8b0e-e71b87ae6a64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CustomEnchants/src/main/java/me/tlwv2/customenchants/CustomEnchants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CustomEnchants/src/main/java/me/tlwv2/customenchants/EListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CustomEnchants/src/main/resources/plugin.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/IInteract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/IUpdate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SkyblockFly/src/main/java/me/tlwv2/skyblockfly/IslandFlyCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SkyblockFly/src/main/java/me/tlwv2/skyblockfly/SkyblockFly.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SkyblockFly/src/main/resources/plugin.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/ICustomBlock.java" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/AbstractCustomBlock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/ICustomCrafting.java" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/AbstractCustomCrafting.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/inventory/ICustomInventory.java" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/inventory/CustomInventoryHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/AbstractCustomCrafting.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/CustomBlocks.java" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/CustomBlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/inventory/InventoryProgressBar.java" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/inventory/InventoryProgressBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/items/CustomItems.java" afterPath="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/items/CustomItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/BankNotes/.gradle/" />
@@ -174,48 +154,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CustomEnchants/build.gradle">
+      <file leaf-file-name="CustomBlocks.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/CustomBlocks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CustomEnchants/src/main/resources/plugin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomEnchants.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CustomEnchants/src/main/java/me/tlwv2/customenchants/CustomEnchants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+            <state relative-caret-position="543">
+              <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#927#1027#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CustomEnchants/src/main/java/me/tlwv2/customenchants/EListener.java">
+      <file leaf-file-name="AbstractCustomBlock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/AbstractCustomBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2917,7 +2875,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/MultiplierInterface.java" />
         <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/addons/AddonManager.java" />
         <option value="$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/DisplayManager.java" />
         <option value="$PROJECT_DIR$/SurvivalAddon/build.gradle" />
@@ -2957,7 +2914,6 @@
         <option value="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/inventory/AbstractCustomInventory.java" />
         <option value="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/inventory/InventoryProgressBar.java" />
         <option value="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/inventory/CustomInventoryHandler.java" />
-        <option value="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/CustomBlocks.java" />
         <option value="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/AbstractCustomBlock.java" />
         <option value="$PROJECT_DIR$/SkyblockFly/src/main/java/me/tlwv2/skyblockfly/IslandFlyCommand.java" />
         <option value="$PROJECT_DIR$/SkyblockFly/src/main/java/me/tlwv2/skyblockfly/SkyblockFly.java" />
@@ -2968,6 +2924,8 @@
         <option value="$PROJECT_DIR$/CustomEnchants/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/CustomEnchants/src/main/java/me/tlwv2/customenchants/EListener.java" />
         <option value="$PROJECT_DIR$/CustomEnchants/src/main/java/me/tlwv2/customenchants/CustomEnchants.java" />
+        <option value="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Archangel.java" />
+        <option value="$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/CustomBlocks.java" />
       </list>
     </option>
   </component>
@@ -3027,7 +2985,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CustomEnchants" />
+              <option name="myItemId" value="CustomItems" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3041,7 +2999,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CustomEnchants" />
+              <option name="myItemId" value="CustomItems" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -3510,13 +3468,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/java/me/tlwv2/survivaladdon/DisplayManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="62" column="76" lean-forward="false" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SurvivalAddon/src/main/resources/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -3714,13 +3665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/CustomBlocks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bosses/src/main/resources/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3767,7 +3711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3792,25 +3735,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/AbstractCustomBlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/AbstractCustomCrafting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/AbstractCustomCrafting.java" />
     <entry file="file://$PROJECT_DIR$/CustomEnchants/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3825,19 +3754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomEnchants/src/main/java/me/tlwv2/customenchants/EListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3862,12 +3778,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Archangel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="68" column="22" lean-forward="false" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CustomEnchants/src/main/java/me/tlwv2/customenchants/CustomEnchants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
           <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomEnchants/src/main/java/me/tlwv2/customenchants/EListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/AbstractCustomBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CustomItems/src/main/java/me/tlwv2/customitems/blocks/CustomBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#927#1027#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
           </folding>
         </state>
       </provider>
