@@ -15,4 +15,5 @@ include 'MCLevels'
 include 'SurvivalAddon'
 include 'SkyblockFly'
 include 'CustomEnchants'
+include 'NewCraftingAddons'
 

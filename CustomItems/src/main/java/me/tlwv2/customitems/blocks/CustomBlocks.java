@@ -33,12 +33,14 @@ public class CustomBlocks implements Listener, ConfigurationSerializable{
     };
 
     public CustomBlocks(Main plugin) {
-        this.blocklist = new HashMap<>();
-        this.blocks = new HashMap<>();
-        this.interacts = new HashMap<>();
-        this.updates = new HashMap<>();
+        Bukkit.getLogger().info("CustomBlocks API not fully implemented yet!");
 
-        Bukkit.getPluginManager().registerEvents(this, plugin);
+//        this.blocklist = new HashMap<>();
+//        this.blocks = new HashMap<>();
+//        this.interacts = new HashMap<>();
+//        this.updates = new HashMap<>();
+//
+//        Bukkit.getPluginManager().registerEvents(this, plugin);
     }
 
     @EventHandler

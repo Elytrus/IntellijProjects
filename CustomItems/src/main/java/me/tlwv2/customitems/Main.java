@@ -14,8 +14,10 @@ import java.util.List;
  * Created by Moses on 2017-10-06.
  */
 public class Main extends JavaPlugin{
+    public static Main self;
+
     public CustomItems items;
-    public CustomBlocks blocks;
+    public CustomBlocks blocks; //WIP
     public CustomEntities entities; //WIP
 
     @Override
@@ -25,6 +27,10 @@ public class Main extends JavaPlugin{
 
     @Override
     public void onEnable() {
+        self = this;
 
+        items = new CustomItems(this);
+        blocks = new CustomBlocks(this);
+        entities = new CustomEntities(this);
     }
 }

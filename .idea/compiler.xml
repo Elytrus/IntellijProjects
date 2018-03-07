@@ -46,6 +46,8 @@
       <module name="MCMMOVisuals_test" target="1.8" />
       <module name="Moses-PCore_main" target="1.8" />
       <module name="Moses-PCore_test" target="1.8" />
+      <module name="NewCraftingAddons_main" target="1.8" />
+      <module name="NewCraftingAddons_test" target="1.8" />
       <module name="ObtrusiveRuleDisplay_main" target="1.8" />
       <module name="ObtrusiveRuleDisplay_test" target="1.8" />
       <module name="PassiveAddons_main" target="1.8" />

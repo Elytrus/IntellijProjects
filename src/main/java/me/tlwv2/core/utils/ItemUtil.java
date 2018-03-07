@@ -1,6 +1,7 @@
 package me.tlwv2.core.utils;
 
 import me.tlwv2.core.Constants;
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
@@ -12,6 +13,10 @@ import java.util.Arrays;
 public class ItemUtil {
     public static ItemStack addMetadata(ItemStack i, String name, boolean isGlow, String... lore){
         ItemMeta im = i.getItemMeta();
+        if(im == null){
+            im = Bukkit.getItemFactory().getItemMeta(i.getType());
+        }
+
         im.setDisplayName(name);
         if(isGlow) im.addEnchant(Constants.glow, 1, true);
         if(lore.length > 0) im.setLore(Arrays.asList(lore));

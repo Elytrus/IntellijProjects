@@ -45,9 +45,6 @@ public class SetPotionEffectsCommand extends PlayerOnlyCommand {
             String id = arg3[0];
             int duration = Integer.parseInt(arg3[1]), amplifier = Integer.parseInt(arg3[2]);
 
-            if(duration > 1000000 || amplifier > 127 || amplifier < -127)
-                throw new IllegalArgumentException("Should be catched");
-
             ItemStack item = p.getInventory().getItemInMainHand();
             ItemMeta meta = item.getItemMeta();
 
