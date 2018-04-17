@@ -21,7 +21,7 @@ import java.util.Map.Entry;
 public class Main extends JavaPlugin {
     private static HashMap<String, Kit> kits = new HashMap<>();
     private static HashMap<Player, Kit> currentKits = new HashMap<>();
-    private static Main self;
+    public static Main self;
 
     private static final String KITSMAP = "kitsmap";
     private static final String NPKEY = "needsPermissions";

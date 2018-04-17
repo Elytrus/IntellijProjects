@@ -16,4 +16,5 @@ include 'SurvivalAddon'
 include 'SkyblockFly'
 include 'CustomEnchants'
 include 'NewCraftingAddons'
+include 'Minions'
 

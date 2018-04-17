@@ -1,0 +1,10 @@
+name: Minions
+main: me.tlwv2.minions.Minions
+version: 1.0
+description: Stuff that attacks for you
+depend: [PCore]
+commands:
+   bossitems:
+      description: Main command
+      usage: /minions
+      aliases: [mns]

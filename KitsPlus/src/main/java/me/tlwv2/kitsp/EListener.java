@@ -66,7 +66,7 @@ public class EListener implements Listener {
                             .reduce(0, (a, b) -> a + b);
 //                    player.sendMessage(amount + "");
 
-                    kit.apply(player);
+                    kit.applyWithoutHP(player);
 
                     if(amount > 1){
                         ItemStack stack = Main.instance().getRefillItemStack();

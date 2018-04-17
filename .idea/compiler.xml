@@ -44,6 +44,8 @@
       <module name="MCLevels_test" target="1.8" />
       <module name="MCMMOVisuals_main" target="1.8" />
       <module name="MCMMOVisuals_test" target="1.8" />
+      <module name="Minions_main" target="1.8" />
+      <module name="Minions_test" target="1.8" />
       <module name="Moses-PCore_main" target="1.8" />
       <module name="Moses-PCore_test" target="1.8" />
       <module name="NewCraftingAddons_main" target="1.8" />

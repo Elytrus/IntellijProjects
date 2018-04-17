@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../SKMCPlugin">
       <excludeFolder url="file://$MODULE_DIR$/../../SKMCPlugin/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../SKMCPlugin/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../SKMCPlugin/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

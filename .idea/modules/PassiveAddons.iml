@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../PassiveAddons">
       <excludeFolder url="file://$MODULE_DIR$/../../PassiveAddons/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../PassiveAddons/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../PassiveAddons/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

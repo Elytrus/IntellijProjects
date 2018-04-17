@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../SkyblockFly">
       <excludeFolder url="file://$MODULE_DIR$/../../SkyblockFly/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../SkyblockFly/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../SkyblockFly/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

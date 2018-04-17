@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../ObtrusiveRuleDisplay">
       <excludeFolder url="file://$MODULE_DIR$/../../ObtrusiveRuleDisplay/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../ObtrusiveRuleDisplay/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ObtrusiveRuleDisplay/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

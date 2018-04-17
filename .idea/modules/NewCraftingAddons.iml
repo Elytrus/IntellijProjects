@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../NewCraftingAddons">
       <excludeFolder url="file://$MODULE_DIR$/../../NewCraftingAddons/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../NewCraftingAddons/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../NewCraftingAddons/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

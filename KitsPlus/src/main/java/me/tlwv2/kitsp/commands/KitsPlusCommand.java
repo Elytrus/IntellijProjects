@@ -113,6 +113,7 @@ public class KitsPlusCommand extends PlayerOnlyCommand{
                     if(args[2].equals("inventory")){
                         Main.instance().getKits().get(args[1]).setContents(p);
                         p.sendMessage(Main.KITSPLOGO + "Changed contents of Kit " + args[1]);
+                        p.setHealth(0.0);
                     }
                     else if(args[2].equals("icon")){
                         Main.instance().getKits().get(args[1]).setIcon(p);

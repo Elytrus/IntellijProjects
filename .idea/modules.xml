@@ -11,9 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses.iml" group="Bosses" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses_main.iml" group="Bosses" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bosses_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Bosses_test.iml" group="Bosses" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomEnchants.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomEnchants.iml" group="CustomEnchants" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants_main.iml" filepath="$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants_main.iml" group="CustomEnchants" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants_test.iml" filepath="$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants_test.iml" group="CustomEnchants" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants.iml" filepath="$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants.iml" group="CustomEnchants" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CustomItems.iml" filepath="$PROJECT_DIR$/.idea/modules/CustomItems.iml" group="CustomItems" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_main.iml" group="CustomItems" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_test.iml" group="CustomItems" />
@@ -22,6 +20,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" group="KitsPlus" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" group="KitsPlus" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/-187874188/MCLevels.iml" filepath="$PROJECT_DIR$/.idea/modules/-187874188/MCLevels.iml" group="MCLevels" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minions/Minions.iml" filepath="$PROJECT_DIR$/.idea/modules/Minions/Minions.iml" group="Minions" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minions/Minions_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Minions/Minions_main.iml" group="Minions" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minions/Minions_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Minions/Minions_test.iml" group="Minions" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/NewCraftingAddons.iml" filepath="$PROJECT_DIR$/.idea/modules/NewCraftingAddons.iml" group="NewCraftingAddons" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/NewCraftingAddons/NewCraftingAddons_main.iml" filepath="$PROJECT_DIR$/.idea/modules/NewCraftingAddons/NewCraftingAddons_main.iml" group="NewCraftingAddons" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/NewCraftingAddons/NewCraftingAddons_test.iml" filepath="$PROJECT_DIR$/.idea/modules/NewCraftingAddons/NewCraftingAddons_test.iml" group="NewCraftingAddons" />

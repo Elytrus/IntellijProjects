@@ -2,8 +2,10 @@ package me.tlwv2.kitsp;
 
 import com.google.common.collect.Maps;
 import me.tlwv2.core.utils.ItemUtil;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.attribute.Attribute;
 import org.bukkit.configuration.serialization.ConfigurationSerializable;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -29,7 +31,15 @@ public class Kit implements ConfigurationSerializable, Cloneable {
     /////////////////////////////////////////////////////////////////////////////
 
     public void apply(Player p){
-        p.getInventory().setContents(contents);
+        applyWithoutHP(p);
+
+        Bukkit.getScheduler().scheduleSyncDelayedTask(Main.self, () -> {
+            p.setHealth(p.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue());
+        }, 5l);
+    }
+
+    public void applyWithoutHP(Player p){
+        p.getInventory().setContents(contents.clone());
 
         for(PotionEffect pe : p.getActivePotionEffects()){
             p.removePotionEffect(pe.getType());
@@ -43,7 +53,7 @@ public class Kit implements ConfigurationSerializable, Cloneable {
     }
 
     public void reset(Player p, String name, String displayName){
-        contents = p.getInventory().getContents();
+        contents = p.getInventory().getContents().clone();
         effects = p.getActivePotionEffects().toArray(new PotionEffect[1]);
 
         ItemStack i = p.getInventory().getItemInMainHand().clone();
@@ -96,7 +106,7 @@ public class Kit implements ConfigurationSerializable, Cloneable {
     }
 
     public void setContents(Player p) {
-        this.contents = p.getInventory().getContents();
+        this.contents = p.getInventory().getContents().clone();
     }
 
     public void setIcon(Player p) {

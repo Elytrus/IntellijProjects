@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../SkyblockTiers">
       <excludeFolder url="file://$MODULE_DIR$/../../SkyblockTiers/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../SkyblockTiers/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../SkyblockTiers/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

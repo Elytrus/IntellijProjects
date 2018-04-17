@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../AdminTool">
       <excludeFolder url="file://$MODULE_DIR$/../../AdminTool/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../AdminTool/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../AdminTool/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

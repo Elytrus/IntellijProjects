@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../SurvivalAddon">
       <excludeFolder url="file://$MODULE_DIR$/../../../SurvivalAddon/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../SurvivalAddon/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../SurvivalAddon/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

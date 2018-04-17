@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../CustomItems">
       <excludeFolder url="file://$MODULE_DIR$/../../CustomItems/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../CustomItems/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../CustomItems/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
