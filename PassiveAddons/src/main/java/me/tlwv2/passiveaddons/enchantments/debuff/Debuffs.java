@@ -2,6 +2,7 @@ package me.tlwv2.passiveaddons.enchantments.debuff;
 
 import me.tlwv2.passiveaddons.enchantments.debuff.effect.*;
 import org.bukkit.enchantments.Enchantment;
+import org.bukkit.entity.Projectile;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
@@ -39,6 +40,10 @@ public class Debuffs {
         return enchantments.keySet().stream().anyMatch(DEBUFFS::contains) && enchantments.containsKey(DURATION);
     }
 
+    public static boolean hasDebuff(Projectile projectile){
+
+    }
+
     public static ArrayList<PotionEffect> getEffects(ItemStack item){
         int duration = item.getEnchantmentLevel(DURATION);
         ArrayList<PotionEffect> effects = new ArrayList<>();
@@ -49,6 +54,14 @@ public class Debuffs {
             }
         }
         return effects;
+    }
+
+    public static ArrayList<PotionEffect> getEffects(Projectile projectile){
+
+    }
+
+    public static void mapOntoProjectile(ItemStack origin, Projectile projectile){
+        
     }
 
     public static PotionEffectType typeFor(Enchantment enchantment){

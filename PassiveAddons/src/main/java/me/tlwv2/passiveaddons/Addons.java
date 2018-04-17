@@ -4,6 +4,7 @@ import me.tlwv2.core.misc.Glow;
 import me.tlwv2.core.utils.ItemUtil;
 import me.tlwv2.kitsp.Main;
 import me.tlwv2.passiveaddons.enchantments.debuff.Debuffs;
+import me.tlwv2.passiveaddons.enchantments.explosive.Explosives;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
@@ -37,6 +38,7 @@ public class Addons extends JavaPlugin{
         } catch (Exception e) {e.printStackTrace();}
 
         Debuffs.init();
+        Explosives.init();
 
         getLogger().info("Plugin Started!");
     }
