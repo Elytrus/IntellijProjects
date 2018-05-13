@@ -30,11 +30,12 @@ public abstract class Boss{
     protected int currAttackDelay;
     protected double aggroRange;
     protected boolean isOwned;
+    protected boolean showHealthBar;
 
     protected String name;
     protected boolean allowNullTarget;
 
-    public Boss(int attackDelay, double aggroRange, String name, boolean isOwned, boolean allowNullTarget){
+    public Boss(int attackDelay, double aggroRange, String name, boolean isOwned, boolean allowNullTarget, boolean showHealthBar){
         this.spawn = getSpawnItemINIT();
         this.bossEntity = null;
         this.target = null;
@@ -52,6 +53,7 @@ public abstract class Boss{
         this.attackDelay = attackDelay;
         this.currAttackDelay = this.attackDelay;
         this.aggroRange = aggroRange;
+        this.showHealthBar = showHealthBar;
 
         this.name = name;
         this.isOwned = isOwned;
@@ -103,14 +105,16 @@ public abstract class Boss{
         this.target = this.target(bossEntity.getLocation());
         currAttackDelay = currAttackDelay > 0 ? currAttackDelay - 1 : attackDelay;
 
-        this.bossEntity.getWorld().getNearbyEntities(this.bossEntity.getLocation(), 50, 50, 50)
-                .stream()
-                .filter(e -> e instanceof Player)
-                .map(Player.class::cast)
-                .filter(e -> !hpBar.getPlayers().contains(e))
-                .forEach(hpBar::addPlayer);
-        hpBar.setProgress((float)(this.bossEntity.getHealth() /
-                this.bossEntity.getAttribute(Attribute.GENERIC_MAX_HEALTH).getBaseValue()));
+        if(showHealthBar){
+            this.bossEntity.getWorld().getNearbyEntities(this.bossEntity.getLocation(), 50, 50, 50)
+                    .stream()
+                    .filter(e -> e instanceof Player)
+                    .map(Player.class::cast)
+                    .filter(e -> !hpBar.getPlayers().contains(e))
+                    .forEach(hpBar::addPlayer);
+            hpBar.setProgress((float)(this.bossEntity.getHealth() /
+                    this.bossEntity.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue()));
+        }
 
         if(null == this.target && !this.allowNullTarget)
             return;

@@ -3,6 +3,7 @@ package me.tlwv2.kitsp;
 import me.tlwv2.core.Constants;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
+import org.bukkit.attribute.Attribute;
 import org.bukkit.block.Block;
 import org.bukkit.block.Sign;
 import org.bukkit.entity.Player;
@@ -20,15 +21,16 @@ import org.bukkit.inventory.PlayerInventory;
 import java.util.Arrays;
 
 public class EListener implements Listener {
-    public static final String PLACESIGNPERM = "addon.kitsplus.placekitspsign";
+    private Main main;
 
     public EListener(Main plugin){
         plugin.getServer().getPluginManager().registerEvents(this, plugin);
+        this.main = plugin;
     }
 
     @EventHandler()
     public void onInvClick(InventoryClickEvent e){
-        if(e.getInventory().getName().equals(Main.KITSPGUINAME)){
+        if(e.getInventory().getName().equals(Main.KITS_PLUS_GUI_NAME)){
             Kit k = Main.check(e.getCurrentItem());
             Player p = (Player) e.getWhoClicked();
 
@@ -86,14 +88,14 @@ public class EListener implements Listener {
 
     @EventHandler()
     public void onSignChange(SignChangeEvent e){
-        if(e.getLine(0).equals(Main.SIGNTEXTBEFORE)){
-            if(e.getPlayer().hasPermission(PLACESIGNPERM)){
-                e.setLine(0, Main.SIGNTEXTAFTER);
+        if(e.getLine(0).equals(Main.SIGN_TEXT_BEFORE)){
+            if(e.getPlayer().hasPermission(Main.PLACE_SIGN_PERM)){
+                e.setLine(0, Main.SIGN_TEXT_AFTER);
                 e.setLine(1, "");
                 e.setLine(2, "");
                 e.setLine(3, "");
 
-                e.getPlayer().sendMessage(Main.KITSPLOGO + "Successfully placed KitsPlus Sign!");
+                e.getPlayer().sendMessage(Main.KITS_PLUS_LOGO + "Successfully placed KitsPlus Sign!");
             }
             else{
                 e.getPlayer().sendMessage(Constants.NOPERM);
@@ -103,9 +105,17 @@ public class EListener implements Listener {
 
     @EventHandler
     public void onDeath(PlayerDeathEvent e){
-        Player p = e.getEntity();
-        if(Main.instance().hasKit(p)){
-            Main.instance().removeKit(p);
+        Player player = e.getEntity();
+        if(Main.instance().hasKit(player)){
+            Main.instance().removeKit(player);
+
+            player.getInventory().clear();
+
+            Player killer = player.getKiller();
+            if(killer != null && !killer.getUniqueId().equals(player.getUniqueId())){
+                killer.getInventory().addItem(main.getRefillItemStack());
+                killer.setHealth(killer.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue());
+            }
         }
     }
 
@@ -117,6 +127,6 @@ public class EListener implements Listener {
         else
             return false;
 
-        return s.getLine(0).equals(Main.SIGNTEXTAFTER);
+        return s.getLine(0).equals(Main.SIGN_TEXT_AFTER);
     }
 }

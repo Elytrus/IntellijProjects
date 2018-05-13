@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class LeMaxwell extends Boss {
     public LeMaxwell(){
-        super(4, 32, "\u00a70Maxwell", false, false);
+        super(4, 32, "\u00a70Maxwell", false, false, true);
     }
 
     @Override

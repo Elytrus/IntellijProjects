@@ -17,4 +17,5 @@ include 'SkyblockFly'
 include 'CustomEnchants'
 include 'NewCraftingAddons'
 include 'Minions'
+include 'OpItemFix'
 

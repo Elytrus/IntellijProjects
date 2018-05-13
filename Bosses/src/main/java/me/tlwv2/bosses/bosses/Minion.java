@@ -24,7 +24,7 @@ import java.util.List;
  */
 public class Minion extends OwnedBoss{
     public Minion() {
-        super(20, 16, "\u00a70-playername's minion", true);
+        super(20, 16, "\u00a70-playername's minion", true, false);
         abilities.add(new AutoDeath(340));
     }
 

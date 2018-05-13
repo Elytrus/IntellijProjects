@@ -15,9 +15,9 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class Kit implements ConfigurationSerializable, Cloneable {
-    static final String CONTENTSKEY = "kitinventorycontents";
-    static final String EFFECTSKEY = "kitpotioneffects";
-    static final String ICONKEY = "kitinventoryselectionicon";
+    static final String CONTENTS_KEY = "kitinventorycontents";
+    static final String EFFECTS_KEY = "kitpotioneffects";
+    static final String ICON_KEY = "kitinventoryselectionicon";
 
     private ItemStack[] contents;
     private PotionEffect[] effects;
@@ -80,18 +80,18 @@ public class Kit implements ConfigurationSerializable, Cloneable {
 
     @SuppressWarnings("unchecked")
     public Kit(Map<String, Object> map){
-        contents = ((ArrayList<ItemStack>) map.get(CONTENTSKEY)).toArray(new ItemStack[0]);
-        effects = ((ArrayList<PotionEffect>) map.get(EFFECTSKEY)).toArray(new PotionEffect[0]);
-        icon = (ItemStack) map.get(ICONKEY);
+        contents = ((ArrayList<ItemStack>) map.get(CONTENTS_KEY)).toArray(new ItemStack[0]);
+        effects = ((ArrayList<PotionEffect>) map.get(EFFECTS_KEY)).toArray(new PotionEffect[0]);
+        icon = (ItemStack) map.get(ICON_KEY);
     }
 
     @Override
     public Map<String, Object> serialize() {
         Map<String, Object> map = Maps.newHashMap();
 
-        map.put(CONTENTSKEY, contents);
-        map.put(EFFECTSKEY, effects);
-        map.put(ICONKEY, icon);
+        map.put(CONTENTS_KEY, contents);
+        map.put(EFFECTS_KEY, effects);
+        map.put(ICON_KEY, icon);
 
         return map;
     }
@@ -110,15 +110,15 @@ public class Kit implements ConfigurationSerializable, Cloneable {
     }
 
     public void setIcon(Player p) {
-        this.icon = p.getInventory().getItemInMainHand();
+        this.icon = p.getInventory().getItemInMainHand().clone();
     }
 
     public void setIcon(ItemStack i){
-        this.icon = i;
+        this.icon = i.clone();
     }
 
     public ItemStack getIcon(){
-        return icon;
+        return icon.clone();
     }
 
     public String getName(){

@@ -52,6 +52,8 @@
       <module name="NewCraftingAddons_test" target="1.8" />
       <module name="ObtrusiveRuleDisplay_main" target="1.8" />
       <module name="ObtrusiveRuleDisplay_test" target="1.8" />
+      <module name="OpItemFix_main" target="1.8" />
+      <module name="OpItemFix_test" target="1.8" />
       <module name="PassiveAddons_main" target="1.8" />
       <module name="PassiveAddons_test" target="1.8" />
       <module name="PCore_main" target="1.8" />

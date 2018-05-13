@@ -6,4 +6,4 @@ commands:
    kitsplus:
       description: Main KitsPlus Command
       usage: /kitsplus <add:remove:edit:list:gui:needspermissions> [display name]
-      aliases: [kitsp, kits, kp]
+      aliases: [kitsp, kp]

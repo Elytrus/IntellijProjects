@@ -61,7 +61,7 @@ public class Debuffs {
     }
 
     public static void mapOntoProjectile(ItemStack origin, Projectile projectile){
-        
+
     }
 
     public static PotionEffectType typeFor(Enchantment enchantment){

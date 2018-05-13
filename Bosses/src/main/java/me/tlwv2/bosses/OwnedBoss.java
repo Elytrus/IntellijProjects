@@ -13,8 +13,8 @@ public abstract class OwnedBoss extends Boss{
     protected UUID ownerUUID;
     protected String ownerName;
 
-    public OwnedBoss(int attackDelay, double aggroRange, String name, boolean allowNullTarget) {
-        super(attackDelay, aggroRange, name, true, allowNullTarget);
+    public OwnedBoss(int attackDelay, double aggroRange, String name, boolean allowNullTarget, boolean showHealthBar) {
+        super(attackDelay, aggroRange, name, true, allowNullTarget, showHealthBar);
     }
 
     @Override

@@ -21,7 +21,7 @@ import java.util.List;
 public class Archangel extends Boss {
 
     public Archangel() {
-        super(15, 40, "\u00a70\u00a7lTHE ARCHANGEL", false, false);
+        super(15, 40, "\u00a70\u00a7lTHE ARCHANGEL", false, false, true);
         abilities.add(new Shock());
         abilities.add(new Necromancy());
     }
