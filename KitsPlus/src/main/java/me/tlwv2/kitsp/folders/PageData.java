@@ -5,8 +5,8 @@ public class PageData {
     private int pageNum;
     private PageType type;
 
-    public PageData(int pageNum) {
-        this("", pageNum, PageType.EDIT_KIT_SELECTOR);
+    public PageData(int pageNum, String currentPage) {
+        this(currentPage, pageNum, PageType.EDIT_KIT_SELECTOR);
     }
 
     public PageData(String currentPage, boolean edit){

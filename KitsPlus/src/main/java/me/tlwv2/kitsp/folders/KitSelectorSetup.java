@@ -2,6 +2,7 @@ package me.tlwv2.kitsp.folders;
 
 import me.tlwv2.kitsp.Kit;
 import me.tlwv2.kitsp.Main;
+import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.inventory.Inventory;
 
@@ -28,9 +29,9 @@ public class KitSelectorSetup implements Listener {
         }
 
         this.kitCount = kits.size();
-        this.complete = false;
-        this.currentPage = -1;
     }
 
-    public Inventory createInventoryFor
+    public Inventory createInventoryForPage(int page){
+        Inventory inv = Bukkit.createInventory(null, 54, "Kits - Page " + page + "")
+    }
 }

@@ -2,105 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c56dd467-b26b-4bf4-8b0e-e71b87ae6a64" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/1245710488/SkyblockFly.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/OpItemFix.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/OpItemFix/OpItemFix_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/OpItemFix/OpItemFix_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/FolderSelectorSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/GuiSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/GuiUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/KitSelectorSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/PageData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/RootPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpItemFix/src/main/java/OpItemFix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpItemFix/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-1127898829/SurvivalAddon_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-1155272266/SkyblockTiers_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-156272992/CustomItems_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-1839430611/FactionSilkSpawners.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-1839430611/FactionSilkSpawners.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-187874188/MCLevels.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-187874188/MCLevels.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-372923914/BankNotes_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-372923914/BankNotes_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-372923914/BankNotes_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-372923914/BankNotes_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/-798879861/PassiveAddons_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1185436880/SKMCPlugin_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1423376728/AdminTool_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1423376728/AdminTool_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1423376728/AdminTool_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1423376728/AdminTool_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1617276300/ObtrusiveRuleDisplay_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/1893317990/KitsPlus_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/742179930/CustomEnchants.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/862789440/PCore_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/862789440/PCore_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/862789440/PCore_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/862789440/PCore_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/AdminTool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AdminTool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/BankNotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/BankNotes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Bosses.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Bosses.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Bosses_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Bosses_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Bosses_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Bosses_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/CustomItems.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/CustomItems.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/KitsPlus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/KitsPlus.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Minions/Minions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Minions/Minions.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Minions/Minions_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Minions/Minions_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Minions/Minions_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Minions/Minions_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/NewCraftingAddons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/NewCraftingAddons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/NewCraftingAddons/NewCraftingAddons_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/NewCraftingAddons/NewCraftingAddons_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/NewCraftingAddons/NewCraftingAddons_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/NewCraftingAddons/NewCraftingAddons_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/ObtrusiveRuleDisplay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ObtrusiveRuleDisplay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/PCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PCore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PCore/PCore-PCore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/PassiveAddons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/PassiveAddons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SKMCPlugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SKMCPlugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SkyblockFly/SkyblockFly_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SkyblockFly/SkyblockFly_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/SkyblockTiers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/SkyblockTiers.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss.class" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/Boss.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/OwnedBoss.class" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/OwnedBoss.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Archangel.class" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Archangel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/LeMaxwell.class" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/LeMaxwell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Minion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/build/classes/main/me/tlwv2/bosses/bosses/Minion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/OwnedBoss.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/OwnedBoss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Archangel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Archangel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/LeMaxwell.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/LeMaxwell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Minion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bosses/src/main/java/me/tlwv2/bosses/bosses/Minion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/EListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/EListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/commands/KitsPlusCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/KitsPlus/build/classes/main/me/tlwv2/kitsp/commands/KitsPlusCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/EListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/EListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Kit.java" beforeDir="false" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Kit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/commands/KitsPlusCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/commands/KitsPlusCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KitsPlus/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/KitsPlus/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassiveAddons/build/classes/main/me/tlwv2/passiveaddons/Addons.class" beforeDir="false" afterPath="$PROJECT_DIR$/PassiveAddons/build/classes/main/me/tlwv2/passiveaddons/Addons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassiveAddons/build/classes/main/me/tlwv2/passiveaddons/EListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/PassiveAddons/build/classes/main/me/tlwv2/passiveaddons/EListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassiveAddons/src/main/java/me/tlwv2/passiveaddons/EListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/PassiveAddons/src/main/java/me/tlwv2/passiveaddons/EListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PassiveAddons/src/main/java/me/tlwv2/passiveaddons/enchantments/debuff/Debuffs.java" beforeDir="false" afterPath="$PROJECT_DIR$/PassiveAddons/src/main/java/me/tlwv2/passiveaddons/enchantments/debuff/Debuffs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyblockFly/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyblockFly/build/classes/main/me/tlwv2/skyblockfly/IslandFlyCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyblockFly/build/classes/main/me/tlwv2/skyblockfly/SkyblockFly.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyblockFly/build/resources/main/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyblockFly/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyblockFly/src/main/java/me/tlwv2/skyblockfly/IslandFlyCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyblockFly/src/main/java/me/tlwv2/skyblockfly/SkyblockFly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SkyblockFly/src/main/resources/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/KitSelectorSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/KitSelectorSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/PageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/PageData.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/BankNotes/.gradle/" />
@@ -270,12 +174,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
+            <state relative-caret-position="1581">
               <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
-              <folding>
-                <element signature="e#3675#3676#0" expanded="true" />
-                <element signature="e#3701#3702#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -283,16 +183,10 @@
       <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
+            <state relative-caret-position="1394">
               <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2517#2518#0" expanded="true" />
-                <element signature="e#2544#2545#0" expanded="true" />
-                <element signature="e#2587#2588#0" expanded="true" />
-                <element signature="e#2619#2620#0" expanded="true" />
-                <element signature="e#2733#2734#0" expanded="true" />
-                <element signature="e#2766#2767#0" expanded="true" />
                 <element signature="e#2809#2810#0" expanded="true" />
                 <element signature="e#2853#2854#0" expanded="true" />
               </folding>
@@ -303,30 +197,22 @@
       <file leaf-file-name="RootPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/RootPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+            <state relative-caret-position="1088">
+              <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuiSetup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GuiSetup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/GuiSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
+            <state relative-caret-position="1768">
+              <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1329#1330#0" expanded="true" />
-                <element signature="e#1373#1374#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
-                <element signature="e#1533#1534#0" expanded="true" />
-                <element signature="e#1551#1552#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -356,27 +242,17 @@
       <file leaf-file-name="PageData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/PageData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1073#1074#0" expanded="true" />
-                <element signature="e#1116#1117#0" expanded="true" />
-                <element signature="e#1154#1155#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KitSelectorSetup.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KitSelectorSetup.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/KitSelectorSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="294">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -3205,9 +3081,7 @@
         <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/commands/KitsPlusCommand.java" />
         <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Kit.java" />
         <option value="$PROJECT_DIR$/KitsPlus/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/KitSelectorSetup.java" />
         <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/GuiUtils.java" />
-        <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/PageData.java" />
         <option value="$PROJECT_DIR$/OpItemFix/build.gradle" />
         <option value="$PROJECT_DIR$/OpItemFix/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/OpItemFix/src/main/java/OpItemFix.java" />
@@ -3215,6 +3089,8 @@
         <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/RootPage.java" />
         <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/Page.java" />
         <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/GuiSetup.java" />
+        <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/PageData.java" />
+        <option value="$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/KitSelectorSetup.java" />
       </list>
     </option>
   </component>
@@ -3229,9 +3105,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3449,6 +3324,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4191,36 +4067,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/RootPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/Main.java">
+    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+        <state relative-caret-position="1394">
+          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
           <folding>
-            <element signature="e#3675#3676#0" expanded="true" />
-            <element signature="e#3701#3702#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2809#2810#0" expanded="true" />
+            <element signature="e#2853#2854#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/PageData.java">
+    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/GuiSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="1768">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
           <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4232,58 +4116,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/PageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/KitSelectorSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="294">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/RootPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2517#2518#0" expanded="true" />
-            <element signature="e#2544#2545#0" expanded="true" />
-            <element signature="e#2587#2588#0" expanded="true" />
-            <element signature="e#2619#2620#0" expanded="true" />
-            <element signature="e#2733#2734#0" expanded="true" />
-            <element signature="e#2766#2767#0" expanded="true" />
-            <element signature="e#2809#2810#0" expanded="true" />
-            <element signature="e#2853#2854#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KitsPlus/src/main/java/me/tlwv2/kitsp/folders/GuiSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="121" column="18" selection-start-line="121" selection-start-column="18" selection-end-line="121" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
-            <element signature="e#1551#1552#0" expanded="true" />
           </folding>
         </state>
       </provider>
